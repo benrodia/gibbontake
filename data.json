@@ -1,0 +1,65 @@
+{
+    "info": {
+        "title": "Gibbontake",
+        "subtitle": "COMICS AND SUCH",
+        "description": [
+            "Hello, my name is Gibbontake and i am an artist of some kind.",
+            "This website houses my webcomics, i hope you enjoy reading them."
+        ]
+    },
+    "socials": [
+        {
+            "name": "Twitter",
+            "icon": "icons/twitter.png",
+            "url": "https://twitter.com/TheHippocrit",
+            "handle": "@thehippocrit"
+        },
+        {
+            "name": "YouTube",
+            "icon": "icons/youtube.png",
+            "url": "https://www.youtube.com/Gibbontake",
+            "handle": "/Gibbontake"
+        },
+        {
+            "name": "Discord",
+            "icon": "icons/discord.png",
+            "url": "https://discord.gg/6ksZrne",
+            "handle": "/6ksZrne"
+        },
+        {
+            "name": "Twitch",
+            "icon": "icons/twitch.png",
+            "url": "https://twitch.tv/gibbontake",
+            "handle": "/gibbontake"
+        }
+    ],
+    "comics": [
+        {
+            "name": "Clarissa Gunsmoke and the Bandit King",
+            "year": 2022,
+            "description": [
+                "Clarissa Gunsmoke is a fiery cowgirl. She'll root ya, toot ya and then shoot ya!",
+                "Wandering through the desert on her trusty horse, \"Saus\" she gets into an altercation with a group of bandits that have been terrorising the area.",
+                "After a young boy pleads with her to save his sister from the \"Bandit Gang\", Clarissa finds herself embroiled in what can only be described as \"a sequence of events\"."
+            ],
+            "cover": "clarissa-gunsmoke-cover.png",
+            "homepage": true,
+            "chapters": [
+                {
+                    "name": "Chapter 1",
+                    "year": 2022,
+                    "link": "clarissa-gunsmoke/01",
+                    "images": "comics/cg/01"
+                }
+            ]
+        }
+    ],
+    "art": [
+        {
+            "name": "Hog Hug",
+            "filename": "art/hoghug.png",
+            "year": 2021,
+            "nsfw": false
+        }
+    ]
+}
