@@ -1,5 +1,10 @@
 <?php
     $root = "/gibbontake";
+    function get_data($dir = __DIR__) {
+        $json = file_get_contents($dir.'/data.json');
+        return json_decode($json, true);    
+    }
+    $data = get_data()
 ?>
 
 <!DOCTYPE html>
@@ -14,13 +19,7 @@
 </head>
 <body>
 <div id="root_dummy" style="display: none"><?php echo $root ?></div>
-<script>
-    const root = document.getElementById('root_dummy').innerHTML
-</script>
-<?php 
-    $json = file_get_contents(__DIR__.'/data.json');
-    $data = json_decode($json, true);
-?>
+
 
 <!-- NAVIGATION -->
 <header>

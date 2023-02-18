@@ -14,8 +14,33 @@ body {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+
+p {
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    max-width: 60rem;
+    text-align: left;
+}
+
+button {
+    padding: .5rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
 #content {
     width: 100%;
     min-height: 100vh;
@@ -284,7 +309,7 @@ footer .link {
     margin-bottom: 1rem;
     border-radius: .5rem;
 }
-#comics section h3 {
+#comics section > h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -292,60 +317,171 @@ footer .link {
     display: flex;
     flex-flow: row wrap;
     margin-top: 1rem;
+    gap: .5rem;
+
+}
+#comics .comic > .inner {
+    display: flex;
     gap: 1rem;
-
 }
 
-
-#comics .chapters button {
-    padding: .5rem;
-    border: none;
-    border-radius: .5rem;
-}
-#comics .chapters button:hover {
-    background-color: aqua;
-    cursor: pointer;
-}
-
-#pages {
-    background-color: #111;
-}
-
-#pages img {
-    width: 90%;
+#comics .comic > .inner > .info h4 {
+    font-weight: bold;
     margin-bottom: 1rem;
 }
 
-#pages .chapter-nav .links {
+#comics .inner img {
+    max-width: 15rem;
+}
+
+
+#reader {
+    background-color: #000;
+}
+
+#reader img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    min-height: 50%;
+}
+
+#reader .chapter-nav .links {
     margin: 1rem;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+
+    gap: .5rem;
 }
-#pages .chapter-nav {
+#reader .chapter-nav {
     font-size: 1.5rem;
     margin-bottom: .5rem;
     text-decoration: underline;
 }
-#pages .chapter-nav button {
+
+#reader.simple img {
+    width: 90%;
+}
+
+#reader.cyoa > .inner {
+    max-width: 60rem;
+}
+#reader.cyoa .nav {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+#reader.cyoa .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+#reader.cyoa img {
+    width: 100%;
+}
+
+#reader.cyoa .text {
+    background-color: #cff;
     padding: .5rem;
-    border: none;
-    border-radius: .5rem;
+    color: #111;
 }
 
-#pages .chapter-nav button:hover {
-    background-color: aqua;
-    cursor: pointer;
+#reader.cyoa .prompt {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #111;
+    text-decoration: underline;
+    display: block;
+    /* background: linear-gradient(0deg, black, transparent); */
+    /* padding: .25rem;
+    border-radius: .5rem; */
+}
+#reader.cyoa .prompt:hover {
+    /* color: white; */
+    background: linear-gradient(0deg, rgba(0,255,255,.5), transparent);
 }
 
-.disabled {
-    opacity: .5;
-    pointer-events: none;
-}
-
-#merch {
+.modal {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 60;
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.modal .bg {
+    position: absolute;
+    z-index: 7;
+    background-color: rgba(0,0,0,.6);
+    width: 100%;
+    height: 100%;
+}
+
+.modal .inner {
+    position: absolute;
+    z-index: 10;
+    width: 80%;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 1rem;
+    background-color: #222;
+    box-shadow: rgba(0,0,0,.6);
+    padding: 1rem;
+}
+.modal .inner .header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.modal #exit {
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+.modal .inner .list {
+    columns: 20rem 3;
+}
+
+.modal .inner .list .row {
+    display: flex;
+    font-size: 1.25rem;
+    gap: .5rem;
+}
+.modal .inner .list .row h3 {
+    min-width: 3rem;
+    text-align: right;
+}
+.modal .inner .list .row button {
+    padding: .25rem;
+}
+
+
+
+
+
+#error_page {
+    font-size: 4rem;
+}
+
+#error_page button {
+    font-size: 3rem;
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    color: #111;
+    cursor: pointer;
+}
+
+#error_page button:hover {
+    background-color: aqua;
 }

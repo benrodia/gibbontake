@@ -1,0 +1,125 @@
+
+<?php 
+
+    function find_object_by_key($array, $key, $val){
+        foreach ( $array as $element ) {
+            if ( $val === $element[$key] ) {
+                return $element;
+            }
+        }
+        return false;
+    }
+
+    function chapterNav($comic, $cur) {
+        $nav = "<section class='chapter-nav'>
+            <h3>" . $comic['name'] . "</h3>
+            <div class='links'>";
+            
+        for ($i=0; $i < count($comic['chapters']); $i++) {
+            $chapter = $comic['chapters'][$i];
+            $classes = $cur === $i ? 'disabled' : '';
+            $nav .= "<a href='../../..".$comic['page_dir'].$chapter['link']."' class=" . $classes ."> 
+            <button>" . $chapter['name'] . "</button>
+            </a>";
+        }
+        $nav .= "</div></section>";
+        return $nav;
+    }
+
+    function pageNav($comic, $cur, $path='../../..') {
+        $btn = "<button id='page-select-btn'>All Pages</button>";
+        $nav = "<div id='page-select-cont' class='modal hide'>
+        <div id='page-select-bg' class='bg'></div>
+        <div class='inner'>
+        <div class='header'><button id='exit'>✖️</button><h2>".$comic['name']."</h2></div>
+        <div class='list'>";
+        foreach($comic['pages'] as $ind => $page) {
+            $classes = $cur===$ind ? 'disabled' : '';
+            $nav .= "<div class='row'><h3>".($ind+1)."</h3>
+            <a href='".$path."".$comic['page_dir'].$page['link']."' class='".$classes."'>
+            <button>".$page['title']."</button></a></div>";
+        }
+        $nav .= "</div></div></div>";
+        $script = "<script src='".$path."/cyoaNav.js'></script>";
+        return $btn.$nav.$script;
+    }
+
+    function find_image($dir,$search) {
+        $files = glob($dir."/*.*");
+        foreach($files as $file) {
+            $name = pathinfo($file, PATHINFO_FILENAME);
+            if(strpos(strtolower($name), strtolower($search)) !== false) {
+                return basename($file);
+            } 
+        }
+        return null;
+    }
+
+    function reader($dir, $comic_name, $page_index) {
+        $data = json_decode(file_get_contents($dir.'/data.json'), true);
+
+        $comic = find_object_by_key($data['comics'], 'name', $comic_name);
+
+        if(!$comic) return "<main id='reader'>We're having trouble finding that comic</main>";
+
+        $content = '';
+
+
+        if($comic['format'] == 'simple') {
+            $chapter = $comic['chapters'][$page_index];
+
+            $imgs = '';
+            for ($i=0; $i < $chapter['length']; $i++) { 
+                $ind = $chapter['start'] + $i;
+                $fn = find_image($dir.$comic['image_dir'],$ind);
+                $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='Page ".$ind."' />"; 
+            }
+             
+             $content .= "<main id='reader' class='simple'>" . 
+                chapterNav($comic, $page_index) .
+                $imgs .
+                chapterNav($comic, $page_index) .
+                "</main>"
+                ;    
+        }
+        if($comic['format'] == 'cyoa') {
+            $page = $comic['pages'][$page_index];
+            $imgs = ''; $prompt = '';
+            $next_index = $page_index + 1;
+            $has_next = count($comic['pages']) > $next_index;
+            if($has_next) {
+                $next_page = $comic['pages'][$next_index];
+                $prompt = "<a href='".$dir.$comic['page_dir'].$next_page['link']."' class='prompt'>" . 
+                    $next_page['title'] .
+                "</a>";
+            }
+
+            
+            foreach($page['images'] as $img_num) {
+                $fn = find_image($dir.$comic['image_dir'],$img_num);
+
+                $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".$fn."' />"; 
+            }
+            $text = '<div class="text">';
+            foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
+            $text .= $prompt."</div>";
+
+            $content .= 
+            "<main id='reader' class='cyoa'>
+            <div class='inner'>
+                <h2 class='nav'>".$comic['name']." (".explode('/',$page['link'])[1].")".pageNav($comic,$page_index)."</h2>
+                <h3 class='title'>".$page['title']."</h3>" .
+                $imgs .
+                $text . 
+            "</div></main>"
+            ;   
+        }
+        
+
+        return $content;
+        
+    }
+    # BATCH RENAME FOLDER IN POWERSHELL VVV
+    # $i=1; Get-ChildItem . | %{Rename-Item $_ -NewName ('clarissa_{0:D4}{1}' -f $i++, $_.extension)}
+
+?>
