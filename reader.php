@@ -1,5 +1,8 @@
 
 <?php 
+    function clean($string) {
+        return strtolower(preg_replace('/[^A-Za-z0-9\-]/', '', str_replace(' ', '-', $string)));
+    }
 
     function find_object_by_key($array, $key, $val){
         foreach ( $array as $element ) {
@@ -26,22 +29,42 @@
         return $nav;
     }
 
-    function pageNav($comic, $cur, $path='../../..') {
-        $btn = "<button id='page-select-btn'>All Pages</button>";
-        $nav = "<div id='page-select-cont' class='modal hide'>
-        <div id='page-select-bg' class='bg'></div>
+    function makeModal($comic, $inner) {
+        $id = clean($comic['name']);
+        $btn = "<button onclick='show(\"".$id."\");'>All Pages</button>";
+        $nav = "<div id='".$id."' class='modal hide'>
+        <div class='bg' onclick='hide(\"".$id."\");'></div>
         <div class='inner'>
-        <div class='header'><button id='exit'>✖️</button><h2>".$comic['name']."</h2></div>
+        <div class='header'><button id='exit' onclick='hide(\"".$id."\");'>✖️</button>
+            <h2>".$comic['name']."</h2>
+        </div>
         <div class='list'>";
+        $nav .= $inner;
+        $nav .= "</div></div></div>";
+        return $btn.$nav;
+    }
+
+    function pageNav($comic, $cur, $path='../../..') {
+        $inner = '';
         foreach($comic['pages'] as $ind => $page) {
             $classes = $cur===$ind ? 'disabled' : '';
-            $nav .= "<div class='row'><h3>".($ind+1)."</h3>
-            <a href='".$path."".$comic['page_dir'].$page['link']."' class='".$classes."'>
+            $inner .= "<div class='row'><h3>".($ind+1)."</h3>
+            <a href='".$path.$comic['page_dir'].$page['link']."' class='".$classes."'>
             <button>".$page['title']."</button></a></div>";
         }
-        $nav .= "</div></div></div>";
-        $script = "<script src='".$path."/cyoaNav.js'></script>";
-        return $btn.$nav.$script;
+        return makeModal($comic,$inner);
+    }
+
+    function pageNavLazy($comic, $cur, $path='../../..') {
+        $images = glob($path.$comic['image_dir'].'/*');
+        $inner = '';
+        foreach($images as $ind => $image) {
+            $classes = $cur===$ind ? 'disabled' : '';
+            $inner .= "<div class='row'><h3>".($ind+1)."</h3>
+            <a href='".$path.$comic['page_dir'].'/'.clean(pathinfo($image)['filename'])."' class='".$classes."'>
+            <button>".basename($image)."</button></a></div>";
+        }
+        return makeModal($comic,$inner);
     }
 
     function find_image($dir,$search) {
@@ -85,36 +108,69 @@
         if($comic['format'] == 'cyoa') {
             $page = $comic['pages'][$page_index];
             $imgs = ''; $prompt = '';
-            $next_index = $page_index + 1;
-            $has_next = count($comic['pages']) > $next_index;
-            if($has_next) {
-                $next_page = $comic['pages'][$next_index];
-                $prompt = "<a href='".$dir.$comic['page_dir'].$next_page['link']."' class='prompt'>" . 
-                    $next_page['title'] .
+
+            if(isset($page['prompts'])) foreach($page['prompts'] as $pr) {
+                $prompt .= "<a href='".$dir.$comic['page_dir'].$pr['link']."' class='prompt'>" . 
+                    $pr['text'] .
                 "</a>";
             }
+            else {
+                $next_index = $page_index + 1;
+                $has_next = count($comic['pages']) > $next_index;
+                if($has_next) {
+                    $next_page = $comic['pages'][$next_index];
+                    $prompt = "<a href='".$dir.$comic['page_dir'].$next_page['link']."' class='prompt'>" . 
+                        $next_page['title'] .
+                    "</a>";
+                }
+            }
 
-            
             foreach($page['images'] as $img_num) {
                 $fn = find_image($dir.$comic['image_dir'],$img_num);
 
                 $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".$fn."' />"; 
             }
             $text = '<div class="text">';
-            foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
+            if(isset($page['text'])) foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
+            
             $text .= $prompt."</div>";
 
             $content .= 
             "<main id='reader' class='cyoa'>
             <div class='inner'>
-                <h2 class='nav'>".$comic['name']." (".explode('/',$page['link'])[1].")".pageNav($comic,$page_index)."</h2>
                 <h3 class='title'>".$page['title']."</h3>" .
                 $imgs .
                 $text . 
             "</div></main>"
             ;   
+            //<h2 class='nav'>".$comic['name']." (".explode('/',$page['link'])[1].")".pageNav($comic,$page_index)."</h2>
         }
-        
+        if($comic['format'] == 'lazy') {
+            $folder = glob(__DIR__.$comic['image_dir'].'/*');
+            $prompt = '';
+            $title = basename($folder[$page_index]);
+            $img = "<img src='".$dir.$comic['image_dir'].'/'.$title."' alt='".$folder[$page_index]."' />";
+            
+            $last_index = $page_index - 1;
+            $has_last = $last_index>=0;
+            $last_link = $has_last ? clean(pathinfo($folder[$last_index])['filename']):'';            
+            $prompt .= "<a href='".$dir.$comic['page_dir']."/".$last_link."' class='".($has_last?'':'disabled')."'>Last</a>";
+
+            $next_index = $page_index + 1;
+            $has_next = count($folder) > $next_index;
+            $next_link = $has_next ? clean(pathinfo($folder[$next_index])['filename']):'';
+            $prompt .= "<a href='".$dir.$comic['page_dir']."/".$next_link."' class='".($has_next?'':'disabled')."'>Next</a>";
+
+
+            $content .= 
+            "<main id='reader' class='cyoa'>
+            <div class='inner'>
+                <h3 class='title'>".$title."</h3>" .
+                $img .
+                "<div class='lazy-nav'>".$prompt."</div>". 
+            "</div></main>"
+            ;  
+        }
 
         return $content;
         

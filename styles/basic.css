@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap');
+
+:root {
+    --bg-color-main: #333;
+    --bg-color-darker: #111;
+    --text-color-main: #fff;
+    --text-color-light: #999;
+    --text-color-highlight: #0ff;
+    --pad: .5rem;
+    --fs-para: 1rem;
+    --fs-header: 1.5rem;
+    --ff-para: 'Lato', sans-serif;
+    --ff-header: 'Bitter', serif;
+    --ff-title: 'Sriracha', cursive;
+}
+
+
+@media only screen and (min-width: 600px) {
+    :root {
+        --pad: 1rem;
+        --fs-para: 1.25rem;
+        --fs-header: 2rem;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Bitter', serif;
+
+}
+
+body {
+    background-color: var(--bg-color-darker);
+    color: var(--text-color-main);
+    overflow-x: hidden;
+}
+
+
+
+.hide {
+    display: none !important;
+}
+
+.disabled {
+    opacity: .5;
+    pointer-events: none;
+}

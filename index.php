@@ -2,11 +2,14 @@
 
 <main id="home">
     <div id="about">
+        <img class='headshot' src="<?php echo $root.$data['info']['headshot'] ?>" />
+        <div>
         <?php 
             foreach($data['info']['description'] as $p) {
                 echo "<p>" . $p . "</p>";
             }
         ?>  
+        </div>
     </div>
     <h2 class="choose">choose your adventure</h2>
 
@@ -15,14 +18,13 @@
             foreach($data['comics'] as $comic) {
                 if(!$comic['homepage']) continue;
                 $first_issue = isset($comic['chapters']) ? $comic['chapters'][0] : $comic['pages'][0];
-                $cover = $root."/assets/".$comic['cover'];
                 $start = $first_issue ? $first_issue['year'] : $comic['year'];
                 $end = $comic['completed'] ? end($comic['chapters'])['year'] : 'Ongoing';
                 echo "<a 
                     class='comic-head'
+                    style='background-image: url(".$root.$comic['cover'].")'
                     href=" . $root . $comic['page_dir'] . $first_issue['link'] . "  
                 >   
-                    <img src=" . $cover . " />
                     <div class='pane'>
                         <h3>" . $comic['name'] . "</h3>
                         <b>" . $start . ' - ' . $end . "</b>";

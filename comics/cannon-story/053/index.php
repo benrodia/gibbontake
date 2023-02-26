@@ -1,8 +1,7 @@
-<?php $path = "../../../" ?>
-    <?php include($path.'head.php') ?>
-    <?php include($path.'reader.php') ?>
-    
-    <?php echo reader($path,'Cannon Story',52) ?>
-    
-    <?php include($path.'foot.php') ?>
-    
+<?php 
+        $path = "../../../";
+        include($path.'head.php');
+        include($path.'reader.php'); 
+        echo reader($path,'Cannon Story',52);
+        include($path.'foot.php');
+    ?>

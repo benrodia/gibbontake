@@ -15,7 +15,10 @@
     </div>
 </footer>
 
-<script type="text/javascript" src="<?php echo $root."/main.js" ?>"></script>
+<script type="text/javascript" src="<?php echo $root."/scripts/main.js" ?>"></script>
+<script type="text/javascript" src="<?php echo $root."/scripts/redmanEvents.js" ?>"></script>
+<script type="text/javascript" src="<?php echo $root."/scripts/redman.js" ?>"></script>
+<script type="text/javascript" src="<?php echo $root."/scripts/gallery.js" ?>"></script>
 
 </body>
 </html>

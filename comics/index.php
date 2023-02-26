@@ -14,7 +14,7 @@
             echo "<section class='comic'>
             <h3>" . $comic['name'] . "</h3>
             <div class='inner'>
-            <img src='../assets/".$comic['cover']."' alt=".$comic['cover']."/>
+            <img src='../".$comic['cover']."' alt=".$comic['cover']."/>
             <div class='info'>
             <h4>" . $published . "</h4>";
             foreach($comic['description'] as $p) {
@@ -28,11 +28,18 @@
                     </a>";
                 }
             }
-            else {
+            elseif(isset($comic['pages'])) {
                 echo "<a href='" . $root . $comic['page_dir'] . $comic['pages'][0]['link'] . "'>
                 <button>Begin</button>
                 </a>";
                 echo pageNav($comic,false,'..');
+            }
+            else {
+                $folder = glob('../'.$comic['page_dir'].'/*')[0];
+                echo "<a href='" . $folder . "'>
+                <button>Read</button>
+                </a>";
+                echo pageNavLazy($comic,false,'..');
             }
             echo "</div></div></div></section>";
         }

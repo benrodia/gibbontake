@@ -5,7 +5,8 @@
         "description": [
             "Hello, my name is Gibbontake and i am an artist of some kind.",
             "This website houses my webcomics, i hope you enjoy reading them."
-        ]
+        ],
+        "headshot": "/assets/headshot.png"
     },
     "socials": [
         {
@@ -41,7 +42,7 @@
                 "Wandering through the desert on her trusty horse, \"Saus\" she gets into an altercation with a group of bandits that have been terrorising the area.",
                 "After a young boy pleads with her to save his sister from the \"Bandit Gang\", Clarissa finds herself embroiled in what can only be described as \"a sequence of events\"."
             ],
-            "cover": "clarissa-gunsmoke-cover.png",
+            "cover": "/assets/clarissa-gunsmoke-cover.png",
             "homepage": true,
             "completed": false,
             "format": "simple",
@@ -77,7 +78,7 @@
                 "A forgetful ghost wishes to end the endless cycle of war in slime city by killing everyone, he succeeds but is promptly overthrown.",
                 "Lost and confused, the Lord of Ghosts flees the city, looking for… oh god what was it again? He forgot."
             ],
-            "cover": "the-lord-of-ghosts-cover.png",
+            "cover": "/assets/the-lord-of-ghosts-cover.png",
             "homepage": true,
             "completed": true,
             "format": "simple",
@@ -131,7 +132,7 @@
                     "name": "Chapter 7: Giga",
                     "year": 2019,
                     "start": 84,
-                    "length": 11
+                    "length": 10    
                 }
             ]
         },
@@ -141,29 +142,20 @@
                 "In slime city, noone can hear you bleed.",
                 "That doesn't explain the comic at all, but that's ok. I don't know how to."
             ],
-            "cover": "redman-cover.png",
+            "cover": "/assets/redman-cover.png",
             "homepage": false,
             "completed": true,
             "published": 2018,
-            "format": "simple",
+            "format": "lazy",
             "page_dir": "/comics/redman",
-            "image_dir": "/assets/comics/rm",
-            "chapters": [
-                {
-                    "link": "/uhhh",
-                    "name": "redman",
-                    "year": 1776,
-                    "start": 1,
-                    "length": 139
-                }
-            ]
+            "image_dir": "/assets/comics/rm"
         },
         {
             "name": "Cannon Story",
             "description": [
                 "Cannon story is the story that involves a cannon at some point. Help Flowerhead, Boy and Dog figure out how to leave the premises of a church that has a flooded basement with a shark in it??"
             ],
-            "cover": "cannon-story-cover.png",
+            "cover": "/assets/cannon-story-cover.png",
             "homepage": false,
             "completed": true,
             "published": 2018,
@@ -825,12 +817,8 @@
         }
 
     ],
-    "art": [
-        {
-            "name": "Hog Hug",
-            "filename": "art/hoghug.png",
-            "year": 2021,
-            "nsfw": false
-        }
-    ]
+    "art": {
+        "page_dir": "/art",
+        "image_dir": "/assets/art"
+    }
 }

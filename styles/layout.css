@@ -1,0 +1,410 @@
+/* all universal/mobile styles first, cascade into tablet/desktop breakpoints */
+
+/* MOBILE + */
+
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: var(--bg-color-main);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+header #title {
+    gap: 1rem;
+}
+
+header h1 {
+    font-size: var(--fs-header);
+    font-family: var(--ff-title);
+}
+
+header #subtitle {
+    font-size: 1rem;
+}
+
+header p {
+    color: #777;
+}
+
+#nav {
+    display: flex;
+    flex-flow: column;
+    gap: var(--pad);
+}
+
+#nav .link a {
+    font-size: 1.2rem;
+}
+
+
+
+
+main {
+    min-height: 100vh;
+    padding: 6rem .5rem 1rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--bg-color-darker);
+    color: var(--text-color-light);
+    padding: var(--pad);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer .link {
+    display: flex;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: .25rem;
+}
+
+
+/* HOME PAGE */
+
+#about {
+    background-color: white;
+    color: #111;
+    padding: var(--pad);
+    font-size: 1.3rem;
+    display: flex;
+    gap: var(--pad);
+}
+
+#home .choose {
+    text-shadow: 0 0 2rem rgba(0,0,0,.6);
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+#home #hero {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: var(--pad);
+    width: 100%;
+}
+
+#hero .comic-head {
+    background-color: black;
+    background-size: cover;
+    color: white;
+    max-width: 100%;
+    max-height: 70vh;
+    aspect-ratio: 2 / 3;
+    
+    border-radius: .5rem;
+}
+
+#hero .comic-head .pane {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    padding: var(--pad);
+    border-radius: .5rem;
+    transition: all .2s ease;
+    overflow: hidden;
+}
+.comic-head h3 {
+    font-size: 2rem;
+    margin-bottom: var(--pad);
+}
+
+.comic-head p, .comic-head b {
+    margin-top: var(--pad);
+    font-size: var(--fs-para);
+}
+
+#hero .comic-head:hover .pane {
+    opacity: 1;
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+/* ART GALLERY */
+
+#art {
+    background-color: var(--text-color-main);
+    max-width: 100vw;
+}
+
+.art-nav {
+    padding: 1rem 0;
+}
+
+.art-nav button {
+    font-size: 2em;
+}
+
+#art .year {
+    background-color: var(--bg-color-darker);
+    padding: var(--pad);
+    font-size: 2rem;
+}
+
+#art .cont {
+    max-width: 100%;
+    columns: 10rem 6;
+}
+
+#art .cont img {
+    max-width: 100%;
+    transition: .1s;
+}
+
+#art .cont .img-cont {
+    display: inline-block;
+    position: relative;
+}
+
+#art .cont .img-cont .nsfw {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    text-shadow: 0 0 1rem white;
+    backdrop-filter: blur(1rem);
+    pointer-events: none; 
+    transition: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: red;
+}
+
+#art .cont img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 1rem rgba(0,0,0,.3);
+    z-index: 70;
+}
+
+.img-cont:hover .nsfw {
+    transform: scale(1.2);
+}
+
+
+
+/* COMIC SELECT PAGE */
+
+#comics section {
+    max-width: 60rem;
+    background-color: var(--bg-color-darker);
+    padding: var(--pad);
+    margin-bottom: var(--pad);
+    border-radius: .5rem;
+}
+
+#comics section > h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--pad);
+}
+
+#comics .chapters {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: var(--pad);
+    gap: .5rem;
+
+}
+
+#comics .comic {
+    width: 60rem;
+    max-width: 100%;
+}
+
+#comics .comic > .inner {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: var(--pad);
+}
+
+#comics .comic > .inner > .info h4 {
+    font-weight: bold;
+    margin-bottom: var(--pad);
+}
+
+#comics .inner img {
+    max-width: 15rem;
+}
+
+
+/* TABLET + */
+
+@media only screen and (min-width: 600px) {
+    header {
+        font-size: 1.3rem;
+        padding: .5rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+    header #subtitle {
+        font-size: 1.2rem;
+    }
+    
+    #nav {
+        flex-flow: row;
+        gap: 1rem;
+    }
+    
+    #nav .link a {
+        font-size: 1.4rem;
+    }
+    main {
+        padding: 8rem 1rem 2rem;
+    }
+    
+    .art-nav {
+        padding: 2rem 0;
+    }
+    
+    .art-nav button {
+        font-size: 3em;
+    }
+    
+    #art .cont {
+        columns: 20rem 6;
+    }
+    #comics .comic > .inner {
+        align-items: flex-start;
+        flex-flow: row nowrap;
+    }
+
+}
+
+
+/* DESKTOP + */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* COMIC READER PAGE */
+
+#reader {
+    background-color: #000;
+}
+
+#reader img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: white;
+    min-height: 50%;
+}
+
+#reader .chapter-nav .links {
+    margin: var(--pad);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: .5rem;
+}
+#reader .chapter-nav {
+    font-size: var(--fs-header);
+    margin-bottom: .5rem;
+}
+
+#reader.simple img {
+    width: 90%;
+}
+
+#reader.cyoa > .inner {
+    max-width: 60rem;
+}
+#reader.cyoa .nav {
+    font-size: var(--fs-header);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--pad);
+}
+#reader.cyoa .title {
+    font-size: var(--fs-header);
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+#reader.cyoa img {
+    width: 100%;
+}
+
+#reader.cyoa .text {
+    background-color: var(--bg-color-darker);
+    padding: var(--pad);
+    color: var(--text-color-main);
+}
+
+#reader.cyoa .prompt {
+    font-size: var(--fs-header);
+    margin-top: 2rem;
+    color: var(--text-color-main);
+    text-decoration: underline;
+    display: block;
+    /* background: linear-gradient(0deg, black, transparent); */
+    /* padding: .25rem;
+    border-radius: .5rem; */
+}
+#reader.cyoa .prompt:hover {
+    color: var(--text-color-highlight);
+}
+
+
+.lazy-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--pad);
+    font-size: var(--fs-header);
+}
+
+
+
+/* ERROR PAGE */
+
+
+#error_page {
+    font-size: 4rem;
+}
+
+#error_page button {
+    font-size: 3rem;
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #111;
+    cursor: pointer;
+}
+
+
+
