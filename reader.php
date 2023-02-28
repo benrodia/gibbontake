@@ -77,6 +77,16 @@
         }
         return null;
     }
+    function jsNavigate($last,$next) {
+        return "
+        <script>
+        window.onkeyup = e => {
+            if(e.keyCode===37 && '".$last."') window.location = '".$last."'
+            if(e.keyCode===39 && '".$next."') window.location = '".$next."'	
+        }
+        </script>
+    ";
+    }
 
     function reader($dir, $comic_name, $page_index) {
         $data = json_decode(file_get_contents($dir.'/data.json'), true);
@@ -143,8 +153,10 @@
                 $text . 
             "</div></main>"
             ;   
-            //<h2 class='nav'>".$comic['name']." (".explode('/',$page['link'])[1].")".pageNav($comic,$page_index)."</h2>
+            // if($has_next && !isset($page['prompts']))
+            //     $content .= jsNavigate(null,$dir.$comic['page_dir'].$next_page['link']);
         }
+        
         if($comic['format'] == 'lazy') {
             $folder = glob(__DIR__.$comic['image_dir'].'/*');
             $prompt = '';
@@ -153,13 +165,13 @@
             
             $last_index = $page_index - 1;
             $has_last = $last_index>=0;
-            $last_link = $has_last ? clean(pathinfo($folder[$last_index])['filename']):'';            
-            $prompt .= "<a href='".$dir.$comic['page_dir']."/".$last_link."' class='".($has_last?'':'disabled')."'>Last</a>";
+            $last_link = $has_last ? $dir.$comic['page_dir']."/".clean(pathinfo($folder[$last_index])['filename']):null;            
+            $prompt .= "<a href='".$last_link."' class='".($has_last?'':'disabled')."'>Last</a>";
 
             $next_index = $page_index + 1;
             $has_next = count($folder) > $next_index;
-            $next_link = $has_next ? clean(pathinfo($folder[$next_index])['filename']):'';
-            $prompt .= "<a href='".$dir.$comic['page_dir']."/".$next_link."' class='".($has_next?'':'disabled')."'>Next</a>";
+            $next_link = $has_next ? $dir.$comic['page_dir']."/".clean(pathinfo($folder[$next_index])['filename']):null;
+            $prompt .= "<a href='".$next_link."' class='".($has_next?'':'disabled')."'>Next</a>";
 
 
             $content .= 
@@ -170,6 +182,8 @@
                 "<div class='lazy-nav'>".$prompt."</div>". 
             "</div></main>"
             ;  
+
+            $content .= jsNavigate($last_link,$next_link);
         }
 
         return $content;
