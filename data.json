@@ -6,34 +6,39 @@
             "Hello, my name is Gibbontake and i am an artist of some kind.",
             "This website houses my webcomics, i hope you enjoy reading them."
         ],
-        "headshot": "/assets/headshot.png"
+        "headshot": "/assets/headshot.png",
+        "pages": [
+            {"name":"comics","link":"/comics"},
+            {"name":"art","link":"/art"},
+            {"name":"about","link":"/about"}
+        ],
+        "socials": [
+            {
+                "name": "Twitter",
+                "icon": "/assets/icons/twitter.png",
+                "url": "https://twitter.com/TheHippocrit",
+                "handle": "@thehippocrit"
+            },
+            {
+                "name": "YouTube",
+                "icon": "/assets/icons/youtube.png",
+                "url": "https://www.youtube.com/Gibbontake",
+                "handle": "/Gibbontake"
+            },
+            {
+                "name": "Discord",
+                "icon": "/assets/icons/discord.png",
+                "url": "https://discord.gg/6ksZrne",
+                "handle": "/6ksZrne"
+            },
+            {
+                "name": "Twitch",
+                "icon": "/assets/icons/twitch.png",
+                "url": "https://twitch.tv/gibbontake",
+                "handle": "/gibbontake"
+            }
+        ]
     },
-    "socials": [
-        {
-            "name": "Twitter",
-            "icon": "/assets/icons/twitter.png",
-            "url": "https://twitter.com/TheHippocrit",
-            "handle": "@thehippocrit"
-        },
-        {
-            "name": "YouTube",
-            "icon": "/assets/icons/youtube.png",
-            "url": "https://www.youtube.com/Gibbontake",
-            "handle": "/Gibbontake"
-        },
-        {
-            "name": "Discord",
-            "icon": "/assets/icons/discord.png",
-            "url": "https://discord.gg/6ksZrne",
-            "handle": "/6ksZrne"
-        },
-        {
-            "name": "Twitch",
-            "icon": "/assets/icons/twitch.png",
-            "url": "https://twitch.tv/gibbontake",
-            "handle": "/gibbontake"
-        }
-    ],
     "comics": [
         {
             "name": "Clarissa Gunsmoke and the Bandit King",
@@ -817,17 +822,18 @@
         },
         {"name": "Bail Jape",
             "description": [
-                "pumpkin"
+                "Pumk and Alley Oop are locked up in some sorta jail. How? Why? Never you mind that. Just help them escape!",
+                "Bail Jape asks YOU, the reader, to choose what actions the characters take, from a list of one option per page ONLY. It’s like a video game but without freedom of choice.",
+                "What, you though you could control Pumk? Nobody can do that.",
+                "Except for that one page where it’s literally a video game where you control Pumk."
             ],
             "cover": "/assets/cannon-story-cover.png",
-            "homepage": false,
+            "homepage": true,
             "completed": true,
             "published": 2018,
             "format": "cyoa",
             "page_dir": "/comics/bail-jape",
             "image_dir": "/assets/comics/bj",
-
-
             "pages": [
                 {
                     "link": "/0001",

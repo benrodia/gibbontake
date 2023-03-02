@@ -17,3 +17,13 @@ const hide = id => {
     const target = document.getElementById(id)
     target&&target.classList.add('hide')
 }
+
+window.onscroll = function(e) {
+    const header = document.getElementById('header')
+    if(header && window.innerWidth<=600) {
+        if(this.oldScroll < this.scrollY) header.classList.add('conceal')
+        else header.classList.remove('conceal')
+    }
+    console.log(window.innerWidth,header,this.oldScroll, this.scrollY)
+    this.oldScroll = this.scrollY;
+  }

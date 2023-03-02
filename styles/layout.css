@@ -5,16 +5,25 @@
 
 header {
     position: fixed;
+    top: 0;
     z-index: 10;
-    /* width: 100%; */
+    width: 100%;
     gap: 0rem;
     background-color: var(--bg-color-main);
     display: flex;
     flex-flow:column;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-flow: row;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     padding: .5rem;
     font-size: 1rem;
+    transition: top .3s ease;
+}
+
+header.conceal {
+    top: -4rem;
 }
 
 header #title {
@@ -31,12 +40,12 @@ header #subtitle {
 }
 
 header p {
-    color: #777;
+    color: var(--text-color-light);
 }
 
 #nav {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     gap: .5rem;
 }
 
@@ -44,12 +53,15 @@ header p {
     font-size: 1.2rem;
 }
 
-
+#nav .link.active {
+    text-decoration: underline;
+    color: var(--text-color-highlight);
+}
 
 
 main {
     min-height: 100vh;
-    padding: 1rem .5rem 1rem;
+    padding: 4rem .5rem 1rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -66,20 +78,11 @@ footer {
     justify-content: space-between;
 }
 
-footer .link {
-    display: flex;
-}
-
-.icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: .25rem;
-}
 
 
 /* HOME PAGE */
 
-#about {
+#about-text {
     background-color: white;
     color: #111;
     padding: var(--pad);
@@ -90,8 +93,8 @@ footer .link {
 
 #home .choose {
     text-shadow: 0 0 2rem rgba(0,0,0,.6);
-    font-size: 3rem;
-    padding: 2rem;
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
 #home #hero {
@@ -208,7 +211,7 @@ footer .link {
 /* COMIC SELECT PAGE */
 
 #comics section {
-    max-width: 60rem;
+    max-width: var(--para-width);
     background-color: var(--bg-color-darker);
     padding: var(--pad);
     margin-bottom: var(--pad);
@@ -229,7 +232,7 @@ footer .link {
 }
 
 #comics .comic {
-    width: 60rem;
+    width: var(--para-width);
     max-width: 100%;
 }
 
@@ -248,68 +251,6 @@ footer .link {
 #comics .inner img {
     max-width: 15rem;
 }
-
-
-/* TABLET + */
-
-@media only screen and (min-width: 600px) {
-    header {
-        font-size: 1.3rem;
-        padding: .5rem 1rem;
-    }
-
-    header h1 {
-        font-size: 2rem;
-    }
-    header #subtitle {
-        font-size: 1.2rem;
-    }
-    
-    #nav {
-        flex-flow: column;
-        gap: .5rem;
-    }
-    
-    #nav .link a {
-        font-size: 1.4rem;
-    }
-    main {
-        padding: 2rem 1rem 2rem;
-    }
-    
-    .art-nav {
-        padding: 2rem 0;
-    }
-    
-    .art-nav button {
-        font-size: 3em;
-    }
-    
-    #art .cont {
-        columns: 20rem 6;
-    }
-    #comics .comic > .inner {
-        align-items: flex-start;
-        flex-flow: row nowrap;
-    }
-
-}
-
-
-/* DESKTOP + */
-@media only screen and (min-width: 1200px) {
-
-}
-
-
-
-
-
-
-
-
-
-
 
 /* COMIC READER PAGE */
 
@@ -341,9 +282,13 @@ footer .link {
 #reader.simple img {
     width: 90%;
 }
-
+#reader.cyoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #reader.cyoa > .inner {
-    max-width: 60rem;
+    max-width: var(--para-width);
 }
 #reader.cyoa .nav {
     font-size: var(--fs-header);
@@ -391,6 +336,38 @@ footer .link {
 }
 
 
+/* ABOUT PAGE */
+main#about {
+    /* max-width: var(--para-width); */
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 2rem;
+}
+
+
+.socials {
+    max-width: 100%;
+    width: var(--para-width);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.socials a {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: .25rem; */
+}
+.socials a .icon {
+    width: 7rem;
+    height: 7rem;
+}
+
 
 /* ERROR PAGE */
 
@@ -407,6 +384,77 @@ footer .link {
     color: #111;
     cursor: pointer;
 }
+
+
+
+
+/* TABLET + */
+
+@media only screen and (min-width: 600px) {
+    header {
+        width: auto;
+        font-size: 1.3rem;
+        padding: .5rem 1rem;
+        align-items: flex-start;
+        gap: 0;
+        flex-flow: column;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+    header #subtitle {
+        font-size: 1.2rem;
+    }
+    
+    #nav {
+        flex-flow: column;
+        gap: .5rem;
+    }
+    
+    #nav .link a {
+        font-size: 1.4rem;
+    }
+    main {
+        padding: 2rem 1rem 2rem;
+    }
+    #home .choose {
+        text-shadow: 0 0 2rem rgba(0,0,0,.6);
+        font-size: 3rem;
+        padding: 3rem var(--pad);
+    }
+    
+    .art-nav {
+        padding: 2rem 0;
+    }
+    
+    .art-nav button {
+        font-size: 3em;
+    }
+    
+    #art .cont {
+        columns: 20rem 6;
+    }
+    #comics .comic > .inner {
+        align-items: flex-start;
+        flex-flow: row nowrap;
+    }
+
+}
+
+
+/* DESKTOP + */
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
 
 
 

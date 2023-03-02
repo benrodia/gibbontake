@@ -118,6 +118,27 @@
         if($comic['format'] == 'cyoa') {
             $page = $comic['pages'][$page_index];
             $imgs = ''; $prompt = '';
+            $content .= "<main id='reader' class='cyoa'><div class='inner'>
+                <h3 class='title'>".$page['title']."</h3>";
+
+            if(isset($page['content'])) {
+                foreach($page['content'] as $media) {
+                    if(isset($media['url'])) $content .= "<a href='".$media['url']."'>";
+                    if(isset($media['link'])) $content .= "<a href='".$dir.$comic['page_dir'].$media['link']."'>";
+                    if(isset($media['iframe'])) $content .= "<iframe src='".$media['iframe']."&origin="."fuck"."'></iframe>";
+                    // if(isset($media['iframe'])) $content .= $media['iframe']."&origin=".__DIR__;
+
+                    if(isset($media['image'])) {
+                        $fn = find_image($dir.$comic['image_dir'],$media['image']);
+                        $content .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".($fn||$media['image'])."'/>";
+                    }
+                    if(isset($media['text'])) $content .= "<p class='text'>".$media['text']."</p>";
+                    if(isset($media['prompt'])) $content .= "<span class='text prompt'>".$media['prompt']."</span>";
+                    
+                    if(isset($media['link'])||isset($media['url'])) $content .= "</a>";
+                }
+            }
+
 
             if(isset($page['prompts'])) foreach($page['prompts'] as $pr) {
                 $prompt .= "<a href='".$dir.$comic['page_dir'].$pr['link']."' class='prompt'>" . 
@@ -134,8 +155,10 @@
                     "</a>";
                 }
             }
+            // if(isset($page['iframe'])) $content .= "<iframe src='".$page['iframe']."'></iframe>";
+            if(isset($page['iframe'])) $content .= "<iframe src='".$page['iframe']."&origin=".__DIR__."'></iframe>";
 
-            foreach($page['images'] as $img_num) {
+            if(isset($page['images'])) foreach($page['images'] as $img_num) {
                 $fn = find_image($dir.$comic['image_dir'],$img_num);
 
                 $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".$fn."' />"; 
@@ -144,15 +167,11 @@
             if(isset($page['text'])) foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
             
             $text .= $prompt."</div>";
+            $content .= $imgs .$text;   
+        
 
-            $content .= 
-            "<main id='reader' class='cyoa'>
-            <div class='inner'>
-                <h3 class='title'>".$page['title']."</h3>" .
-                $imgs .
-                $text . 
-            "</div></main>"
-            ;   
+
+            $content .= "</div></main>";
             // if($has_next && !isset($page['prompts']))
             //     $content .= jsNavigate(null,$dir.$comic['page_dir'].$next_page['link']);
         }
@@ -175,12 +194,11 @@
 
 
             $content .= 
-            "<main id='reader' class='cyoa'>
-            <div class='inner'>
-               " .
-                $img .
-                "<div class='lazy-nav'>".$prompt."</div>". 
-            "</div></main>"
+                "<main id='reader' class='cyoa'>
+                <div class='inner'>" 
+                    . $img .
+                    "<div class='lazy-nav'>".$prompt."</div>". 
+                "</div></main>"
             ;  
 
             $content .= jsNavigate($last_link,$next_link);

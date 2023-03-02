@@ -9,11 +9,13 @@
     --text-color-light: #999;
     --text-color-highlight: rgb(255, 210, 7);
     --pad: .5rem;
+    --para-width: 60rem;
     --fs-para: 1rem;
     --fs-header: 1.5rem;
     --ff-para: 'Lato', sans-serif;
     --ff-header: 'Bitter', serif;
     --ff-title: 'Sriracha', cursive;
+    --bg-image: url("../assets/gib-abstract-bg.jpg");
 }
 
 

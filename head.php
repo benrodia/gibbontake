@@ -24,15 +24,21 @@
 
 
 <!-- NAVIGATION -->
-<header>
-<section id="title">
-    <a href="<?php echo $root ?>">
-        <h1><?php echo $data['info']['title']?></h1>
-    </a>   
-</section>
-<ul id="nav">
-    <li class="link"><a href="<?php echo $root."/comics"?>">comics</a></li>
-    <li class="link"><a href="<?php echo $root."/art"?>">art</a></li>
-    <li class="link"><a href="<?php echo $root."/about"?>">about</a></li>
-</ul>
+<header id='header'>
+    <section id="title">
+        <a href="<?php echo $root ?>">
+            <h1><?php echo $data['info']['title']?></h1>
+        </a>   
+    </section>
+    <ul id="nav">
+        <?php 
+            foreach($data['info']['pages'] as $page) {
+                $is_active = strpos($_SERVER['REQUEST_URI'],$root.$page['link'])!==false;
+                echo "<li class='link".($is_active?" active":'')."'>
+                    <a href='".$root.$page['link']."'>".$page['name']."</a>
+                    </li>";
+            }
+        ?>
+
+    </ul>
 </header>
