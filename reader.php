@@ -177,7 +177,7 @@
             $content .= 
             "<main id='reader' class='cyoa'>
             <div class='inner'>
-                <h3 class='title'>".$title."</h3>" .
+               " .
                 $img .
                 "<div class='lazy-nav'>".$prompt."</div>". 
             "</div></main>"

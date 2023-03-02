@@ -29,10 +29,10 @@
     <a href="<?php echo $root ?>">
         <h1><?php echo $data['info']['title']?></h1>
     </a>   
-    <p id='subtitle'><?php echo $data['info']['subtitle']?></p>
 </section>
 <ul id="nav">
     <li class="link"><a href="<?php echo $root."/comics"?>">comics</a></li>
     <li class="link"><a href="<?php echo $root."/art"?>">art</a></li>
+    <li class="link"><a href="<?php echo $root."/about"?>">about</a></li>
 </ul>
 </header>

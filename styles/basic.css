@@ -7,7 +7,7 @@
     --bg-color-darker: #111;
     --text-color-main: #fff;
     --text-color-light: #999;
-    --text-color-highlight: #0ff;
+    --text-color-highlight: rgb(255, 210, 7);
     --pad: .5rem;
     --fs-para: 1rem;
     --fs-header: 1.5rem;

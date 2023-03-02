@@ -1,16 +1,7 @@
 <?php include("head.php") ?>
 
 <main id="home">
-    <div id="about">
-        <img class='headshot' src="<?php echo $root.$data['info']['headshot'] ?>" />
-        <div>
-        <?php 
-            foreach($data['info']['description'] as $p) {
-                echo "<p>" . $p . "</p>";
-            }
-        ?>  
-        </div>
-    </div>
+    
     <h2 class="choose">choose your adventure</h2>
 
     <section id="hero">

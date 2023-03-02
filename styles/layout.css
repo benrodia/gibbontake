@@ -6,11 +6,13 @@
 header {
     position: fixed;
     z-index: 10;
-    width: 100%;
+    /* width: 100%; */
+    gap: 0rem;
     background-color: var(--bg-color-main);
     display: flex;
+    flex-flow:column;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     padding: .5rem;
     font-size: 1rem;
 }
@@ -35,7 +37,7 @@ header p {
 #nav {
     display: flex;
     flex-flow: column;
-    gap: var(--pad);
+    gap: .5rem;
 }
 
 #nav .link a {
@@ -47,7 +49,7 @@ header p {
 
 main {
     min-height: 100vh;
-    padding: 6rem .5rem 1rem;
+    padding: 1rem .5rem 1rem;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -264,15 +266,15 @@ footer .link {
     }
     
     #nav {
-        flex-flow: row;
-        gap: 1rem;
+        flex-flow: column;
+        gap: .5rem;
     }
     
     #nav .link a {
         font-size: 1.4rem;
     }
     main {
-        padding: 8rem 1rem 2rem;
+        padding: 2rem 1rem 2rem;
     }
     
     .art-nav {

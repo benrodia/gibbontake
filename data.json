@@ -11,25 +11,25 @@
     "socials": [
         {
             "name": "Twitter",
-            "icon": "icons/twitter.png",
+            "icon": "/assets/icons/twitter.png",
             "url": "https://twitter.com/TheHippocrit",
             "handle": "@thehippocrit"
         },
         {
             "name": "YouTube",
-            "icon": "icons/youtube.png",
+            "icon": "/assets/icons/youtube.png",
             "url": "https://www.youtube.com/Gibbontake",
             "handle": "/Gibbontake"
         },
         {
             "name": "Discord",
-            "icon": "icons/discord.png",
+            "icon": "/assets/icons/discord.png",
             "url": "https://discord.gg/6ksZrne",
             "handle": "/6ksZrne"
         },
         {
             "name": "Twitch",
-            "icon": "icons/twitch.png",
+            "icon": "/assets/icons/twitch.png",
             "url": "https://twitch.tv/gibbontake",
             "handle": "/gibbontake"
         }
@@ -52,21 +52,21 @@
                 {   
                     "link": "/01",
                     "name": "Chapter 1",
-                    "year": 2022,
+                    "year": 2020,
                     "start": 1,
                     "length": 20
                 },
                 {
                     "link": "/02",
                     "name": "Chapter 2",
-                    "year": 2022,
+                    "year": 2020,
                     "start": 21,
                     "length": 13
                 },
                 {
                     "link": "/03",
                     "name": "Chapter 3",
-                    "year": 2022,
+                    "year": 2020,
                     "start": 34,
                     "length": 17
                 }
@@ -813,6 +813,3108 @@
                     ]
                 }
                 
+            ]
+        },
+        {"name": "Bail Jape",
+            "description": [
+                "pumpkin"
+            ],
+            "cover": "/assets/cannon-story-cover.png",
+            "homepage": false,
+            "completed": true,
+            "published": 2018,
+            "format": "cyoa",
+            "page_dir": "/comics/bail-jape",
+            "image_dir": "/assets/comics/bj",
+
+
+            "pages": [
+                {
+                    "link": "/0001",
+                    "title": "BEGIN BAIL JAPE",
+                    "images": ["0001"],
+                    "text": [
+                        "You are PUMK, a wily pumpkin lass who don’t take no guff from no BIG CHEESE. You’re the coolest, don’t even think about questioning that, any residual dust motes of doubt in your mind that this GOURDGEOUS GAL is anything other than a PERFECT CHARACTER will be plucked viciously from your cold dead brain.",
+                        "With you is ALLEY OOP, you don’t know who she is and you don’t give a SHIT, that’s how cool you are.",
+                        "What will you do?"
+                    ]
+                },
+                {
+                    "link": "/0002",
+                    "title": "PUMK: OBSERVE SURROUNDINGS",
+                    "images": ["0002"],
+                    "text": [
+                        "You scan the stage for stuff, you shouldn’t even need to think about observing your surroundings, it should really go without saying if you’re being honest with yourself."
+                    ]
+                },
+                {
+                    "link": "/0003",
+                    "title": "PUMK: CHECK OUT YOUR STRIFE SPECIBUS",
+                    "images": ["0003"],
+                    "text": [
+                        "You have no idea what a strife specibus is and frankly the notion of such a thing deserves a threatening gesture.",
+                        "You brandish your GIANT PAPERCLIP to show you mean business. Careful, you could poke someones eye out with that thing!"
+                    ]
+                },
+                {
+                    "link": "/0004",
+                    "title": "PUMK: BE ALLEY OOP",
+                    "images": ["0004"],
+                    "text": [
+                        "You cannot be ALLEY OOP because she is busy concerning herself with her ELECTRONIC SLAB.",
+                        "What could she be looking at?"
+                    ]
+                },
+                {
+                    "link": "/0005",
+                    "title": "==>",
+                    "images": ["0005"],
+                    "text": [
+                        "You glance over her shoulder, it appears she’s playing that smash hit from the gaming scene, POCKETBOI HAVE.",
+                        "It looks really stupid."
+                    ]
+                },
+                {
+                    "link": "/0006",
+                    "title": "PUMK: LOOK OUT WINDOW",
+                    "images": ["0006"],
+                    "text": [
+                        "You cast your flickering eyeholes red-ward."
+                    ]
+                },
+                {
+                    "link": "/0007",
+                    "title": "==>",
+                    "images": ["0007"],
+                    "text": [
+                        "Outside the window you see a tall crooked tower with an ominous purple light emanating from inside surrounded by an ocean of lava. The bridge to the tower looks to be out and…",
+                        "Why is that Y there?",
+                        "Y you ask?",
+                        "said nobody",
+                        "Because that’s a stupid lame joke for gay crippled babies who are also dead, only those particular babies would have laughed at that joke. You know it."
+                    ]
+                },
+                {
+                    "link": "/0008",
+                    "title": "SKELETON: HAVE A HAT",
+                    "images": ["0008"],
+                    "text": [
+                        "Dapper."
+                    ]
+                },
+                {
+                    "link": "/0009",
+                    "title": "PUMK: BE A STRONG FEMALE CHARACTER AND BEND THOSE BARS",
+                    "images": ["0009","0010"],
+                    "text": [
+                        "You don’t need to BE a strong female character because you already are one. You grip the bars firmly and tuuAAHGH!",
+                        "The bars were SNAKES all along."
+                    ]
+                },
+                {
+                    "link": "/0010",
+                    "title": "PUMK: FREAK OUT",
+                    "images": ["0011"],
+                    "text": [
+                        "You freak the fuck out about the snakes, nothing much is accomplished."
+                    ]
+                },
+                {
+                    "link": "/0011",
+                    "title": "ALLEY OOP: FOR THE SLAM DUNK",
+                    "images": ["0012","0013","0014"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0012",
+                    "title": "SKELETON: TEAR UP EMOTIONALLY AT THIS SPECTACLE",
+                    "images": ["0015"],
+                    "text": [
+                        "You shed a single tear from your tear duct.",
+                        "Even though you don’t have any.",
+                        "(YOHOHOHO Skull joke!)"
+                    ]
+                },
+                {
+                    "link": "/0013",
+                    "title": "SNAKE-1: BE VERY CONFUSED",
+                    "images": ["0016"],
+                    "text": [
+                        "You do this with ease, it is easy for you."
+                    ]
+                },
+                {
+                    "link": "/0014",
+                    "title": "PLAYER: STOP BEING RANDOM UNIMPORTANT CHARACTERS",
+                    "images": ["0017"],
+                    "text": [
+                        "You are now PUMK again, who is arguably important.",
+                        "You tell Alley Oop to explore outside the window now that two of the bars are gone, you can’t fit through yourself unless all of them are removed and you’d love to do that but, y’know, could be more snakes."
+                    ]
+                },
+                {
+                    "link": "/0015",
+                    "title": "ALLEY: EXPLORE OUTSIDE",
+                    "images": ["0018","0019"],
+                    "text": [
+                        "You sidle along a ledge outside the window and onto a balcony, you can see more of the extremely elaborate building off to the side.",
+                        "It’s a long way down, if you were to slip and fall you’d be dead, either by landing on a hard surface or the searing hot lava.",
+                        "This is a very dangerous and possibly unnecessary plan."
+                    ]
+                },
+                {
+                    "link": "/0016",
+                    "title": "PUMK: LOOK AT THE OTHER WALL",
+                    "images": ["0020"],
+                    "text": [
+                        "You turn around and find that there was a door there the whole time. Maybe this should’ve been pointed out when you observed your surroundings, but you thought that went without saying, how did you get IN the room if there wasn’t one?"
+                    ]
+                },
+                {
+                    "link": "/0017",
+                    "title": "PUMK: TURN GIANT PAPERCLIP INTO LOCKPICK",
+                    "images": ["0021","0022"],
+                    "text": [
+                        "You brandish your giant paperclip and commence with the turning."
+                    ]
+                },
+                {
+                    "link": "/0018",
+                    "title": "==>",
+                    "images": ["0023"],
+                    "text": [
+                        "You have no idea how to make a lock-pick so you bend it into the shape of a crowbar instead, you’re also pretty sure that there never was a lock to pick anyway?"
+                    ]
+                },
+                {
+                    "link": "/0019",
+                    "title": "PUMK: PRY DOOR OPEN WITH CROWBAR",
+                    "images": ["0024","0025"],
+                    "text": [
+                        "You pry the fuck outta the door, the hinges break off and it falls forward into the dark corridor.",
+                        "Oh look you were right, there WAS no lock. Why the hell would a prison door have a lock on the inside?"
+                    ]
+                },
+                {
+                    "link": "/0020",
+                    "title": "PUMK: WANDER OFF INTO THE DARKNESS",
+                    "images": ["0026"],
+                    "text": [
+                        "You’ve never understood the concept of darkness because your head is a jack o’ lantern and has a candle inside. You confidently stride down the corridor, your flickering face holes lighting the way."
+                    ]
+                },
+                {
+                    "link": "/0021",
+                    "title": "ALLEY: FIND A WAY INSIDE",
+                    "images": ["0027"],
+                    "text": [
+                        "Hey calm down, there’s no need to rush, there’s lots of poketbois to catch around here.",
+                        "…",
+                        "You HAVE the GHOULDRA +450 Gristlets +100 XP, pretty sweet.",
+                        "Ok, what were you saying? Find a way inside? Sure, you can do that, there’s windows all over the place to choose from."
+                    ]
+                },
+                {
+                    "link": "/0022",
+                    "title": "ALLEY: CONSIDER WINDOW CHOICES",
+                    "images": ["0028"],
+                    "text": [
+                        "You consider three windows which are helpfully labelled. You could enter any one of these, or in fact move along the balcony to find more, really the possibilities are endless.",
+                        "Each window could lead to a whole separate labyrinth, a long and winding passageway that would take many hours to traverse. The choice is honestly a little too much to handle, you defer to the reader to decide on which of these three fucking incredible adventures to begin first."
+                    ],
+                    "prompts":[
+                        {"text":">ALLEY: PICK WINDOW 1.","link":"/0023"},
+                        {"text":">ALLEY: PICK WINDOW 2.","link":"/0023"},
+                        {"text":">ALLEY: PICK WINDOW 3.","link":"/0023"}
+                        
+                    ]
+
+                },
+                {
+                    "link": "/0023",
+                    "title": "ALLEY: PICK WHATEVER",
+                    "images": ["0029"],
+                    "text": [
+                        "Your choices meant nothing, obviously, the windows were right next to each other. What did you expect?",
+                        "More interesting than any of that funny cheeky meta shit though is a RARE poketboi that just appeared on your radar, what even IS that?"
+                    ]
+                },
+                {
+                    "link": "/0024",
+                    "title": "==>",
+                    "images": ["0030"],
+                    "text": [
+                        "It’s NEW!",
+                        "No it’s not “new” new, it’s the name of the poketboi, geez get a grip, we’re not going to go full Abbott and Costello over this.",
+                        "You wonder about this going full Abbott and Costello and honestly fail to see how it could be applicable to their famous comedy sketch and wish you hadn’t tried thinking about it because now it’s not as impressive a reference. also WHAT?",
+                        "This “NEW” is pretty rare, you just gotta HAVE it! This will require all your concentration."
+                    ]
+                },
+                {
+                    "link": "/0025",
+                    "title": "==>",
+                    "images": ["0031"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0026",
+                    "title": "==>",
+                    "images": ["0032"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0027",
+                    "title": "==>",
+                    "images": ["0033"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0028",
+                    "title": "ALLEY: RAGE",
+                    "images": ["0034"],
+                    "text": [
+                        "You did not need any prompting for that."
+                    ]
+                },
+                {
+                    "link": "/0029",
+                    "title": "PUMK: EXPLORE THE DARKNESS",
+                    "images": ["0035","0036"],
+                    "text": [
+                        "You continue your stride darkways and come across a ledge, your candle flicker doesn’t reach the floor, looks like you’ll have to stop."
+                    ]
+                },
+                {
+                    "link": "/0030",
+                    "title": "PUMK: TURN THAT SMILE UPSIDE DOWN",
+                    "images": ["0037"],
+                    "text": [
+                        "You are more than happy to oblige."
+                    ]
+                },
+                {
+                    "link": "/0031",
+                    "title": "PUMK: EXAMINE SURROUNDINGS",
+                    "images": ["0038"],
+                    "text": [
+                        "Not much surrounds you, there’s a floor and walls, yeah there’s absolutely nothing worth investigating, maybe you should just go back?"
+                    ]
+                },
+                {
+                    "link": "/0032",
+                    "title": "PUMK: TURN LEFT",
+                    "images": ["0039"],
+                    "text": [
+                        "Ok, you’re not sure what turning left would accompli- oh.",
+                        "Well how about that? There’s a lever."
+                    ]
+                },
+                {
+                    "link": "/0033",
+                    "title": "PUMK: PULL THE LEVER",
+                    "images": ["0040"],
+                    "text": [
+                        "You pay no attention to the number on your hand because you already know what it is and thus don’t need to examine or consider it."
+                    ]
+                },
+                {
+                    "link": "/0034",
+                    "title": "==>",
+                    "images": ["0041","0042"],
+                    "text": [
+                        "You pull the lever, a thick bristly rope falls from the darkness above."
+                    ]
+                },
+                {
+                    "link": "/0035",
+                    "title": "PUMK: PUT FACE RIGHT UP CLOSE TO ROPE",
+                    "images": ["0043"],
+                    "text": [
+                        "You move your face really close to the rope, nothing happens. Rope is not commonly known to react to a scary pumpkin girls face."
+                    ]
+                },
+                {
+                    "link": "/0036",
+                    "title": "PUMK: SCARE THE ROPE",
+                    "images": ["0044"],
+                    "text": [
+                        "You make your scariest face in an attempt to debunk the theory that rope does not scare easily. Goodness you! If there was a mirror here right now you’d probably faint from how scary you’re being. SO scary."
+                    ]
+                },
+                {
+                    "link": "/0037",
+                    "title": "ROPE: BE SCARED ABOUT IT",
+                    "images": ["0045"],
+                    "text": [
+                        "You can’t be scared because you are a rope and ropes are very strong willed.",
+                        "Rope can catch fire though."
+                    ]
+                },
+                {
+                    "link": "/0038",
+                    "title": "ROPE: CATCH FIRE",
+                    "images": ["0046"],
+                    "text": [
+                        "Sweet catch!"
+                    ]
+                },
+                {
+                    "link": "/0039",
+                    "title": "==>",
+                    "images": ["0047"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0040",
+                    "title": "==>",
+                    "images": ["0048"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0041",
+                    "title": "==>",
+                    "images": ["0049"],
+                    "text": [
+                        "It appears the rope has carried the fire over to a chandelier which has lit up to reveal a gigantic gold plated cathedral hall. Tall red pillars adorn the sides and you guess you were inside one this whole time?",
+                        "You don’t give a shit about architecture."
+                    ]
+                },
+                {
+                    "link": "/0042",
+                    "title": "PUMK: EXAMINE FAR OFF PAINTING",
+                    "images": ["0050"],
+                    "text": [
+                        "What IS that thing over there? It’s like a black orb with two legs but then another leg on it’s head?",
+                        "Maybe you should zoom in by some mystical telescopeless non-diagetic magic and be able to see it better for the benefit of the viewing public."
+                    ]
+                },
+                {
+                    "link": "/0043",
+                    "title": "PUMK: ENHANCE",
+                    "images": ["0051"],
+                    "text": [
+                        "You enhance your vision and can now make out an ostrich in the painting. You are confused by its gross pink neck, it reminds you of snakes, which, as has been established, are not to your tastes."
+                    ]
+                },
+                {
+                    "link": "/0044",
+                    "title": "PUMK: STEW IN OSTRICH HATE",
+                    "images": ["0052"],
+                    "text": [
+                        "You continue to stare at the painting, disliking ostriches more with every second, you don’t know what an ostrich is so you mentally refer to it as a “snake neck leg ball”.",
+                        "Fuck em you say, you hope you never meet one."
+                    ]
+                },
+                {
+                    "link": "/0045",
+                    "title": "PUMK: ENHANCE FURTHER",
+                    "images": ["0053"],
+                    "text": [
+                        "You cannot enhance any further than that don’t you know how EYES work?",
+                        "Look at this terrible image it has no additional information, you can’t add information to an image by zooming in, it’s just not a thing anyone can do, pumpkin OR machine."
+                    ]
+                },
+                {
+                    "link": "/0046",
+                    "title": "SHOT: REVERSE",
+                    "images": ["0054"],
+                    "text": [
+                        "You reverse yourself and now the shot is of Pumk again, still looking at the painting. This meta joke isn’t very funny and shouldn’t have made it into the final product."
+                    ]
+                },
+                {
+                    "link": "/0047",
+                    "title": "FUNNY META JOKE: CONTINUE",
+                    "images": ["0055"],
+                    "text": [
+                        "No, we’re noOOAAUGH!",
+                        "That’s a pretty dang scary snake neck leg ball if you’re being honest, and you are being honest because currently you are a meta joke."
+                    ]
+                },
+                {
+                    "link": "/0048",
+                    "title": "STOP: BEGIN",
+                    "images": ["0056"],
+                    "text": [
+                        "The stopping begins and is rapidly gaining traction in the paragraph, pretty soon all of this bullshit will have stopped completely."
+                    ]
+                },
+                {
+                    "link": "/0049",
+                    "title": "==>",
+                    "images": ["0057","0058","0059"],
+                    "text": [
+                        "You are Alley Oop. You have been chasing after the fiend that stole your rectangle for about 6 minutes when you appear in a room with no exit. You pause to consider where in the room they could be hiding."
+                    ]
+                },
+                {
+                    "link": "/0050",
+                    "title": "ALLEY: LOOK AROUND",
+                    "images": ["0060","0061","0062","0063"],
+                    "text": [
+                        "You scan your eyes around the room, nothing looks suspicious….",
+                        "You hear fabric ruffling above your head."
+                    ]
+                },
+                {
+                    "link": "/0051",
+                    "title": "==>",
+                    "images": ["0064"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0052",
+                    "title": "==>",
+                    "images": ["0065"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0053",
+                    "title": "BLUE LADY: BE INTRODUCED",
+                    "images": ["0066"],
+                    "text": [
+                        "While you are a “Blue lady” you prefer to be catcalled by your maiden name: Tikiwikimiki-Mau.",
+                        "You are busy inspecting a new SCIENCE potion, it is greenish in hue, and liquid in fact."
+                    ]
+                },
+                {
+                    "link": "/0054",
+                    "title": "TIKI: INSPECT POTION",
+                    "images": ["0067"],
+                    "text": [
+                        "There is no need to inspect the potion due to the previously established facts that it is a green liquid.",
+                        "You do notice some bubbles though."
+                    ]
+                },
+                {
+                    "link": "/0055",
+                    "title": "TIKI: CONSUME TASTY BREW",
+                    "images": ["0068"],
+                    "text": [
+                        "The potion is not tasty nor was it brewed, but ok.",
+                        "You consume the potion the only way you know how, through blunt force trauma."
+                    ]
+                },
+                {
+                    "link": "/0056",
+                    "title": "==>",
+                    "images": ["0069"],
+                    "text": [
+                        "In your hands you now hold the most powerful weapon known to man. A broken glass thingy. This is your weapon of choice and how apt, because it is, itself, CHOICE.",
+                        "You could poke someone’s eyes out with that thing, like SEVERAL eyes. You should probably unbrandish it."
+                    ]
+                },
+                {
+                    "link": "/0057",
+                    "title": "TIKI: UNBRANDISH BROKEN FLASK",
+                    "images": ["0070"],
+                    "text": [
+                        "You unbrandish the BROKEN FLASK into your inventory."
+                    ]
+                },
+                {
+                    "link": "/0058",
+                    "title": "TIKI: TAKE ANOTHER POTION",
+                    "images": ["0071"],
+                    "text": [
+                        "You go above and beyond the call of duty and take everything. You always were an over-achiever."
+                    ]
+                },
+                {
+                    "link": "/0059",
+                    "title": "TIKI: LOOK AROUND",
+                    "images": ["0072"],
+                    "text": [
+                        "In your immediate vicinity are “THE JEWEL OF SPLISH” levitating between two jewel stalagteats and a totally fake trapdoor.",
+                        "Nothing else is particularly noteworthy and is thus not in frame."
+                    ]
+                },
+                {
+                    "link": "/0060",
+                    "title": "TIKI: TOUCH THE JEWEL",
+                    "images": ["0073","0074"],
+                    "text": [
+                        "You cannot touch the JEWEL because of the magical push-veil surrounding it. THE JEWEL OF SPLISH shouldn’t be touched anyway, it’s crucial for protecting your hut from the lava outside.",
+                        "If it were to be STOLEN that would be extremely rude.",
+                        "It would also result in your death probably."
+                    ]
+                },
+                {
+                    "link": "/0061",
+                    "title": "TRAPDOOR: OPEN",
+                    "images": ["0075"],
+                    "text": [
+                        "You cannot open of your own accord. Luckily the MYSTERIOUS THIEF opens you for you, he is clutching Alley Oops rectangle and appears to be in a hurry."
+                    ]
+                },
+                {
+                    "link": "/0062",
+                    "title": "ALLEY: CATCH THE THIEF",
+                    "images": ["0076"],
+                    "text": [
+                        "You.",
+                        "Have.",
+                        "Been.",
+                        "TRYING."
+                    ]
+                },
+                {
+                    "link": "/0063",
+                    "title": "THIEF: FENCE GOODS",
+                    "images": ["0077","0078","0079"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0064",
+                    "title": "==>",
+                    "images": ["0080","0081"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0065",
+                    "title": "PUMK: DO SOMETHING ALREADY",
+                    "images": ["0082"],
+                    "text": [
+                        "You have been standing here for some time staring off into the distance and pondering ostriches, it’s high time you did at least one actual thing.",
+                        "But what can you do? There’s nothing within reach."
+                    ]
+                },
+                {
+                    "link": "/0066",
+                    "title": "PUMK: LOOK DOWN NUMBNUTS",
+                    "images": ["0084"],
+                    "text": [
+                        "It’s the floor, now that the room is illuminated you can see how close it is. It’s not actually the leg-breaking drop you first assumed it was.",
+                        "It seems like having a pumpkin for a head is pretty bad for your vision, but whatever man you don’t NEED glasses, they’re totally lame and you can see the blackboard just fine without them GEEZ mum, shut up!",
+                        "Anyway you could probably get down there quite easily with your sick goth girl parkour."
+                    ]
+                },
+                {
+                    "link": "/0067",
+                    "title": "PUMK: INITIATE GOTH GIRL PARKOUR",
+                    "images": ["0084","0085","0086"],
+                    "text": [
+                        "That’s SICK goth girl parkour, man, get it right!",
+                        "Using your paperclip crowbar you dangle down to the ground and strike an impressive pose.",
+                        "Congratulations you are now on the floor."
+                    ]
+                },
+                {
+                    "link": "/0068",
+                    "title": "PUMK: EXPLORE THE FLOORS",
+                    "images": ["0087"],
+                    "text": [
+                        "You walk around the opulent palace. You come across many varieties of ostrich arts.",
+                        "Haha what the fuck is even UP with that one?"
+                    ]
+                },
+                {
+                    "link": "/0069",
+                    "title": "==>",
+                    "images": ["0088"],
+                    "text": [
+                        "Is this an Ostrichapel or something?",
+                        "What is WITH all the ostriches man? Somebody’s gotta be all toke’d up like STONED or something!"
+                    ]
+                },
+                {
+                    "link": "/0070",
+                    "title": "==>",
+                    "images": ["0089","0090"],
+                    "text": [
+                        "Alright you ain’t got time to be pondering all these snake neck leg ball fung shway or gung shwee or whatever you call it, you got places to be and all of them are far away.",
+                        "This corridor looks nice and plain, thank fuck."
+                    ]
+                },
+                {
+                    "link": "/0071",
+                    "title": "==>",
+                    "images": ["0091"],
+                    "text": [
+                        "In the dimly lit corridor you come across a large set of doors with a big keyhole in the middle. You haven’t found a key anywhere and the door looks too heavy to crowbar open."
+                    ]
+                },
+                {
+                    "link": "/0072",
+                    "title": "PUMK: GO BACK AND LOOK FOR A KEY",
+                    "images": ["0092"],
+                    "text": [
+                        "God no, ugh.",
+                        "You hurried past all that ridiculous tacky gross ostrich stuff for a reason, you’re not about to go back and spend ANY time in the presence of that.",
+                        "Despite its apparent futility you would prefer to try crowbaring the door instead."
+                    ]
+                },
+                {
+                    "link": "/0073",
+                    "title": "PUMK: ATTEMPT FUTILE CROWBARING",
+                    "images": ["0093"],
+                    "text": [
+                        "Hang on there, hold any and all horses. Your paperclip crowbar is flashing somethin’ fierce."
+                    ]
+                },
+                {
+                    "link": "/0074",
+                    "title": "PAPERCLIP: LEVEL UP",
+                    "images": ["0094","0095","0096","0097"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0075",
+                    "title": "==>",
+                    "images": ["0098"],
+                    "text": [
+                        "Your paperclip has turned into a key!",
+                        "A lockpick would have made more sense but hey, who cares?"
+                    ]
+                },
+                {
+                    "link": "/0076",
+                    "title": "PUMK: UNLOCK THE DOOR",
+                    "images": ["0099"],
+                    "text": [
+                        "Hell yes! You’re gonna UN-fucking-LOCK that sun’bitch, you’re gonna HACK into the MAINframe and get EARLY-ACCESS to a funny fucken video game with this sweet piece! You’re gonna BLOW this hingefest so goddamn wide it’s going to literally become A JAR!"
+                    ]
+                },
+                {
+                    "link": "/0077",
+                    "title": "PUMK: GET ON WITH IT",
+                    "images": ["0100","0101"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0078",
+                    "title": "==>",
+                    "images": ["0102"],
+                    "text": [
+                        "That door didn’t take too kindly be being UNZIPPED, it’s freaking the fuck out!",
+                        "You decide to give it some space so it can calm down."
+                    ]
+                },
+                {
+                    "link": "/0079",
+                    "title": "PUMK: OPEN DOOR",
+                    "images": ["0103"],
+                    "text": [
+                        "Please let there be no ostriches in here…"
+                    ]
+                },
+                {
+                    "link": "/0080",
+                    "title": "==>",
+                    "images": ["0104"],
+                    "text": [
+                        "Ooh!"
+                    ]
+                },
+                {
+                    "link": "/0081",
+                    "title": "PUMK: AAH!",
+                    "images": ["0105"],
+                    "text": [
+                        "AGH!",
+                        "It’s extremely bright, so bright that you have to squint, even though your eyes are literally a light source.",
+                        "What the hell is behind this door?"
+                    ]
+                },
+                {
+                    "link": "/0082",
+                    "title": "==>",
+                    "images": ["0106"],
+                    "text": [
+                        "You can just barely make out… oh.",
+                        "It was just a spotlight, what a stupid trick. It’s not even barring the way, it’s just there to be annoying."
+                    ]
+                },
+                {
+                    "link": "/0083",
+                    "title": "PUMK: EASILY BYPASS THE DETERRENT",
+                    "images": ["0107"],
+                    "text": [
+                        "You’re not even sure if it was supposed to be a deterrent.",
+                        "You enter the room and notice a green glow."
+                    ]
+                },
+                {
+                    "link": "/0084",
+                    "title": "==>",
+                    "images": ["0108"],
+                    "text": [
+                        "On the other side of the room is a huge computer screen displaying a wobbly green line.",
+                        "Underneath it is a bunch of other screens and what looks like a keyboard.",
+                        "The green line appears to be talking to you but you aren’t listening, something about “man behind the door” and “super mysterious data” you couldn’t pay attention if you tried."
+                    ]
+                },
+                {
+                    "link": "/0085",
+                    "title": "PUMK: APPROACH TERMINAL",
+                    "images": ["0109"],
+                    "text": [
+                        "The terminal is streaming a lot of flashy data, it’d be almost hypnotising if you gave a shit."
+                    ]
+                },
+                {
+                    "link": "/0086",
+                    "title": "GREEN GUY: BLAB",
+                    "images": ["0110"],
+                    "text": [
+                        "You blabber and prattle a hard as you can but it seems to fall on deaf ears.",
+                        "Do pumpkins have ears? You know corn does…"
+                    ]
+                },
+                {
+                    "link": "/0087",
+                    "title": "PUMK: MASH ON KEYBOARD",
+                    "images": ["0111"],
+                    "text": [
+                        "Sorry what was that? You weren’t listening."
+                    ]
+                },
+                {
+                    "link": "/0088",
+                    "title": "PUMK: DISRESPECT AUTHORITY",
+                    "images": ["0112"],
+                    "text": [
+                        "You follow the instructions to the letter."
+                    ]
+                },
+                {
+                    "link": "/0089",
+                    "title": "==>",
+                    "images": ["0113","0114","0115","0116"],
+                    "text": [
+                        "You hear a loud boom from somewhere, it appears smashing the computer caused an explosion you guess."
+                    ]
+                },
+                {
+                    "link": "/0090",
+                    "title": "==>",
+                    "images": ["0117"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0091",
+                    "title": "==>",
+                    "images": ["0118"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0092",
+                    "title": "==>",
+                    "images": ["0119"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0093",
+                    "title": "==>",
+                    "images": ["0120","0121","0122"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0094",
+                    "title": "PUMK: BE ALLEY OOP",
+                    "images": ["0123"],
+                    "text": [
+                        "You are now Alley Oop. You kinda forgot that character switching was a thing, It seems to happen automagically sometimes.",
+                        "You just got done witnessing a large cannonball fall into the lava, it made a big SPLOOSH, it was pretty neat."
+                    ]
+                },
+                {
+                    "link": "/0095",
+                    "title": "ALLEY: TAKE STOCK OF SITUATION",
+                    "images": ["0124"],
+                    "text": [
+                        "You have your ELECTRONIC SLAB back.",
+                        "That’s really all the stock you feel the need to take.",
+                        "You pass the buck over to Tikiwikimiki-Mau while you look at the poketbois you have."
+                    ]
+                },
+                {
+                    "link": "/0096",
+                    "title": "TIKI: TAKE STOCK OF SITUATION",
+                    "images": ["0125"],
+                    "text": [
+                        "You take stock of the open trapdoor, also the mysterious purple guy seems to be gone. You don’t know why he handed you that rectangle and likely neither does he.",
+                        "(You have now taken 2 stocks, if you take just 3 more you’ll have enough STOCKS to “MARKET”. For a tutorial on marketing stocks press the X in the top right of your browser window.)",
+                        "There’s only one thing left to take stock of."
+                    ]
+                },
+                {
+                    "link": "/0097",
+                    "title": "TIKI: SLURP UP THAT FINAL STOCK",
+                    "images": ["0126"],
+                    "text": [
+                        "We cut away from the currently transpiring STOCK-SLURPING to have a cheeky gander at ya boi THIS GUY.",
+                        "He HASS the Jewel, how’d he get that? and who is he? So many questions?"
+                    ]
+                },
+                {
+                    "link": "/0098",
+                    "title": "TIKI:O",
+                    "images": ["0127"],
+                    "text": [
+                        "You :O at the fact that THE JEWEL OF SPLISH is missing!",
+                        "FUCK! You think. Your brain sure has a potty-mouth."
+                    ]
+                },
+                {
+                    "link": "/0099",
+                    "title": "==>",
+                    "images": ["0128"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0100",
+                    "title": "==>",
+                    "images": ["0129"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0101",
+                    "title": "==>",
+                    "images": ["0130"],
+                    "text": [
+                        "This doesn’t look too good."
+                    ]
+                },
+                {
+                    "link": "/0102",
+                    "title": "MAP: TIE WORLD TOGETHER",
+                    "images": ["0131"],
+                    "text": [
+                        "The ever-handy Map appears. Now you know where everything is in relation to everything else. It almost looks like it was planned.",
+                        "Alley Oop and Tikiwikimiki-Mau are in the hut, now Splishless and burning.",
+                        "The purple guy has the jewel.",
+                        "And Pumk is in the secret computer room being a rebel."
+                    ]
+                },
+                {
+                    "link": "/0103",
+                    "title": "PUMK: BASK IN REBELLIOUSNESS",
+                    "images": ["0132"],
+                    "text": [
+                        "It comes naturally to you, you bask like a pro.",
+                        "The green line is getting pretty aggravated but you continue to ignore it, you’re so very good at that."
+                    ]
+                },
+                {
+                    "link": "/0104",
+                    "title": "PUMK: FAIL TO IGNORE GREEN LINE GUY",
+                    "images": ["0133","0134"],
+                    "text": [
+                        "Did that motherfucker just say something about imminent snakes?"
+                    ]
+                },
+                {
+                    "link": "/0105",
+                    "title": "==>",
+                    "images": ["0135"],
+                    "text": [
+                        "Snakes imminently begin pouring out of pipes in the wall. They’re slithery and deadly and extremely scary, you’re scared out of your mind.",
+                        "There’s only one reaction you can make that accurately portrays how you feel about this turn of events."
+                    ]
+                },
+                {
+                    "link": "/0106",
+                    "title": "PUMK :O",
+                    "images": ["0136"],
+                    "text": [
+                        "You :O harder than you’ve ever :O’d before.",
+                        "You better stop before you :Overdose."
+                    ]
+                },
+                {
+                    "link": "/0107",
+                    "title": "==>",
+                    "images": ["0137"],
+                    "text": [
+                        "Who the hell keeps this many snakes in an ostrich cathedral? It’s just not right."
+                    ]
+                },
+                {
+                    "link": "/0108",
+                    "title": "PUMK: LEG IT",
+                    "images": ["0138"],
+                    "text": [
+                        "You leg it."
+                    ]
+                },
+                {
+                    "link": "/0109",
+                    "title": "==>",
+                    "images": ["0139"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0110",
+                    "title": "==>",
+                    "images": ["0140"],
+                    "text": [
+                        "The Map returns, perhaps a little too soon?",
+                        "Regardless it serves as a decent point from which to switch to another character.",
+                        "What? no you can’t click on them, this is a webcomic not an ANGRY BIRDS."
+                    ]
+                },
+                {
+                    "link": "/0111",
+                    "title": "TIKI: SCRAMBLE DOWN THEM STAIRS",
+                    "images": ["0141"],
+                    "text": [
+                        "Scrambling is well underway."
+                    ]
+                },
+                {
+                    "link": "/0112",
+                    "title": "==>",
+                    "images": ["0142"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0113",
+                    "title": "==>",
+                    "images": ["0143"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0114",
+                    "title": "==>",
+                    "images": ["0144"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0115",
+                    "title": "TIKI: LOOK UP",
+                    "images": ["0145","0146"],
+                    "text": [
+                        "You notice a big ol’ crumbling happening above you. You cautiously halt your leg strides."
+                    ]
+                },
+                {
+                    "link": "/0116",
+                    "title": "==>",
+                    "images": ["0147","0148"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0117",
+                    "title": "TIKI: OBSERVE CARNAGE",
+                    "images": ["0149"],
+                    "text": [
+                        "You spot the iron boulder that fell into the lava short while ago, it’s red hot. You also notice lava pouring in from the ceiling. You didn’t need to pose so confidently while you observed that, but it sure was cool.",
+                        "Unlike the temperature."
+                    ]
+                },
+                {
+                    "link": "/0118",
+                    "title": "PURPLE GUY: HAVE A NAME ALREADY",
+                    "images": ["0150"],
+                    "text": [
+                        "Oh, alright, your name is SIBI but don’t tell anyone.",
+                        "You are clutching THE JEWEL OF SPLISH safely in your arms. It fills you with glee to have made off with such a covetable item."
+                    ]
+                },
+                {
+                    "link": "/0119",
+                    "title": "SIBI: FEEL TOO MUCH GLEE",
+                    "images": ["0151"],
+                    "text": [
+                        "You become so gleeful that you begin to cry? You’re not sure what’s up with that, it doesn’t seem to make any sense."
+                    ]
+                },
+                {
+                    "link": "/0120",
+                    "title": "==>",
+                    "images": ["0152"],
+                    "text": [
+                        "Hold on, you hear something up ahead."
+                    ]
+                },
+                {
+                    "link": "/0121",
+                    "title": "SIBI: GLIMPSE THAT SOMETHING",
+                    "images": ["0153"],
+                    "text": [
+                        "You catch a glimpse of a frazzled looking pumpkin girl, she’s out of breath as indicated by the air cauliflower. You wonder where she came from."
+                    ]
+                },
+                {
+                    "link": "/0122",
+                    "title": "SIBI: CONTINUE HAVIN’ A GANDER",
+                    "images": ["0154"],
+                    "text": [
+                        "Oh, whats this? She perked up for some reason."
+                    ]
+                },
+                {
+                    "link": "/0123",
+                    "title": "SIBI: SCOPE THAT BITCHES CHOICE GOURD",
+                    "images": ["0155"],
+                    "text": [
+                        "You have to temporarily postpone your scoping to duck out of line of sight her own scope."
+                    ]
+                },
+                {
+                    "link": "/0124",
+                    "title": "SIBI: SNEAK A PEEK AT THE OLD BIRD",
+                    "images": ["0156"],
+                    "text": [
+                        "She is neither old nor a bird… i mean maybe she is. Old that is, not a bird, that wouldn’t make any sense, but she could be old. You have no idea what the life-cycle is like for a pumpkin girl. You recall that pumpkins rot rather quickly after Halloween. So maybe she has a relatively short life? Yes you have Halloween in this universe, gosh! Why are you asking so many questions?",
+                        "Anyway she ran down the hall, you wonder what spooked her."
+                    ]
+                },
+                {
+                    "link": "/0125",
+                    "title": "SIBI: SCOOT FORWARDS A TAD",
+                    "images": ["0157"],
+                    "text": [
+                        "You scoot forwards a tad-length, you hear a long protruded s followed by more s’s."
+                    ]
+                },
+                {
+                    "link": "/0126",
+                    "title": "SIBI: TWIST HEAD S-WAYS",
+                    "images": ["0158"],
+                    "text": [
+                        "You twist your head and can hear more s’s, they sound more like S’s now.",
+                        "You also spot a weird black shape squirming and undulating down the corridor towards you."
+                    ]
+                },
+                {
+                    "link": "/0127",
+                    "title": "SNAKEPILE: APPROACH",
+                    "images": ["0159"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0128",
+                    "title": "==>",
+                    "images": ["0160"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0129",
+                    "title": "==>",
+                    "images": ["0161"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0130",
+                    "title": "ALLEY OOP: PAY ATTENTION TO THE FIRE",
+                    "images": ["0162"],
+                    "text": [
+                        "You are not going to do that because you have your trusty rectangle with you and are one of those “millennials” that are glued to their screens like a cowpat is to the ground. Which is to say not really that much if you think about it, but are YOU gonna disturb that? at least get some gloves first, or a pointed stick."
+                    ]
+                },
+                {
+                    "link": "/0131",
+                    "title": "==>",
+                    "images": ["0163"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0132",
+                    "title": "==>",
+                    "images": ["0164"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0133",
+                    "title": "==>",
+                    "images": ["0165"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0134",
+                    "title": "==>",
+                    "images": ["0166"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0135",
+                    "title": "==>",
+                    "images": ["0167"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0136",
+                    "title": "==>",
+                    "images": ["0168"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0137",
+                    "title": "ALLEY: PLEASE NOTICE WHAT’S HAPPENING",
+                    "images": ["0169"],
+                    "text": [
+                        "You begin lookind in the direction of gravity to understand the gravity of the situation."
+                    ]
+                },
+                {
+                    "link": "/0138",
+                    "title": "==>",
+                    "images": ["0170"],
+                    "text": [
+                        "Theys lava.",
+                        "Theys lava down there.",
+                        "Shit."
+                    ]
+                },
+                {
+                    "link": "/0139",
+                    "title": "TIKI: BE DOWN THERE WITH THE LAVA",
+                    "images": ["0171","0172"],
+                    "text": [
+                        "You succeed at this pitifully easy task because you were already down there and didn’t even need to do anything.",
+                        "You’ll probably need to do something soon though."
+                    ]
+                },
+                {
+                    "link": "/0140",
+                    "title": "TIKI: DO SOMETHING",
+                    "images": ["0173"],
+                    "text": [
+                        "You do “something” while striking a dynamic pose. It’s fuckin’ sick and totally the most efficient way to open two flasks of green liquid.",
+                        "What does that stuff do anyway?"
+                    ]
+                },
+                {
+                    "link": "/0141",
+                    "title": "SOMETHING: HAPPEN",
+                    "images": ["0174"],
+                    "text": [
+                        "You are now something currently happening.",
+                        "You feel very… reactive."
+                    ]
+                },
+                {
+                    "link": "/0142",
+                    "title": "SOMETHING: REACT!",
+                    "images": ["0175"],
+                    "text": [
+                        "That sounds like a very stupid idea for a youtube series.",
+                        "You wonder how badly that last sentence will date this comic…",
+                        "Wait. No you don’t, you’re a torrent of green liquid. You have no time to wonder about the timelessness of your every passing thought.",
+                        "In fact it seem you have no time left at all."
+                    ]
+                },
+                {
+                    "link": "/0143",
+                    "title": "REACTION: BEGIN!",
+                    "images": ["0176"],
+                    "text": [
+                        "You know you don’t really need to command the chemical reaction to do anything, it’s going to do what-",
+                        "Hang on we should probably be further away than this."
+                    ]
+                },
+                {
+                    "link": "/0144",
+                    "title": "==>",
+                    "images": ["0177","0178"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0145",
+                    "title": "BOOM!",
+                    "images": ["0179","0180","0181","0182"],
+                    "text": [
+                        "Boom indeed."
+                    ]
+                },
+                {
+                    "link": "/0146",
+                    "title": "ALLEY: DIE ALREADY",
+                    "images": ["0183"],
+                    "text": [
+                        "You’re getting around to that!",
+                        "But first you notice a weird pattern emerging in the lava beneath you. The loud BOOM seems to have disturbed something."
+                    ]
+                },
+                {
+                    "link": "/0147",
+                    "title": "==>",
+                    "images": ["0184","0185","0186"],
+                    "text": [
+                        "This is either going to be perfectly fine or kill you instantly. But there’s no way to know which one it is. The suspense is killing you!"
+                    ]
+                },
+                {
+                    "link": "/0148",
+                    "title": "ALLEY: SURVIVE",
+                    "images": ["0187"],
+                    "text": [
+                        "You land on a hard metal something emerging out of the lava, thereby surviving your imminent death, nobody could have seen that coming."
+                    ]
+                },
+                {
+                    "link": "/0149",
+                    "title": "ALLEY: RIDE THE METAL THING TO SAFETY",
+                    "images": ["0188"],
+                    "text": [
+                        "You cling to the thing and realise that it’s the CANNONBALL that landed there earlier. The explosion must have catapulted it upwards."
+                    ]
+                },
+                {
+                    "link": "/0150",
+                    "title": "ALLEY: RIDE THE CANNONBALL TO SAFETY",
+                    "images": ["0189","0190","0191"],
+                    "text": [
+                        "This doesn’t look safe."
+                    ]
+                },
+                {
+                    "link": "/0151",
+                    "title": "ALLEY: DO A FANCY LEAP",
+                    "images": ["0192","0193"],
+                    "text": [
+                        "You leap fancily.",
+                        "Wait, did you mean “do a fancy leap to safety”?"
+                    ]
+                },
+                {
+                    "link": "/0152",
+                    "title": "ALLEY: FALL IN THE LAVA ANYWAY",
+                    "images": ["0194"],
+                    "text": [
+                        "The lava is very hot, and despite your fiery disposition you don’t like burning to death, you have a better idea."
+                    ]
+                },
+                {
+                    "link": "/0153",
+                    "title": "==>",
+                    "images": ["0195","0196","0197"],
+                    "text": [
+                        "You start to doubt the betterness of this idea."
+                    ]
+                },
+                {
+                    "link": "/0154",
+                    "title": "==>",
+                    "images": ["0198"],
+                    "text": [
+                        "You have tied two snakes together, remember those guys? You wonder if they’re still very confused. They’re almost certainly very in pain."
+                    ]
+                },
+                {
+                    "link": "/0155",
+                    "title": "ALLEY: USE SNAKES AS GRAPPLING HOOK",
+                    "images": ["0199","0200"],
+                    "text": [
+                        "You swing the grappling snakes around your head and fling them Y-wards!",
+                        "They were so shocked that they swallowed their tongues, hence the lack of tongue depiction."
+                    ]
+                },
+                {
+                    "link": "/0156",
+                    "title": "GRAPPLING SNAKES: INITIATE SNAKETECH: DUAL Y-CHOMP!",
+                    "images": ["0201","0202"],
+                    "text": [
+                        "Y -> Ỹ",
+                        "SUCCESS!",
+                        "Grappling Snakes level up!",
+                        "+45 Toothache",
+                        "+23 Confusion",
+                        "-5 Snaketears",
+                        "Gained new passive ability: Immobile!"
+                    ]
+                },
+                {
+                    "link": "/0157",
+                    "title": "==>",
+                    "images": ["0203","0204","0205"],
+                    "text": [
+                        "That’s the last we’ll be seeing of that Y, soak it in, take a picture, it’s finally had it’s day of relevance and we can finally all stop worrying about it."
+                    ]
+                },
+                {
+                    "link": "/0158",
+                    "title": "ALLEY OOP: LAND IMMEDIATELY",
+                    "images": ["0206"],
+                    "text": [
+                        "You cannot land immediately as you were flung quite high into the air, give it a couple more seconds…"
+                    ]
+                },
+                {
+                    "link": "/0159",
+                    "title": "==>",
+                    "images": ["0207"],
+                    "text": [
+                        "… just a couple more…"
+                    ]
+                },
+                {
+                    "link": "/0160",
+                    "title": "==>",
+                    "images": ["0208"],
+                    "text": [
+                        "There you go, a perfect landing on the side of a window.",
+                        "Now all you need to do is to land on the floor."
+                    ]
+                },
+                {
+                    "link": "/0161",
+                    "title": "ALLEY: LAND ON THE FLOOR",
+                    "images": ["0209"],
+                    "text": [
+                        "You splat upon the floor like a marshmallow with hair."
+                    ]
+                },
+                {
+                    "link": "/0162",
+                    "title": "ALLEY: WAKE UP",
+                    "images": ["0210"],
+                    "text": [
+                        "You weren’t asleep but you’re certainly a little dazed, your perfectly bobbled hair curls have been ruffled.",
+                        "Your head also hurts, though due to how soft and squishy you are you think that there’ll be no lasting damage.",
+                        "You really have no idea what the hell you’re made of, you might actually be a marshmallow."
+                    ]
+                },
+                {
+                    "link": "/0163",
+                    "title": "==>",
+                    "images": ["0211"],
+                    "text": [
+                        "You notice a pair of ominous glowing eyes in the darkness, this is an opportune moment to be somebody else."
+                    ]
+                },
+                {
+                    "link": "/0164",
+                    "title": "ALLEY: BE PUMK",
+                    "images": ["0212"],
+                    "text": [
+                        "You are now Pumk.",
+                        "You have just finished successfully evading the snakes and are feeling pretty jubilant about it.  This is pretty stellar time to have switched to you, those snakes have NO idea where you are now.",
+                        "In fact you have a feeling you won’t need to run away from snakes ever again, thank god.",
+                        "(pages marked with [s] have sound that plays on them, so be ready to crank that shit)"
+                    ]
+                },
+                {
+                    "link": "/0165",
+                    "title": "[S] PUMK: RUN AWAY FROM SNAKES",
+                    "images": [""],
+                    "text": [
+                        "Ah, yes, nice and quiet, no snakes here. Look at that lovely fucked up architecture. The explosion you heard earlier seems to have shaken the whole cathedral. It seems to be holding together though.",
+                        "Well, time to walk down this peaceful corridor totally uninterrup-",
+                        "Wait.. do you hear that?",
+                        "(users on mobile will have to skip this page, it’s a video game, shhh ==>)",
+                        "RUN!",
+                        "The snakes are coming! Use WASD/ARROW KEYS to move, the SPACEBAR/LEFT CLICK to jump and LEFT-SHIFT/RIGHT CLICK to swing your keyblade.",
+                        "(alternatively you can use a gamepad controller device. LEFT STICK to move, A BUTTON to Jump, B BUTTON to attack)",
+                        "CREDITS",
+                        "Thanks to Polystation 2 for creating the pumk model and Lateralyst for creating the music",
+                        "and BIG thanks to Chuz for programming the game and also helping a lot with the web functionality (fuck wordpress.com)",
+                        "This game can be PURCHASED over at his itch.io here: https://charlie-batten.itch.io/run-away-from-snakes",
+                        "Give him money, he deserves it."
+                    ]
+                },
+                {
+                    "link": "/0166",
+                    "title": "==>",
+                    "images": ["0213"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0167",
+                    "title": "",
+                    "images": ["0213"],
+                    "text": [
+                        "Those snakes just don’t quit, you’re tired as fuck.",
+                        "You amble most staggeringly into the darkness. Your facial flicker is dangerously low."
+                    ]
+                },
+                {
+                    "link": "/0168",
+                    "title": "==>",
+                    "images": ["0214"],
+                    "text": [
+                        "Oh fuck what is it now?",
+                        "Is that a demon or whatever? What’s the DEAL with goddamn demons coming outta the goddamn shadows?",
+                        "How about you go back to the shadow, ya asshole!"
+                    ]
+                },
+                {
+                    "link": "/0169",
+                    "title": "DEMON: REVEAL TRUE FORM",
+                    "images": ["0215","0216"],
+                    "text": [
+                        "Oh wait, that’s not a demon, it’s a little guy you guess?",
+                        "What’s it doing? Are those ears? You don’t really get it."
+                    ]
+                },
+                {
+                    "link": "/0170",
+                    "title": "LITTLE GUY: MESMERISE",
+                    "images": ["0217"],
+                    "text": [
+                        "Ow! Geez. Does EVERYTHING in this comic have to induce epileptic fits? Calm down little guy."
+                    ]
+                },
+                {
+                    "link": "/0171",
+                    "title": "PUMK: BE MESMERISED",
+                    "images": ["0218"],
+                    "text": [
+                        "You fail to be mesmerised because you don’t actually have eyeballs or retinas. You can feel the mesmer-waves though and it certainly feels fuckin’ sick.",
+                        "You “woh” in awe."
+                    ]
+                },
+                {
+                    "link": "/0172",
+                    "title": "SNAKES: BE MESMERISED",
+                    "images": ["0219"],
+                    "text": [
+                        "You, as in “y’all snakes”, are totally mesmerised by the display. Transfixed in what can only be described as snakuriosity, you stop, forgetting all about the pumpkin girl you were supposed to be chasing."
+                    ]
+                },
+                {
+                    "link": "/0173",
+                    "title": "PUMK: HATCH BRILLIANT SCHEME",
+                    "images": ["0220"],
+                    "text": [
+                        "You turn to face your stationary, serpentine associates and grin an evil grin. You have hatched the most brilliant of schemes, involving snakes being gone forever, you and this weird flashing fairy."
+                    ]
+                },
+                {
+                    "link": "/0174",
+                    "title": "PUMK: INITIATE PUMKTECH SUPERSPOOKYFACE!",
+                    "images": ["0221","0222","0223"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0175",
+                    "title": "==>",
+                    "images": ["0224"],
+                    "text": [
+                        "Part one of your scheme involves eating this little lad. In you go, sunshine."
+                    ]
+                },
+                {
+                    "link": "/0176",
+                    "title": "PUMK: TRANSFORM.",
+                    "images": ["0225","0226","0227"],
+                    "text": [
+                        "You begin your epic transformation, the snakes, now no longer mesmerised, are mostly confused by your actions."
+                    ]
+                },
+                {
+                    "link": "/0177",
+                    "title": "PUMK: SUCCESSFULLY SCARE THE ROPE!",
+                    "images": ["0228"],
+                    "text": [
+                        "Your transformation is complete! Your SUPER SPOOKY FACE is surely more than enough to scare the rope this time!",
+                        "(you know that the snakes are not ACTUALLY ropes but you really wanted to make that sick gamer reference because you are also a gamer girl ass well as a pumpkin)"
+                    ]
+                },
+                {
+                    "link": "/0178",
+                    "title": "SNAKES: BE SCARED ABOUT IT",
+                    "images": ["0229"],
+                    "text": [
+                        "You do so with ease, it is easy for you to be scared at such a scary spooky face. You collectively begin to cry."
+                    ]
+                },
+                {
+                    "link": "/0179",
+                    "title": "SNAKES: SCARPER",
+                    "images": ["0230"],
+                    "text": [
+                        "You SCARPER as fast as your little whole bodies can carry you."
+                    ]
+                },
+                {
+                    "link": "/0180",
+                    "title": "==>",
+                    "images": ["0231"],
+                    "text": [
+                        "The snakes scarper away down the tunnel revealing a purple blob on the ground. It must have been carried along by them."
+                    ]
+                },
+                {
+                    "link": "/0181",
+                    "title": "FAIRY: DISASSOCIATE",
+                    "images": ["0232"],
+                    "text": [
+                        "Being eaten by a hollowed out pumpkin head fortunately doesn’t result in death and it’s getting a bit cramped in there. You start to squirm your way out through the eye holes in a very goofy yet disgusting manner. For a brief moment this causes Pumk to almost resemble a funny cartoon character from the funny fucking cartoons."
+                    ]
+                },
+                {
+                    "link": "/0182",
+                    "title": "FAIRY: BE FREE",
+                    "images": ["0233"],
+                    "text": [
+                        "You sproing out of Pumk’s face with nary a scratch, free as a bird once again.",
+                        "Actually a bird wouldn’t be free trapped in this crumbling cathedral corridor, they’d panic and fly around in circles for ages.",
+                        "More like free as a NERD! hehe good one."
+                    ]
+                },
+                {
+                    "link": "/0183",
+                    "title": "==>",
+                    "images": ["0234","0235"],
+                    "text": [
+                        "You notice that the purple blob on the ground was actually a person! Oh wait you don’t notice that, you don’t give a shit. You actually notice the JEWEL OF SPLISH in his clutches and you want it.",
+                        "He appears groggy, likely due to a fierce snake-induced writhing BAMBOOZLEMENT. Now is a good chance."
+                    ]
+                },
+                {
+                    "link": "/0184",
+                    "title": "FAIRY: STEAL JEWEL",
+                    "images": ["0236"],
+                    "text": [
+                        "Oh look Alley Oop is here, “yo” says Pumk, the two of them finally reunited. Alley looks up from her phone, a gesture of great respect. The fairy pays no mind to this because as was stated at the top of the page it is attempting to STEAL THE DANG JEWEL."
+                    ]
+                },
+                {
+                    "link": "/0185",
+                    "title": "FAIRY: STEAL THE DANG JEWEL",
+                    "images": ["0237"],
+                    "text": [
+                        "There we go, easy does it…",
+                        "…",
+                        "…",
+                        "Gotcha!"
+                    ]
+                },
+                {
+                    "link": "/0186",
+                    "title": "==>",
+                    "images": ["0238"],
+                    "text": [
+                        "You zip off down the corridor, happy indeed to hold in your tiny hands such a precious jewel. You know exactly where to put this."
+                    ]
+                },
+                {
+                    "link": "/0187",
+                    "title": "SIBI: WAKE UP",
+                    "images": ["0239"],
+                    "text": [
+                        "You groggily awaken from your knockout-induced slumber, your lap feels somewhat Jewelless."
+                    ]
+                },
+                {
+                    "link": "/0188",
+                    "title": "SIBI: NOTICE JEWELLESSNESS",
+                    "images": ["0240"],
+                    "text": [
+                        "OH SHIIIIIIT!"
+                    ]
+                },
+                {
+                    "link": "/0189",
+                    "title": "SIBI: FLIP THE FUCK OUT",
+                    "images": ["0241"],
+                    "text": [
+                        "You wiggle your hands around in a motion that’s more symptomatic of a case of the vapors than it is of Flipping The Fuck Out™"
+                    ]
+                },
+                {
+                    "link": "/0190",
+                    "title": "ALLEY: DIRECT THIS IDIOT",
+                    "images": ["0242"],
+                    "text": [
+                        "You direct this idiot directly to his face, an outstretched finger pointing pointedly in the direct direction of the sequel to the idiot you are directing. The sequel known as the Jewel Theif 2, because that’s what he is, he stole the jewel from Jewel Thief 1 (aka this idiot)."
+                    ]
+                },
+                {
+                    "link": "/0191",
+                    "title": "==>",
+                    "images": ["0243"],
+                    "text": [
+                        "If you want to make this a trilogy maybe go over there and steal it back you dumb idiot asshole, yeah that’s right turn around and look. Hah, made you look, you’re welcome."
+                    ]
+                },
+                {
+                    "link": "/0192",
+                    "title": "SIBI: GIVE CHASE",
+                    "images": ["0244"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0193",
+                    "title": "==>",
+                    "images": ["0245"],
+                    "text": [
+                        "Now where have you seen THAT before?"
+                    ]
+                },
+                {
+                    "link": "/0194",
+                    "title": "MAP: BE A LITTLE MORE CONFUSING",
+                    "images": ["0246"],
+                    "text": [
+                        "We haven’t seen the map since the explosion, things are really fucked up aren’t they?",
+                        "Whatever happened to Tiki? Surely she must be dead, there’s no way she’s about to appear alive and well."
+                    ]
+                },
+                {
+                    "link": "/0195",
+                    "title": "TIKI: APPEAR ALIVE AND WELL",
+                    "images": ["0247"],
+                    "text": [
+                        "You fail to appear alive and well because you are CONFIRMED dead. You sure got fool’d!",
+                        "Instead of that we’re looking at Pumk and Alley, Pumk is asking whether Alley’s found any cool Pocket Bois recently. Alley says no, she almost caught a NEW but her phone was stolen by that jackass purple robe dumbass. Pumk comments on her use of jackass and dumbass in the same sentence and follows up with a question of whether or not she is an ASS queen. Alley says shut up."
+                    ]
+                },
+                {
+                    "link": "/0196",
+                    "title": "ALLEY: CHECK POCKETBOI HAVE",
+                    "images": ["0248"],
+                    "text": [
+                        "You check on your Pocketboi Have game and…Oh your Lord! It’s a shiny Grogel!",
+                        "This is really rare, you just GOTTA take take a snapshot of it in Augmented Reality mode!",
+                        "Man what an event, this is the second most interesting Pocketboi you’ve found all month."
+                    ]
+                },
+                {
+                    "link": "/0197",
+                    "title": "ALLEY: TURN ON AUGMENTED REALITY MODE",
+                    "images": ["0249"],
+                    "text": [
+                        "You flip the AR switch and the Grogle appears to inhabit the real world! Of course it’s all fake, Pocketbois being real could never happen. You would sigh wistfully at this notion but you are already internally sighing and have been ever since you realised Pocketbois was just a fake video game.",
+                        "Sigggghhhhh… "
+                    ]
+                },
+                {
+                    "link": "/0198",
+                    "title": "TIKI: ANNOUNCE PRESENCE",
+                    "images": ["0250"],
+                    "text": [
+                        "You announce your presence politely by asking if either of them has seen the JEWEL OF SPLISH. You don’t know the Pumpkin girl but the presence of little ginger marshmallow reassures you that there won’t be any altercation here."
+                    ]
+                },
+                {
+                    "link": "/0199",
+                    "title": "PUMK: ALTERCATE",
+                    "images": ["0251"],
+                    "text": [
+                        "You begin altarcating with a swift bird flip followed by a cheeky smirk and a “get fucked”. If there’s one thing you do well it’s making a strong first impression, though not necessarily a good one."
+                    ]
+                },
+                {
+                    "link": "/0200",
+                    "title": "TIKI: RECIPROCATE",
+                    "images": ["0252"],
+                    "text": [
+                        "Incensed, you reciprocate her unruly gesture with a THROWDOWN! A big VS appears to signify a combat duel, likely to include many ATTACKS and SLAPS!",
+                        "One thing’s for sure though, only one person will leave this battle alive…",
+                        "Actually you can’t back that up, you have no idea what will happen."
+                    ]
+                },
+                {
+                    "link": "/0201",
+                    "title": "ALLEY: POCKET THAT BOI",
+                    "images": ["0253","0254"],
+                    "text": [
+                        "You carefully observe the Grogle, Bois are harder to Pocket in AR mode so you have to be careful..",
+                        "Ok… now!"
+                    ]
+                },
+                {
+                    "link": "/0202",
+                    "title": "ALLEY: FLING",
+                    "images": ["0255"],
+                    "text": [
+                        "Shit! He moved!",
+                        "Ok, no problem, you can just try again."
+                    ]
+                },
+                {
+                    "link": "/0203",
+                    "title": "ALLEY: TRY AGAIN",
+                    "images": ["0256"],
+                    "text": [
+                        "…"
+                    ]
+                },
+                {
+                    "link": "/0204",
+                    "title": "==>",
+                    "images": ["0257"],
+                    "text": [
+                        "FUCK!"
+                    ]
+                },
+                {
+                    "link": "/0205",
+                    "title": "==>",
+                    "images": ["0258"],
+                    "text": [
+                        "Ok fuck this, you’ve ran out of pocket balls and now you’re about to waste one of your satchel balls. Well, no thanks, AR mode is just a stupid gimmick anyway."
+                    ]
+                },
+                {
+                    "link": "/0206",
+                    "title": "ALLEY: TURN OFF AR MODE",
+                    "images": ["0259"],
+                    "text": [
+                        "There we go.",
+                        "Wait, what’s happening?"
+                    ]
+                },
+                {
+                    "link": "/0207",
+                    "title": "FAIRY: CONTINUE TO BE FOLLOWED",
+                    "images": ["0260"],
+                    "text": [
+                        "You are now the Fairy. You have no intention of continuing to be followed, however you have no intention of not continuing to be followed either. To be honest you couldn’t possibly give a shit one way or the other. You’re not in any danger from anyone, this is obvious to you."
+                    ]
+                },
+                {
+                    "link": "/0208",
+                    "title": "SIBI: CONTINUE FOLLOWING",
+                    "images": ["0261"],
+                    "text": [
+                        "You are now Sibi again, furious at the little bastard flying away with your hard earned loot, but not furious enough to resist skipping with your arms outstretched apparently."
+                    ]
+                },
+                {
+                    "link": "/0209",
+                    "title": "==>",
+                    "images": ["0262","0263"],
+                    "text": [
+                        "Looks like they went in here, perfect, you work best in the dark.",
+                        "Better take a peek first in case it’s an ambush."
+                    ]
+                },
+                {
+                    "link": "/0210",
+                    "title": "SIBI: PEEK",
+                    "images": ["0264","0265"],
+                    "text": [
+                        "You peek a glimpse at a giant monitor with a green line wibbling about frantically, it seems to be very distressed.",
+                        "Did this Fairy asshole come all this way just to watch TV?",
+                        "No… The TV is saying something. You’re a little too far away to hear properly.",
+                        "Something something “you escaped” something something “demon” something something “oh shit”.",
+                        "You can’t make heads or tails of it."
+                    ]
+                },
+                {
+                    "link": "/0211",
+                    "title": "FAIRY: DO WHAT YOU CAME HERE TO DO",
+                    "images": ["0266","0267"],
+                    "text": [
+                        "Yes. It’s about time you did.",
+                        "You ignore the ramblings of the machine, there’s nothing that can stop you now."
+                    ]
+                },
+                {
+                    "link": "/0212",
+                    "title": "==>",
+                    "images": ["0268"],
+                    "text": [
+                        "Uh.. except that.",
+                        "The computer is broke, shit, who did that? You need access to the data-banks in order to to do the computery thing that you needed to do.",
+                        "Maybe you can just force your way in…"
+                    ]
+                },
+                {
+                    "link": "/0213",
+                    "title": "==>",
+                    "images": ["0269","0270"],
+                    "text": [
+                        "Psyche! You knew that he thought he could sneak up on you without you noticing, but you know better than that. What a silly purple boy.",
+                        "Grab an armful of “not-jewel” ya dingus!",
+                        "Oh darn, you sure hope that didn’t fuck up the computer any more than it already was."
+                    ]
+                },
+                {
+                    "link": "/0214",
+                    "title": "==>",
+                    "images": ["0271"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0215",
+                    "title": "==>",
+                    "images": ["0272"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0216",
+                    "title": "==>",
+                    "images": ["0273"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0217",
+                    "title": "==>",
+                    "images": ["0274"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0218",
+                    "title": "==>",
+                    "images": ["0275"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0219",
+                    "title": "==>",
+                    "images": ["0276"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0220",
+                    "title": "SNAKES: RUN AWAY",
+                    "images": ["0277"],
+                    "text": [
+                        "You fail to run away."
+                    ]
+                },
+                {
+                    "link": "/0221",
+                    "title": "==>",
+                    "images": ["0278"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0222",
+                    "title": "==>",
+                    "images": ["0279"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0223",
+                    "title": "==>",
+                    "images": ["0280"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0224",
+                    "title": "==>",
+                    "images": ["0281"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0225",
+                    "title": "==>",
+                    "images": ["0282"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0226",
+                    "title": "==>",
+                    "images": ["0283"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0227",
+                    "title": "==>",
+                    "images": ["0284"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0228",
+                    "title": "==>",
+                    "images": ["0285"],
+                    "text": [
+                        "You are now Pumk, or alternatively you are now Tiki. It doesn’t really matter who you are because you feel an immense rumbling and bumbling and have paused your epic fight to look in the direction of it.",
+                        "You are concerned but not unnerved."
+                    ]
+                },
+                {
+                    "link": "/0229",
+                    "title": "==>",
+                    "images": ["0286"],
+                    "text": [
+                        "Now you are unnerved."
+                    ]
+                },
+                {
+                    "link": "/0230",
+                    "title": "TIKI: DODGE",
+                    "images": ["0287"],
+                    "text": [
+                        "In a moment of high adrenaline you choose to be Tiki and dodge out of the way of a big-ass roundball as it comes crashing through the wall.",
+                        "You were pretty sure you dealt with this obstruction before, has it come back for revenge? Of course not, it’s an iron ball, it has no autonomy.",
+                        "It begs the question of how it’s moving side-ways at speed, but since the reader is already well aware of that you’re not going to dwell on it."
+                    ]
+                },
+                {
+                    "link": "/0231",
+                    "title": "==>",
+                    "images": ["0288","0289","0290","0291"],
+                    "text": [
+                        "Blimey that sure was a hefty ball! It knocked through like fifty walls.",
+                        "It appears to have run out of steam and landed in a far-off special room. You can tell it’s special because of the colour."
+                    ]
+                },
+                {
+                    "link": "/0232",
+                    "title": "==>",
+                    "images": ["0292"],
+                    "text": [
+                        "You stare through the holes, it’s quite a sight.",
+                        "Alright enough sightseeing, let’s get some proactive plot-progressing decision making in here."
+                    ]
+                },
+                {
+                    "link": "/0233",
+                    "title": "ALLEY: MAKE DEMANDS",
+                    "images": ["0293"],
+                    "text": [
+                        "You begin making DEMANDS of the tall blue lady. You DEMAND to see where the hole goes and you DEMAND that she give you a lift because you’re too lazy to traverse da hoops to get there. She stares back at you blankly."
+                    ]
+                },
+                {
+                    "link": "/0234",
+                    "title": "TIKI: COMPLY",
+                    "images": ["0294"],
+                    "text": [
+                        "You cannot help but comply, the marshmallow girl is just too cute to say no to."
+                    ]
+                },
+                {
+                    "link": "/0235",
+                    "title": "TIKI: ENTER SPECIAL ROOM",
+                    "images": ["0295"],
+                    "text": [
+                        "You enter the special room. A raised platform with steps stands prominently in the centre, or the back, it’s somewhere in the room that much is clear.",
+                        "The roundball sits motionless against the wall. Other than that there’s not much going on, you don’t notice anything."
+                    ]
+                },
+                {
+                    "link": "/0236",
+                    "title": "TIKI: LOOK HARDER",
+                    "images": ["0296"],
+                    "text": [
+                        "You look around a bit harder and notice the walls are covered with funny letters and pictures.",
+                        "You like a good bit of lore and a hieroglyphic wall is the perfect place to find some, perhaps you might learn a bit more about this weirdo cathedral?"
+                    ]
+                },
+                {
+                    "link": "/0237",
+                    "title": "TIKI: PONDER THE HIEROGLYPHICS",
+                    "images": ["0297"],
+                    "text": [
+                        "Ok, this one’s some sort of ruler commanding an army of… are those ostriches? or ducks? You can’t really tell.",
+                        "Oh and look that’s the JEWEL OF SPLISH! Hmm, interesting. Very interesting."
+                    ]
+                },
+                {
+                    "link": "/0238",
+                    "title": "==>",
+                    "images": ["0298"],
+                    "text": [
+                        "Now he’s putting out fire with it. That’s nothing new, you were using the Jewel to protect your hut from the lava. Maybe this is some kind of special event involving a great fire?"
+                    ]
+                },
+                {
+                    "link": "/0239",
+                    "title": "==>",
+                    "images": ["0299"],
+                    "text": [
+                        "Huh, what’s happening here? It looks like the ducks are imprisoning snakes. Are they, like, enemies? Dude, you’re learning so much about history right now."
+                    ]
+                },
+                {
+                    "link": "/0240",
+                    "title": "==>",
+                    "images": ["0300"],
+                    "text": [
+                        "Wait, what? The ruler turns snakes into ducks? Suddenly you don’t really understand anything. Maybe you were reading them in the wrong order? No that doesn’t seem to make a difference."
+                    ]
+                },
+                {
+                    "link": "/0241",
+                    "title": "==>",
+                    "images": ["0301"],
+                    "text": [
+                        "There’s a lot to ponder here, a lesser mind would probably deduce that these glyphs mean jack shit and don’t make any sense but you know better.",
+                        "They clearly… mean… uh…"
+                    ]
+                },
+                {
+                    "link": "/0242",
+                    "title": "ALLEY: CHECK FOR CORPSES",
+                    "images": ["0302"],
+                    "text": [
+                        "No corpses here, just a bruised Pumk. She mustn’t’ve dodged the cannonball. Idiot."
+                    ]
+                },
+                {
+                    "link": "/0243",
+                    "title": "ALLEY: HELP HER UP",
+                    "images": ["0303"],
+                    "text": [
+                        "Pumk awakes, dazed and shook. She thanks her little buddy by changing her dress to one that reads “THX”."
+                    ]
+                },
+                {
+                    "link": "/0244",
+                    "title": "FAIRY: SWOOWS RIGHT IN",
+                    "images": ["0304"],
+                    "text": [
+                        "You swoows right into the room. Still firmly in possession of the JEWEL OF SPLISH and looking very pleased with yourself."
+                    ]
+                },
+                {
+                    "link": "/0245",
+                    "title": "==>",
+                    "images": ["0305"],
+                    "text": [
+                        "Sibi is also here."
+                    ]
+                },
+                {
+                    "link": "/0246",
+                    "title": "FAIRY: PLACE JEWEL ON PEDESTAL",
+                    "images": ["0306"],
+                    "text": [
+                        "You float to the top of the pedestal where a tear shaped indent waits for a certain jewel to be slotted into it. You knew it was there, of course. Getting into this secret room was what you wanted the whole time.",
+                        "How lucky for you the cannonball smashed through here."
+                    ]
+                },
+                {
+                    "link": "/0247",
+                    "title": "PUMK: INTIMIDATE TIKI",
+                    "images": ["0307"],
+                    "text": [
+                        "You congratulate Tiki on being a strong fighter but tell her that you would have won if they hadn’t been interrupted. Maybe if they train a bit harder they could stand a real chance against you one day.",
+                        "Tiki doesn’t respond, clearly admitting defeat. You like submissiveness in an adversary and decide to let her live for now."
+                    ]
+                },
+                {
+                    "link": "/0248",
+                    "title": "SIBI: WATCH THE FAIRY",
+                    "images": ["0308"],
+                    "text": [
+                        "You shuffle over to Alley Oop to make the frame composition better and look up at the Fairy thing putting the Jewel on the pedestal.",
+                        "You’re still all gung-ho about having that jewel, it’s so shiny, must be worth a fortune. Not worth making a move right now though, you decide to wait and see where this goes."
+                    ]
+                },
+                {
+                    "link": "/0249",
+                    "title": "==>",
+                    "images": ["0309","0310"],
+                    "text": [
+                        "The Jewel immediately starts resonating with a splishy aura upon being placed in the slot."
+                    ]
+                },
+                {
+                    "link": "/0250",
+                    "title": "==>",
+                    "images": ["0311"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0251",
+                    "title": "==>",
+                    "images": ["0312"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0252",
+                    "title": "==>",
+                    "images": ["0313"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0253",
+                    "title": "==>",
+                    "images": ["0314"],
+                    "text": [
+                        "The jewel begins to rise from the pedestal. It’s positively FULL of beans, it looks ready to blow!"
+                    ]
+                },
+                {
+                    "link": "/0254",
+                    "title": "==>",
+                    "images": ["0315"],
+                    "text": [
+                        "Speaking of things “blowing” there goes the floor. Did you forget that the whole cathedral was crumbling? That wasn’t a thing that stopped happening or anything."
+                    ]
+                },
+                {
+                    "link": "/0255",
+                    "title": "==>",
+                    "images": ["0316"],
+                    "text": [
+                        "Aw hell, there’s lava pouring in through cracks all over the place! How deadly dangerous."
+                    ]
+                },
+                {
+                    "link": "/0256",
+                    "title": "TIKI: THINK FAST",
+                    "images": ["0317"],
+                    "text": [
+                        "You think real fast and equip a bottle of “Flame Retarding Oil”",
+                        "What? That’s what it’s called, it stops fire, don’t get all uppity it’s a perfectly scientific name."
+                    ]
+                },
+                {
+                    "link": "/0257",
+                    "title": "TIKI: USE RETARDING OIL",
+                    "images": ["0318"],
+                    "text": [
+                        "It’s FLAME retard oil, get it right.  You smash the bottle on your head, coating yourself in the oil making yourself immune to fire for a time. Now it makes sense how you were able to survive that massive explosion earlier."
+                    ]
+                },
+                {
+                    "link": "/0258",
+                    "title": "TIKI: SURVIVE LAVA",
+                    "images": ["0319"],
+                    "text": [
+                        "You realise a little too late that you could have dodged this. Good thing this Flame Retarding Oil is strong, you’ll probably be alright… probably."
+                    ]
+                },
+                {
+                    "link": "/0259",
+                    "title": "JEWEL: DO THE SPLISHY THING ALREADY",
+                    "images": ["0320"],
+                    "text": [
+                        "It would be a perfect time to do a big splishy thing right now what with all the impending burning to death. Luckily it’s just about ready to go."
+                    ]
+                },
+                {
+                    "link": "/0260",
+                    "title": "==>",
+                    "images": ["0321"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0261",
+                    "title": "==>",
+                    "images": ["0322"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0262",
+                    "title": "==>",
+                    "images": ["0323"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0263",
+                    "title": "==>",
+                    "images": ["0324"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0264",
+                    "title": "==>",
+                    "images": ["0325"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0265",
+                    "title": "==>",
+                    "images": ["0326"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0266",
+                    "title": "==>",
+                    "images": ["0327"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0267",
+                    "title": "==>",
+                    "images": ["0328"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0268",
+                    "title": "ALLEY: FREAK OUT",
+                    "images": ["0329"],
+                    "text": [
+                        "Dude, what the FREAK?",
+                        "This is bad, hoo boy. Pumk is out like a light, a light that was turned off.",
+                        "Also she’s basically dead right now.",
+                        "There’s only one thing you can do in this situation…"
+                    ]
+                },
+                {
+                    "link": "/0269",
+                    "title": "ALLEY: GAME HARDCORE",
+                    "images": ["0330"],
+                    "text": [
+                        "You close Poketboi HAVE. It’s not hardcore enough for this, you need to pull out the BIG GUNS."
+                    ]
+                },
+                {
+                    "link": "/0270",
+                    "title": "ALLEY: OPEN HARDCORE VIDEO GAME APP",
+                    "images": ["0331"],
+                    "text": [
+                        "You open CRUMBLER 2, the spiritual and also literal sequel to CRUMBLER. It’s important to play the sequel because they fixed that dumb glitch where it would slow down if you crumbled too fast. There’s no time for slow crumbles. No time at all."
+                    ]
+                },
+                {
+                    "link": "/0271",
+                    "title": "ALLEY: CRUMBLE",
+                    "images": ["0332"],
+                    "text": [
+                        "The start of the game’s always so dang slow… You just need to accumulate 246 crumbs to unlock basic frenzies. After that it’ll be down to RNG to see if you actually get one. You could purchase the Rubble Bubbler first, which is more reliable albeit slower, but c’mon that’s not NEARLY hardcore enough!"
+                    ]
+                },
+                {
+                    "link": "/0272",
+                    "title": "==>",
+                    "images": ["0333"],
+                    "text": [
+                        "Ok, you have enough to unlock basic frenzies.",
+                        "C’mon c’mon c’mon c’mon c’mon c’mon c’mon c’mon pleeeeeease…"
+                    ]
+                },
+                {
+                    "link": "/0273",
+                    "title": "==>",
+                    "images": ["0334"],
+                    "text": [
+                        "C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON C’MON!",
+                        "THIS IS VERY IMPORTANT!"
+                    ]
+                },
+                {
+                    "link": "/0274",
+                    "title": "==>",
+                    "images": ["0335"],
+                    "text": [
+                        "YES!",
+                        "Lap up those crumbs! Man that was tense, you’re glad this all worked out in the end."
+                    ]
+                },
+                {
+                    "link": "/0275",
+                    "title": "==>",
+                    "images": ["0336"],
+                    "text": [
+                        "Your electronic slab is really heating up due to the hardcore gaming. You can barely touch it. Time to put it down."
+                    ]
+                },
+                {
+                    "link": "/0276",
+                    "title": "ALLEY: PUT IT DOWN",
+                    "images": ["0337"],
+                    "text": [
+                        "Ok, that should do for that. Now for the other thing."
+                    ]
+                },
+                {
+                    "link": "/0277",
+                    "title": "ALLEY: DO THE OTHER THING",
+                    "images": ["0338"],
+                    "text": [
+                        "You clump a hair bobble and pull hard!",
+                        "It really hurts. If only you had a blade of some kind."
+                    ]
+                },
+                {
+                    "link": "/0278",
+                    "title": "ALLEY: LOOK FOR BLADE",
+                    "images": ["0339"],
+                    "text": [
+                        "Wait, scratch that command, you got it. You experience HAIR PAIN and produce two (2) mallowtears. You don’t add them to your inventory because that would be stupid."
+                    ]
+                },
+                {
+                    "link": "/0279",
+                    "title": "==>",
+                    "images": ["0340"],
+                    "text": [
+                        "There it goes.",
+                        "Hey, your hair is the same colour as Pumks head. You never noticed that before."
+                    ]
+                },
+                {
+                    "link": "/0280",
+                    "title": "ALLEY: PEER INTO PUMKS LIFELESS GOURD",
+                    "images": ["0341"],
+                    "text": [
+                        "This is pretty morbid, but it looks like it’s going according to plan. The heat from your slab is starting to burn your hair. It just needs one more ingredient.",
+                        "A big old EXHALE."
+                    ]
+                },
+                {
+                    "link": "/0281",
+                    "title": "ALLEY: PERFORM EXHALE ON PUMKS MOUTH",
+                    "images": ["0342"],
+                    "text": [
+                        "You straddle the girl and prepare to give the BREATH of LIFE!"
+                    ]
+                },
+                {
+                    "link": "/0282",
+                    "title": "==>",
+                    "images": ["0343"],
+                    "text": [
+                        "!!!"
+                    ]
+                },
+                {
+                    "link": "/0283",
+                    "title": "==>",
+                    "images": ["0344"],
+                    "text": [
+                        "Oh, that’s right you don’t have a mouth. You just uselessly pressed your soft head into hers.",
+                        "Dangit, where are you gonna find a mouth at this hour?"
+                    ]
+                },
+                {
+                    "link": "/0284",
+                    "title": "ALLEY: LOOK AROUND",
+                    "images": ["0345"],
+                    "text": [
+                        "You look around, you see that rabbit guy over there is doing something. He has a mouth but you’re not sure you can convince him to blow on Pumks lips anytime soon. He looks pretty busy hypnotising those eels over there.",
+                        "Or whatever that is he’s doing."
+                    ]
+                },
+                {
+                    "link": "/0285",
+                    "title": "==>",
+                    "images": ["0346"],
+                    "text": [
+                        "You see the purple dumbass. It doesn’t look like he has a mouth. Though even if he did you don’t really wanna talk to him.",
+                        "What the hell is he doing over there? Stupid fuck."
+                    ]
+                },
+                {
+                    "link": "/0286",
+                    "title": "==>",
+                    "images": ["0347"],
+                    "text": [
+                        "To your right you can see the blue lady, what’s her name? You’re not sure she ever introduced herself. In fact she barely says anything… and what the hell is she doing encased in obsidian?",
+                        "What a weirdo… wait a second."
+                    ]
+                },
+                {
+                    "link": "/0287",
+                    "title": "ALLEY: FOCUS INTENTLY ON LIPS",
+                    "images": ["0348"],
+                    "text": [
+                        "Bingo!"
+                    ]
+                },
+                {
+                    "link": "/0288",
+                    "title": "ALLEY: APPROACH",
+                    "images": ["0349"],
+                    "text": [
+                        "You approach the blue babe, heaving Pumk over your head. Damn girl’s heavier than she looks."
+                    ]
+                },
+                {
+                    "link": "/0289",
+                    "title": "ALLEY: MAKE NEW DEMAND",
+                    "images": ["0350"],
+                    "text": [
+                        "KISS THE DEAD GIRL ON THE LIPS! You say, demandingly.",
+                        "The blue lady leans back, clearly uncomfortable about the demand.",
+                        "You say “Kiss her, do it! You need to do it!” and she shakes her head and says “I can’t”",
+                        "You ask her why and she says “I’m not good with intimacy!”"
+                    ]
+                },
+                {
+                    "link": "/0290",
+                    "title": "==>",
+                    "images": ["0351"],
+                    "text": [
+                        "You can’t believe what you’re hearing right now. This blue bitch can’t kiss a girl who isn’t even alive? That doesn’t make any sense!",
+                        "She doesn’t seem like she’s going to change her mind. It’s time to get serious."
+                    ]
+                },
+                {
+                    "link": "/0291",
+                    "title": "ALLEY: PUMK THRUST",
+                    "images": ["0352"],
+                    "text": [
+                        "You thrust Pumk towards the blue bitch. What, you thought it was something else? Get your mind outta the graveyard kiddo!",
+                        "The blue bitch is pretty good at dodging for someone stuck in a rock, you’re gonna have to kick it up a notch."
+                    ]
+                },
+                {
+                    "link": "/0292",
+                    "title": "ALLEY: PUMK FLAIL",
+                    "images": ["0353"],
+                    "text": [
+                        "This is going nowhere."
+                    ]
+                },
+                {
+                    "link": "/0293",
+                    "title": "ALLEY: OOP",
+                    "images": ["0354"],
+                    "text": [
+                        "You jump Oop into the air."
+                    ]
+                },
+                {
+                    "link": "/0294",
+                    "title": "==>",
+                    "images": ["0355"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0295",
+                    "title": "TIKI: RUN AWAY",
+                    "images": ["0356"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0296",
+                    "title": "==>",
+                    "images": ["0357"],
+                    "text": [
+                        "You fail to run away."
+                    ]
+                },
+                {
+                    "link": "/0297",
+                    "title": "ALLEY: SLAM",
+                    "images": ["0358"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0298",
+                    "title": "ALLEY: DUNK",
+                    "images": ["0359"],
+                    "text": [
+                        "You dunk the pumk."
+                    ]
+                },
+                {
+                    "link": "/0299",
+                    "title": "==>",
+                    "images": ["0360"],
+                    "text": [
+                        "You are now TIKI. A pumpkin girls face is laying on top of yours. Something smoulders within. You were anxious about being so close to another person. Even if that person is essentially a vegetable right now.",
+                        "But now that you’re here, it isn’t so bad.",
+                        "You feel relieved, you might even…"
+                    ]
+                },
+                {
+                    "link": "/0300",
+                    "title": "TIKI: BREATHE SIGH OF RELIEF",
+                    "images": ["0361"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0301",
+                    "title": "==>",
+                    "images": ["0362"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0302",
+                    "title": "==>",
+                    "images": ["0363"],
+                    "text": [
+                        "Pumk staggers back as her fire starts burning again. Gee that was a real roundabout way of having that happen."
+                    ]
+                },
+                {
+                    "link": "/0303",
+                    "title": "==>",
+                    "images": ["0364"],
+                    "text": [
+                        "You watch as Pumk gets to her feet. She feels around her face, clearly a little unsure of what just happened. You wonder if she’ll remember that moments ago you were touching mouths.",
+                        "You’re still Tiki by the way."
+                    ]
+                },
+                {
+                    "link": "/0304",
+                    "title": "==>",
+                    "images": ["0365"],
+                    "text": [
+                        "Ooh she’s mad, she’s very mad. She definitely remembered!"
+                    ]
+                },
+                {
+                    "link": "/0305",
+                    "title": "TIKI: COWER",
+                    "images": ["0366"],
+                    "text": [
+                        "You cower as fast as you can! There’s not much else you can do in this position anyway and getting slam dunked so hard that the obsidian rock restraining you was smashed into bits didn’t do your limbs any favours."
+                    ]
+                },
+                {
+                    "link": "/0306",
+                    "title": "ALLEY: ONLOOK",
+                    "images": ["0367"],
+                    "text": [
+                        "You become an onlooker to the events transpiring out of frame. Finally you can relax again, that was really stressful for a minute there.",
+                        "You instinctively hold your electronic slab that you don’t have anymore."
+                    ]
+                },
+                {
+                    "link": "/0307",
+                    "title": "==>",
+                    "images": ["0368"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0308",
+                    "title": "==>",
+                    "images": ["0369"],
+                    "text": [
+                        "Ohh…"
+                    ]
+                },
+                {
+                    "link": "/0309",
+                    "title": "==>",
+                    "images": ["0370"],
+                    "text": [
+                        "Well at least she’s alive again….",
+                        "She’s paying for a new one though."
+                    ]
+                },
+                {
+                    "link": "/0310",
+                    "title": "BAIL JAPE: FINALE",
+                    "images": [""],
+                    "text": [
+                        "You watch the above video, making sure to like, comment and subscribe and SUH-MASH that notification bell right afterwards.",
+                        "Wait, Bail Jape Finale? Why is this called “Finale”? We’re not quite done yet…"
+                    ]
+                },
+                {
+                    "link": "/0311",
+                    "title": "==>",
+                    "images": ["0371"],
+                    "text": [
+                        "The DEMON has suffered a painful EYE-WOUND thanks to Pumks fanciful paperclip javelin technique. It is not defeated, however, and it wraps a tendril around the weapon, readying itself to PULL IT OUT.",
+                        "Not sure why i bothered explaining that honestly, the picture does most of the work. "
+                    ]
+                },
+                {
+                    "link": "/0312",
+                    "title": "DEMON: PULL IT OUT",
+                    "images": ["0372"],
+                    "text": [
+                        "You tug on the paperclip javelin, black sticky blood spills out from your WOUND, OWCH!",
+                        "It may hurt, but nothing is more damaged than your PRIDE. Actually no, this really hurts, you better do something about it, quick."
+                    ]
+                },
+                {
+                    "link": "/0313",
+                    "title": "DEMON: DO SOMETHING ABOUT IT, QUICK",
+                    "images": ["0373","0374"],
+                    "text": [
+                        "You ate the paperclip javelin, ruining it. When you thought to do something about “it, quick” you actually were thinking about the WOUND, but you suppose your pain-induced rage caused a momentary shift in priorities.",
+                        "Little do you know that you actually were not worried about the WOUND at all and ignored it because of what you KNEW was about to happen.",
+                        "This is confusing, even for you, i mean me, which is you currently. That paperclip really did some damage it seems."
+                    ]
+                },
+                {
+                    "link": "/0314",
+                    "title": "WOUND: HEAL",
+                    "images": ["0375","0376"],
+                    "text": [
+                        "You can’t be a wound! Why does everything think they can just BE abstract concepts?! It’s ridiculous, a wound is not an entity in and of itself, it relies entirely on being inflicted on a living creature!",
+                        "Anyway it’s gone, the power of the JEWEL OF SPLISH has healed it into oblivion and rendered it wholly unimportant to the story, it’s almost as if there was no WOUND at all! There, see how long you would have lasted if you were that wound? No time at all, that’s how long!"
+                    ]
+                },
+                {
+                    "link": "/0315",
+                    "title": "PUMK: CONSIDER NEXT MOVE",
+                    "images": ["0377"],
+                    "text": [
+                        "You consider considerably. The DEMON has taken everything you’ve thrown at it, even all of Tikis potions. You don’t have a weapon anymore either. How are you gonna defeat this thing?",
+                        "Also why is it so gross? It was so cute before…"
+                    ]
+                },
+                {
+                    "link": "/0316",
+                    "title": "==>",
+                    "images": ["0378"],
+                    "text": [
+                        "Wait, it’s doing something new. A dark aura surrounds it…",
+                        "I just can’t get over how GROSS it is now, i mean gourd damn how many teeth do you even NEED?!"
+                    ]
+                },
+                {
+                    "link": "/0317",
+                    "title": "DEMON: MESMERISE",
+                    "images": ["0379","0380"],
+                    "text": [
+                        "You cast your MESMERISE spell. Those fools are yours now!"
+                    ]
+                },
+                {
+                    "link": "/0318",
+                    "title": "PUMK: SCOFF",
+                    "images": ["0381"],
+                    "text": [
+                        "You scoff. This again? Doesn’t this mangled heap of tusks and tentacles even remember that you DON’T HAVE EYEBALLS?",
+                        "It doesn’t affect you in the slightest, how pathetic, if this is all it has up its sleeve then- huh?"
+                    ]
+                },
+                {
+                    "link": "/0319",
+                    "title": "==>",
+                    "images": ["0382","0383","0384"],
+                    "text": [
+                        "What is she doing holding your arm? I mean, you guess she’s cool, she did good in that fight and defended you and shit but you’re not really a hands-holdy sorta girl so…",
+                        "You tell her to… uh… oh.",
+                        "She’s fucking mesmerised isn’t she?",
+                        "You feel a tug at your leg."
+                    ]
+                },
+                {
+                    "link": "/0320",
+                    "title": "PUMK: INVESTIGATE LEG TUG",
+                    "images": ["0385"],
+                    "text": [
+                        "NO! NOT ALLEY OOP!",
+                        "ANYTHING BUT FAIR ALLEY OOP!",
+                        "Hehe she looks pretty funny down there."
+                    ]
+                },
+                {
+                    "link": "/0321",
+                    "title": "DEMON: VIVIFY",
+                    "images": ["0386","0387","0388","0389"],
+                    "text": [
+                        "You forcibly VIVIFY your ostrich peons so that they may rise again to fight immediately."
+                    ]
+                },
+                {
+                    "link": "/0322",
+                    "title": "PUMK: RETALIATE",
+                    "images": ["0390","0391"],
+                    "text": [
+                        "You cannot retaliate in this position. You are exhausted from fighting, Tiki has you in a PUMPKIN LOCK and…",
+                        "Alley Oop has tied your legs into a knot?",
+                        "Why is this a thing that she does?!"
+                    ]
+                },
+                {
+                    "link": "/0323",
+                    "title": "==>",
+                    "images": ["0392","0393"],
+                    "text": [
+                        "Wow.. Is this really it? There’s no way that you can escape. That Demon piece of shit can just blast you with water again.",
+                        "You don’t want to be blasted with water again."
+                    ]
+                },
+                {
+                    "link": "/0324",
+                    "title": "DEMON: BLAST HER WITH WATER AGAIN",
+                    "images": ["0394"],
+                    "text": [
+                        "You sure will! But you will hold off for a few moments to savour her eternal dousing.",
+                        "Hehehehehehehehehehehehehehehehehehehe ok that’s about enough savouring, time to SPLISH!"
+                    ]
+                },
+                {
+                    "link": "/0325",
+                    "title": "==>",
+                    "images": ["0395"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0326",
+                    "title": "==>",
+                    "images": ["0396"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0327",
+                    "title": "SIBI: YOINK",
+                    "images": ["0397"],
+                    "text": [
+                        "You already did the YOINK! Now it is time to do the RUN!"
+                    ]
+                },
+                {
+                    "link": "/0328",
+                    "title": "OSTRICHES: COMPARTMENTALISE",
+                    "images": ["0398"],
+                    "text": [
+                        "You do this with ease, it is easy for you now that the influence of the JEWEL of SPLISH has ended."
+                    ]
+                },
+                {
+                    "link": "/0329",
+                    "title": "TIKI: SNAP OUT OF IT",
+                    "images": ["0399","0400"],
+                    "text": [
+                        "You snap so far out of it that you snap yourself out of consciousness. Alley also does this. Guys this is not the best time…"
+                    ]
+                },
+                {
+                    "link": "/0330",
+                    "title": "CEILING: COLLAPSE",
+                    "images": ["0401"],
+                    "text": [
+                        "You begin to collapse because of the extreme damage that has been done to you over the course of the last few hours.",
+                        "This was always going to happen but only now when it is convenient for the narrative does it actually begin."
+                    ]
+                },
+                {
+                    "link": "/0331",
+                    "title": "==>",
+                    "images": ["0402"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0332",
+                    "title": "SIBI: RUN RIGHT INTO A TORRENT OF LAVA AND DIE INSTANTLY",
+                    "images": ["0403","0404"],
+                    "text": [
+                        "HOLY SHIT!",
+                        "Thank goodness you saw that, you would have run right into that torrent of lava and died instantly if you hadn’t."
+                    ]
+                },
+                {
+                    "link": "/0333",
+                    "title": "==>",
+                    "images": ["0405","0406"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0334",
+                    "title": "==>",
+                    "images": ["0407"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0335",
+                    "title": "==>",
+                    "images": ["0408"],
+                    "text": [
+                        "You are now Pumk. You kick this purple idiot out of the way of the rapidly approaching bloodthirsty demon."
+                    ]
+                },
+                {
+                    "link": "/0336",
+                    "title": "PUMK: STARE INTO THE MAW OF THE BEAST",
+                    "images": ["0409"],
+                    "text": [
+                        "You stand your ground in a truly EPIC fashion. Aw hell yeah you probably look really cool from behind right now…",
+                        "Wait this was a stupid idea, you should probably have moved, you’re going to die."
+                    ]
+                },
+                {
+                    "link": "/0337",
+                    "title": "PUMK: DIE",
+                    "images": ["0410"],
+                    "text": [
+                        "“NOT TODAY”! say the snakes.",
+                        "Well they don’t actually say that, they can’t speak and instead go “SSSSSS”. But their actions speak far louder than words could ever hope to."
+                    ]
+                },
+                {
+                    "link": "/0338",
+                    "title": "==>",
+                    "images": ["0411"],
+                    "text": [
+                        "“GRRRRRAAAAAAAAOOOUUOOUOAOAOUOWWRRRLLLLLL!”"
+                    ]
+                },
+                {
+                    "link": "/0339",
+                    "title": "==>",
+                    "images": ["0412","0413","0414","0415"],
+                    "text": [
+                        "Them snakes are alright."
+                    ]
+                },
+                {
+                    "link": "/0340",
+                    "title": "PUMK: GET OUTTA THERE",
+                    "images": ["0416"],
+                    "text": [
+                        "Before you get outta there you decide to pick up your friends first.",
+                        "Well.. one of them is your friend.. i guess they’re both your friends now? You’re not sure. You’re not going to let them burn to death at least. You don’t care about them of course, no way, you’re just taking the moral high-ground here, that’s all."
+                    ]
+                },
+                {
+                    "link": "/0341",
+                    "title": "==>",
+                    "images": ["0417"],
+                    "text": [
+                        "Ok, no time to think, move!"
+                    ]
+                },
+                {
+                    "link": "/0342",
+                    "title": "PUMK: NOW GET OUTTA THERE",
+                    "images": ["0418","0419","0420"],
+                    "text": [
+                        "You are now OUTTA THERE and instead you are HERE.",
+                        "Hey, there’s that Y from earlier! and that tower! What happened over here?",
+                        "You guess it doesn’t matter. What’s important right now is finding a way OUTTA HERE."
+                    ]
+                },
+                {
+                    "link": "/0343",
+                    "title": "ALLEY: WAKE UP",
+                    "images": ["0421","0422","0423"],
+                    "text": [
+                        "Ah, geez."
+                    ]
+                },
+                {
+                    "link": "/0344",
+                    "title": "==>",
+                    "images": ["0424"],
+                    "text": [
+                        "AH GEEZ!"
+                    ]
+                },
+                {
+                    "link": "/0345",
+                    "title": "==>",
+                    "images": ["0425"],
+                    "text": [
+                        "You are now Sibi and you’re very thankful to have this Y to cling to. This is a pretty sticky situation but you’be been in stickier.",
+                        "As long as you’ve got your prize jewel that’s all that matters."
+                    ]
+                },
+                {
+                    "link": "/0346",
+                    "title": "==>",
+                    "images": ["0426"],
+                    "text": [
+                        ""
+                    ]
+                },
+                {
+                    "link": "/0347",
+                    "title": "==>",
+                    "images": ["0427"],
+                    "text": [
+                        "NONONONONONONONONO!"
+                    ]
+                },
+                {
+                    "link": "/0348",
+                    "title": "==>",
+                    "images": ["0428"],
+                    "text": [
+                        "NONONONONONONONONONONONONONONONONO!"
+                    ]
+                },
+                {
+                    "link": "/0349",
+                    "title": "==>",
+                    "images": ["0429","0431","0432","0433","0434"],
+                    "text": [
+                        "NONONONONONONONONONONONONONONONONONONONO!",
+                        "NONONONONONONONONONONONONONONONONONONONONO!",
+                        "HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?",
+                        "WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?",
+                        "Oh it’s fine."
+                    ]
+                },
+                {
+                    "link": "/0350",
+                    "title": "EVERYONE: LAND SAFELY",
+                    "images": ["0435"],
+                    "text": [
+                        "Everyone lands safely on the cooled lava. The JEWEL OF SPLISH appears to have an aura of cooling. But not SO cool that it extinguishes jack-o-lanterns, how convenient."
+                    ]
+                },
+                {
+                    "link": "/0351",
+                    "title": "TIKI: WAKE UP",
+                    "images": ["0436","0437"],
+                    "text": [
+                        "You come to. Where are you? What happened?",
+                        "The reader knows, but they’ll never tell.",
+                        "Your head is spinning, you appear to have been out of it for a few minutes. Your “vessel” on this lava sea appears to have drifted far from the cathedral, you can see it in the distance.",
+                        "Dang… that place is TRASHED."
+                    ]
+                },
+                {
+                    "link": "/0352",
+                    "title": "==>",
+                    "images": ["0438"],
+                    "text": [
+                        "Epic.",
+                        "This seems like a perfect place to end…",
+                        "But there’s something you’ve spotted off to the side. You being Pumk btw, sorry i forgot to mention when you switched perspectives.",
+                        "And by “I” i mean me, not Pumk, or you, who is Pumk right now."
+                    ]
+                },
+                {
+                    "link": "/0353",
+                    "title": "PUMK: LOOK AT THE THING YOU’VE SPOTTED",
+                    "images": ["0439"],
+                    "text": [
+                        "Why wouldn’t you be looking at the thing you’ve spotted? That’s what spotting IS.",
+                        "It’s the Y from earlier, it appears to have been drifting around and you’re about to drift past each other.",
+                        "You feel like rescuing those snakes stuck on it.",
+                        "“Y”? you ask? Hehehe, that’s actually really funny."
+                    ]
+                },
+                {
+                    "link": "/0354",
+                    "title": "==>",
+                    "images": ["0440"],
+                    "text": [
+                        "Hey there little guy, you got him.",
+                        "Remember when you were scared of snakes? In fact you were scared of THESE SNAKES IN PARTICULAR.",
+                        "That feels like it was a whole year and three months ago, how time flies when you’re engaging in japery on bail.",
+                        "You don’t even know what bail IS."
+                    ]
+                },
+                {
+                    "link": "/0355",
+                    "title": "PUMK: COLLECT SNAKES",
+                    "images": ["0441"],
+                    "text": [
+                        "Hell yeah!"
+                    ]
+                },
+                {
+                    "link": "/0356",
+                    "title": "BAIL JAPE: END",
+                    "images": ["0442"],
+                    "text": [
+                        "And as the lava currents pull them away from the camera, we say goodbye to this strange collection of idiots.",
+                        "Where are they going? Noone knows. I mean, I know, i’m the author. But THEY have no idea at all.",
+                        "But that’s another story entirely, one with more characters, locations, perhaps even speech bubbles???",
+                        "One thing’s for sure, this is not the last we’ll see of Sibi, Tiki Wikimikimau (oh yeah, that’s what her full name was), Alley Oop and Pumk.",
+                        "And those two snakes as well.",
+                        "But BAIL JAPE is over for now and i suppose i should stop pussyfooting around, and say",
+                        "THE END"
+                    ]
+                }
             ]
         }
 
