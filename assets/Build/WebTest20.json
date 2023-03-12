@@ -1,0 +1,13 @@
+{
+"companyName": "Charlie Batten",
+"productName": "Run Away From Snakes",
+"dataUrl": "WebTest20.data.unityweb",
+"asmCodeUrl": "WebTest20.asm.code.unityweb",
+"asmMemoryUrl": "WebTest20.asm.memory.unityweb",
+"asmFrameworkUrl": "WebTest20.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

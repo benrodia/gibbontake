@@ -2,6 +2,6 @@
         $path = "../../../";
         include($path.'head.php');
         include($path.'reader.php'); 
-        echo reader($path,'Bail Jape',257);
+        echo reader($path,'Bail Jape',256);
         include($path.'foot.php');
     ?>

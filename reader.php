@@ -99,6 +99,10 @@
         return $content;
     }
 
+    function getIframe($url) {
+        return "<iframe src='".$url."' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
+    }
+
     function reader($dir, $comic_name, $page_index) {
         $data = json_decode(file_get_contents($dir.'/data.json'), true);
 
@@ -131,14 +135,13 @@
             $imgs = ''; $prompt = '';
             $content .= "<main id='reader' class='cyoa'><div class='inner'>
                 <h3 class='title'>".$page['title']."</h3>";
-
+            $has_prompt = false;
             if(isset($page['content'])) {
                 $content .= "<div class='text'>";
                 foreach($page['content'] as $media) {
                     if(isset($media['url'])) $content .= "<a href='".$media['url']."' target='_'>";
                     if(isset($media['link'])) $content .= "<a href='".$dir.$comic['page_dir'].$media['link']."'>";
-                    if(isset($media['iframe'])) $content .= "<iframe src='".$media['iframe']."&origin="."fuck"."'></iframe>";
-                    // if(isset($media['iframe'])) $content .= $media['iframe']."&origin=".__DIR__;
+                    if(isset($media['iframe'])) $content .= getIframe($media['iframe']);
                     if(isset($media['game'])) {
                         $content .= getGame($dir.$media['game']['dir']);
                     }
@@ -147,7 +150,10 @@
                         $content .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".($fn||$media['image'])."'/>";
                     }
                     if(isset($media['text'])) $content .= "<p>".$media['text']."</p>";
-                    if(isset($media['prompt'])) $content .= "<span class='prompt'>".$media['prompt']."</span>";
+                    if(isset($media['prompt'])) {
+                        $content .= "<span class='prompt'>".$media['prompt']."</span>";
+                        $has_prompt = true;
+                    }
                     
                     if(isset($media['link'])||isset($media['url'])) $content .= "</a>";
                 }
@@ -159,8 +165,9 @@
                 $prompt .= "<a href='".$dir.$comic['page_dir'].$pr['link']."' class='prompt'>" . 
                     $pr['text'] .
                 "</a>";
+                $has_prompt = true;
             }
-            else {
+            if(!$has_prompt) {
                 $next_index = $page_index + 1;
                 $has_next = count($comic['pages']) > $next_index;
                 if($has_next) {
@@ -170,8 +177,8 @@
                     "</a>";
                 }
             }
-            // if(isset($page['iframe'])) $content .= "<iframe src='".$page['iframe']."'></iframe>";
-            if(isset($page['iframe'])) $content .= "<iframe src='".$page['iframe']."&origin=".__DIR__."'></iframe>";
+            
+            if(isset($page['iframe'])) $content .= getIframe($page['iframe']);
 
             if(isset($page['images'])) foreach($page['images'] as $img_num) {
                 $fn = find_image($dir.$comic['image_dir'],$img_num);
