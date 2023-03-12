@@ -39,11 +39,14 @@
     // events: the list of all events. otherwise inaccessable from inside its declaration.
     // quests: the list of all quests. otherwise inaccessable from inside its declaration.
 
+
+
+
 const interact = [
     {
         condition: (arg,state) => state.click,
         action: (arg) => {
-            react("ok ill go",2000,'neutral',true)
+            react("ok ill go", 2000, 'neutral', true)
             slink()
             if(arg.dismissed<4) arg.corner++
             else arg.corner = 0

@@ -327,6 +327,9 @@ footer {
     color: var(--text-color-highlight);
 }
 
+#gameContainer {
+    margin: 2rem auto !important;
+}
 
 .lazy-nav {
     display: flex;

@@ -88,6 +88,17 @@
     ";
     }
 
+    function getGame($dir) {
+        $content = "<div id='gameContainer' style='width: 800px; height: 600px; margin: auto'></div>";
+        $content .= "<script src='".$dir."/UnityLoader.js'></script>";
+        $content .= "
+        <script>
+            var gameInstance = UnityLoader.instantiate('gameContainer', '".$dir."/WebTest20.json');
+        </script>
+        ";
+        return $content;
+    }
+
     function reader($dir, $comic_name, $page_index) {
         $data = json_decode(file_get_contents($dir.'/data.json'), true);
 
@@ -122,21 +133,25 @@
                 <h3 class='title'>".$page['title']."</h3>";
 
             if(isset($page['content'])) {
+                $content .= "<div class='text'>";
                 foreach($page['content'] as $media) {
-                    if(isset($media['url'])) $content .= "<a href='".$media['url']."'>";
+                    if(isset($media['url'])) $content .= "<a href='".$media['url']."' target='_'>";
                     if(isset($media['link'])) $content .= "<a href='".$dir.$comic['page_dir'].$media['link']."'>";
                     if(isset($media['iframe'])) $content .= "<iframe src='".$media['iframe']."&origin="."fuck"."'></iframe>";
                     // if(isset($media['iframe'])) $content .= $media['iframe']."&origin=".__DIR__;
-
+                    if(isset($media['game'])) {
+                        $content .= getGame($dir.$media['game']['dir']);
+                    }
                     if(isset($media['image'])) {
                         $fn = find_image($dir.$comic['image_dir'],$media['image']);
                         $content .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".($fn||$media['image'])."'/>";
                     }
-                    if(isset($media['text'])) $content .= "<p class='text'>".$media['text']."</p>";
-                    if(isset($media['prompt'])) $content .= "<span class='text prompt'>".$media['prompt']."</span>";
+                    if(isset($media['text'])) $content .= "<p>".$media['text']."</p>";
+                    if(isset($media['prompt'])) $content .= "<span class='prompt'>".$media['prompt']."</span>";
                     
                     if(isset($media['link'])||isset($media['url'])) $content .= "</a>";
                 }
+                $content .= "</div>";
             }
 
 
@@ -164,11 +179,15 @@
                 $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".$fn."' />"; 
             }
             $text = '<div class="text">';
+
             if(isset($page['text'])) foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
             
             $text .= $prompt."</div>";
             $content .= $imgs .$text;   
-        
+            
+            if(isset($page['game'])) {
+                $content .= getGame($dir.$page['game']['dir']);
+            }
 
 
             $content .= "</div></main>";
