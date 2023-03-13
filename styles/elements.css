@@ -18,6 +18,7 @@ button {
     border: none;
     color: var(--bg-color-darker);
     background-color: var(--text-color-main);
+
 }
 
 button.active {

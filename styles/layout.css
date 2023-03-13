@@ -104,15 +104,22 @@ footer {
     gap: var(--pad);
     width: 100%;
 }
-
-#hero .comic-head {
-    background-color: black;
-    background-size: cover;
-    color: white;
+#hero .comic-cont {
     max-width: 100%;
     max-height: 70vh;
     aspect-ratio: 2 / 3;
-    
+}
+
+#hero .comic-head {
+    display: block;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    width: 30rem;
+    max-width: 100%;
+    max-height: 70vh;
+    aspect-ratio: 2 / 3;
+    background-size: cover;
     border-radius: .5rem;
 }
 
@@ -139,6 +146,24 @@ footer {
 #hero .comic-head:hover .pane {
     opacity: 1;
     backdrop-filter: blur(10px);
+}
+
+.merch.links {
+    display: flex;
+    gap: var(--pad);
+    margin-top: var(--pad);
+}
+
+.merch.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .25rem;
+}
+
+.merch.links .icon {
+    width: var(--fs-para);
+    height: var(--fs-para);
 }
 
 
@@ -258,7 +283,7 @@ footer {
     background-color: #000;
 }
 
-#reader img {
+#reader .imgs img {
     max-width: 100%;
     margin-bottom: 1rem;
     background-color: white;
@@ -278,9 +303,10 @@ footer {
     margin-bottom: .5rem;
 }
 
-#reader.simple img {
+#reader.simple .imgs {
     width: 90%;
 }
+
 #reader.cyoa {
     display: flex;
     justify-content: center;

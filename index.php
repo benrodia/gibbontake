@@ -19,6 +19,7 @@
 
             foreach($data['comics'] as $comic) {
                 if(!$comic['homepage']) continue;
+                echo "<div class='comic-cont'>";
                 echo "<a 
                     class='comic-head'
                     style='background-image: url(".$root.$comic['cover'].")'
@@ -31,6 +32,21 @@
                         echo "<p class='desc'>" . $p . "</p>";
                     }
                 echo "</div></a>";
+
+                if(isset($comic['merch'])) {
+                    echo "<div class='merch links'>";
+                    foreach($comic['merch'] as $merch) {
+                        echo "<a href='".$merch['url']."' target='_'>
+                        <button>
+                            <img src='".$root.$merch['icon']."' class='icon'/>"
+                            .$merch['text'].
+                        "</button>
+                        </a>";
+                    }
+                    echo "</div>";
+                }
+                echo "</div>";
+
             }
         ?>
 

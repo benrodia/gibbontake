@@ -41,7 +41,20 @@
                 </a>";
                 echo pageNavLazy($comic,false,'..');
             }
-            echo "</div></div></div></section>";
+            echo "</div>";
+            
+            if(isset($comic['merch'])) {
+                echo "<div class='merch links'>";
+                foreach($comic['merch'] as $merch) {
+                    echo "<a href='".$merch['url']."' target='_'>
+                        <img src='".$root.$merch['icon']."' class='icon'/>"
+                        .$merch['text'].
+                    "
+                    </a>";
+                }
+                echo "</div>";
+            }
+            echo "</div></div></section>";
         }
     ?>
 </main>

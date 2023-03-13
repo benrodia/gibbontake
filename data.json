@@ -53,6 +53,10 @@
             "format": "simple",
             "page_dir": "/comics/clarissa-gunsmoke",
             "image_dir": "/assets/comics/cg",
+            "merch": [
+                {"text":"Buy Print","url":"","icon":"/assets/icons/discord.png"},
+                {"text":"Buy Digital","url":"","icon":"/assets/icons/discord.png"}
+            ],
             "chapters": [
                 {   
                     "link": "/01",
