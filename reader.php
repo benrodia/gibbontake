@@ -198,7 +198,7 @@
                         $next_page['title'] .
                     "</a>";
                 }
-                $content .= jsNavigate($last_link,$next_link);
+                if(!isset($page['no_arrow_nav'])) $content .= jsNavigate($last_link,$next_link);
 
             }
             

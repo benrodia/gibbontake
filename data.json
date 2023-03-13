@@ -2195,6 +2195,7 @@
                 {
                     "link": "/0165",
                     "title": "[S] PUMK: RUN AWAY FROM SNAKES",
+                    "no_arrow_nav": true,
                     "content": [
                         {"text":"Ah, yes, nice and quiet, no snakes here. Look at that lovely fucked up architecture. The explosion you heard earlier seems to have shaken the whole cathedral. It seems to be holding together though."},
                         {"text":"Well, time to walk down this peaceful corridor totally uninterrup-"},
