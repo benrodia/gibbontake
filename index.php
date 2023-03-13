@@ -19,11 +19,12 @@
 
             foreach($data['comics'] as $comic) {
                 if(!$comic['homepage']) continue;
+                $link = $root . $comic['page_dir'] . get_publish_dates($comic,true);
                 echo "<div class='comic-cont'>";
                 echo "<a 
                     class='comic-head'
                     style='background-image: url(".$root.$comic['cover'].")'
-                    href=" . $root . $comic['page_dir'] . get_publish_dates($comic,true) . "  
+                    href=" . $link . "  
                 >   
                     <div class='pane'>
                         <h3>" . $comic['name'] . "</h3>
@@ -33,19 +34,21 @@
                     }
                 echo "</div></a>";
 
+
+                echo "<div class='under'><a href='".$link."' class='' ><button>Start Reading</button></a>";
+
                 if(isset($comic['merch'])) {
                     echo "<div class='merch links'>";
+
                     foreach($comic['merch'] as $merch) {
                         echo "<a href='".$merch['url']."' target='_'>
-                        <button>
                             <img src='".$root.$merch['icon']."' class='icon'/>"
                             .$merch['text'].
-                        "</button>
-                        </a>";
+                        "</a>";
                     }
                     echo "</div>";
                 }
-                echo "</div>";
+                echo "</div></div>";
 
             }
         ?>

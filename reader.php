@@ -131,7 +131,6 @@
          
         return "<main id='reader' class='simple'>" . 
             chapterNav($comic,$page_index) .
-            merch_links($dir,$comic,$page_index).
             $imgs .
             chapterNav($comic,$page_index) .
             merch_links($dir,$comic,$page_index).

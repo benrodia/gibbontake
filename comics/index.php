@@ -12,11 +12,11 @@
             } elseif(isset($comic['published'])) $published = $comic['published'];
 
             echo "<section class='comic'>
-            <h3>" . $comic['name'] . "</h3>
+            <h3>" . $comic['name'] . " (" . $published . ")</h3>
             <div class='inner'>
             <img src='../".$comic['cover']."' alt=".$comic['cover']."/>
-            <div class='info'>
-            <h4>" . $published . "</h4>";
+            
+            <div class='info'>";
             foreach($comic['description'] as $p) {
                 echo "<p class='desc'>" . $p . "</p>";
             }

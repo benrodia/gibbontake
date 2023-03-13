@@ -148,13 +148,21 @@ footer {
     backdrop-filter: blur(10px);
 }
 
+.comic-cont .under {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--pad);
+    padding: var(--pad) 0;
+}
+
 .merch.links {
     display: flex;
     gap: var(--pad);
-    margin-top: var(--pad);
 }
 
 .merch.links a {
+    text-decoration: underline;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -251,9 +259,8 @@ footer {
 #comics .chapters {
     display: flex;
     flex-flow: row wrap;
-    margin-top: var(--pad);
+    margin-top: 2rem;
     gap: .5rem;
-
 }
 
 #comics .comic {
@@ -277,17 +284,33 @@ footer {
     max-width: 15rem;
 }
 
+#comics .comic > .inner > .info .merch {
+    margin-top: 2rem;
+    justify-items: flex-end;
+}
+
 /* COMIC READER PAGE */
 
 #reader {
     background-color: #000;
 }
 
+
 #reader .imgs img {
     max-width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: var(--pad);
     background-color: white;
     min-height: 50%;
+}
+
+
+#reader .chapter-nav {
+    font-size: var(--fs-header);
+    margin-bottom: .5rem;
+}
+
+#reader .chapter-nav h3 {
+    text-align: center;
 }
 
 #reader .chapter-nav .links {
@@ -298,13 +321,10 @@ footer {
     align-items: center;
     gap: .5rem;
 }
-#reader .chapter-nav {
-    font-size: var(--fs-header);
-    margin-bottom: .5rem;
-}
 
 #reader.simple .imgs {
-    width: 90%;
+    width: 100%;
+    max-width: 80rem;
 }
 
 #reader.cyoa {
@@ -430,10 +450,11 @@ main#about {
 
 @media only screen and (min-width: 600px) {
     header {
+        right: 0;
         width: auto;
         font-size: 1.3rem;
         padding: .5rem 1rem;
-        align-items: flex-start;
+        align-items: flex-end;
         gap: 0;
         flex-flow: column;
     }
@@ -446,6 +467,7 @@ main#about {
     }
     
     .nav {
+        align-items: flex-end;
         flex-flow: column;
         gap: .5rem;
     }
