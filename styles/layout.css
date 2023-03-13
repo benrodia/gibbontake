@@ -43,17 +43,17 @@ header p {
     color: var(--text-color-light);
 }
 
-#nav {
+.nav {
     display: flex;
     flex-flow: row;
     gap: .5rem;
 }
 
-#nav .link a {
+.nav .link a {
     font-size: 1.2rem;
 }
 
-#nav .link.active {
+.nav .link.active {
     text-decoration: underline;
     color: var(--text-color-highlight);
 }
@@ -266,12 +266,11 @@ footer {
 }
 
 #reader .chapter-nav .links {
-    margin: var(--pad);
+    /* margin: var(--pad); */
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-
     gap: .5rem;
 }
 #reader .chapter-nav {
@@ -327,6 +326,15 @@ footer {
     color: var(--text-color-highlight);
 }
 
+#reader .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--pad);
+    padding: var(--pad);
+}
+
+
 #gameContainer {
     margin: 2rem auto !important;
 }
@@ -335,6 +343,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: var(--pad);
+    gap: var(--pad);
     font-size: var(--fs-header);
 }
 
@@ -410,12 +419,12 @@ main#about {
         font-size: 1.2rem;
     }
     
-    #nav {
+    .nav {
         flex-flow: column;
         gap: .5rem;
     }
     
-    #nav .link a {
+    .nav .link a {
         font-size: 1.4rem;
     }
     main {

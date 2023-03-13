@@ -103,6 +103,22 @@
         return "<iframe src='".$url."' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
     }
 
+    function merch_links($dir,$comic,$page) {
+        $content = "<div class='merch'>";
+        if(isset($comic['merch'])) {
+            foreach($comic['merch'] as $merch) {
+                $content .= "<a href='".$merch['url']."' target='_'><img class='icon' src='".$dir.$merch['icon']."' /></a>";
+            }
+        }
+        if(isset($page) && isset($page['merch'])) {
+            foreach($page['merch'] as $merch) {
+                $content .= "<a href='".$merch['url']."' target='_'><img class='icon' src='".$dir.$merch['icon']."' /></a>";
+            }          
+        }
+        $content = "</div>";
+        return $content;
+    }
+
     function reader($dir, $comic_name, $page_index) {
         $data = json_decode(file_get_contents($dir.'/data.json'), true);
 
@@ -168,14 +184,22 @@
                 $has_prompt = true;
             }
             if(!$has_prompt) {
+                $last_index = $page_index - 1;
+                $has_last = $last_index >= 0;
+                $last_link = $has_last ? $dir.$comic['page_dir'].$comic['pages'][$last_index]['link'] : null;
+
                 $next_index = $page_index + 1;
                 $has_next = count($comic['pages']) > $next_index;
+                $next_link = $has_next ? $dir.$comic['page_dir'].$comic['pages'][$next_index]['link'] : null;
+
                 if($has_next) {
-                    $next_page = $comic['pages'][$next_index];
+                    $next_page =$comic['pages'][$next_index];
                     $prompt = "<a href='".$dir.$comic['page_dir'].$next_page['link']."' class='prompt'>" . 
                         $next_page['title'] .
                     "</a>";
                 }
+                $content .= jsNavigate($last_link,$next_link);
+
             }
             
             if(isset($page['iframe'])) $content .= getIframe($page['iframe']);
@@ -195,11 +219,10 @@
             if(isset($page['game'])) {
                 $content .= getGame($dir.$page['game']['dir']);
             }
+            $content .= "<div class='links'>".pageNav($comic,$page_index).merch_links($dir,$comic,$page_index)."</div>";
 
 
             $content .= "</div></main>";
-            // if($has_next && !isset($page['prompts']))
-            //     $content .= jsNavigate(null,$dir.$comic['page_dir'].$next_page['link']);
         }
         
         if($comic['format'] == 'lazy') {
@@ -212,6 +235,8 @@
             $has_last = $last_index>=0;
             $last_link = $has_last ? $dir.$comic['page_dir']."/".clean(pathinfo($folder[$last_index])['filename']):null;            
             $prompt .= "<a href='".$last_link."' class='".($has_last?'':'disabled')."'>Last</a>";
+
+            $prompt .= pageNavLazy($comic,$page_index);
 
             $next_index = $page_index + 1;
             $has_next = count($folder) > $next_index;

@@ -30,7 +30,7 @@
             <h1><?php echo $data['info']['title']?></h1>
         </a>   
     </section>
-    <ul id="nav">
+    <ul class="nav">
         <?php 
             foreach($data['info']['pages'] as $page) {
                 $is_active = strpos($_SERVER['REQUEST_URI'],$root.$page['link'])!==false;
