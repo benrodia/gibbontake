@@ -1,10 +1,9 @@
 <?php
-    $root = '/gibbontake';
-    function get_data($dir = __DIR__) {
-        $json = file_get_contents($dir.'/data.json');
-        return json_decode($json, true);    
-    }
-    $data = get_data()
+    include('utils.php');
+    include('navigation.php');
+
+    $root = isLocalhost() ? '/gibbontake' : '';
+    $data = get_data();
 ?>
 
 <!DOCTYPE html>
@@ -20,25 +19,7 @@
     <link rel="icon" type="image/x-icon" href="<?php echo $root."/assets/icons/gib.ico" ?>">
 </head>
 <body>
-<div id="root_dummy" style="display: none"><?php echo $root ?></div>
 
+<!-- Site Header (navigation.js) -->
+<?php echo siteNav($root,$data) ?>
 
-<!-- NAVIGATION -->
-<header id='header'>
-    <section id="title">
-        <a href="<?php echo $root ?>">
-            <h1><?php echo $data['info']['title']?></h1>
-        </a>   
-    </section>
-    <ul class="nav">
-        <?php 
-            foreach($data['info']['pages'] as $page) {
-                $is_active = strpos($_SERVER['REQUEST_URI'],$root.$page['link'])!==false;
-                echo "<li class='link".($is_active?" active":'')."'>
-                    <a href='".$root.$page['link']."'>".$page['name']."</a>
-                    </li>";
-            }
-        ?>
-
-    </ul>
-</header>

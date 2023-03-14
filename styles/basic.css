@@ -8,7 +8,9 @@
     --text-color-main: #fff;
     --text-color-light: #999;
     --text-color-highlight: rgb(255, 210, 7);
+    --spad: .25rem;
     --pad: .5rem;
+    --bpad: 1rem;
     --para-width: 60rem;
     --fs-para: 1rem;
     --fs-header: 1.5rem;
@@ -21,7 +23,9 @@
 
 @media only screen and (min-width: 600px) {
     :root {
+        --spad: .5rem;
         --pad: 1rem;
+        --bpad: 2rem;
         --fs-para: 1.25rem;
         --fs-header: 2rem;
     }

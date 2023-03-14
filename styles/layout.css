@@ -20,6 +20,7 @@ header {
     padding: .5rem;
     font-size: 1rem;
     transition: top .3s ease;
+    border-radius: 0 0 0 .25rem;
 }
 
 header.conceal {
@@ -120,7 +121,7 @@ footer {
     max-height: 70vh;
     aspect-ratio: 2 / 3;
     background-size: cover;
-    border-radius: .5rem;
+    border-radius: .25rem;
 }
 
 #hero .comic-head .pane {
@@ -129,7 +130,7 @@ footer {
     height: 100%;
     background-color: rgba(0,0,0,.8);
     padding: var(--pad);
-    border-radius: .5rem;
+    border-radius: .25rem;
     transition: all .2s ease;
     overflow: hidden;
 }
@@ -153,12 +154,14 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: var(--pad);
-    padding: var(--pad) 0;
+    padding: var(--spad) 0 var(--bpad);
 }
 
 .merch.links {
     display: flex;
-    gap: var(--pad);
+    gap: .5rem;
+    /* padding: var(--spad); */
+    margin-top: var(--pad);
 }
 
 .merch.links a {
@@ -248,7 +251,7 @@ footer {
     background-color: var(--bg-color-darker);
     padding: var(--pad);
     margin-bottom: var(--pad);
-    border-radius: .5rem;
+    border-radius: .25rem;
 }
 
 #comics section > h3 {
@@ -259,7 +262,7 @@ footer {
 #comics .chapters {
     display: flex;
     flex-flow: row wrap;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     gap: .5rem;
 }
 
@@ -284,10 +287,6 @@ footer {
     max-width: 15rem;
 }
 
-#comics .comic > .inner > .info .merch {
-    margin-top: 2rem;
-    justify-items: flex-end;
-}
 
 /* COMIC READER PAGE */
 
@@ -496,8 +495,17 @@ main#about {
         columns: 20rem 6;
     }
     #comics .comic > .inner {
-        align-items: flex-start;
+        align-items: stretch;
         flex-flow: row nowrap;
+    }
+    #comics .comic .info {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+    }
+
+    .merch.links {
+        /* margin-top: 0; */
     }
 
 }
