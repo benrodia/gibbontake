@@ -21,6 +21,7 @@ header {
     font-size: 1rem;
     transition: top .3s ease;
     border-radius: 0 0 0 .25rem;
+    box-shadow: 0 0 var(--pad) rgba(0,0,0,.5);
 }
 
 header.conceal {
@@ -160,8 +161,10 @@ footer {
 .merch.links {
     display: flex;
     gap: .5rem;
-    /* padding: var(--spad); */
-    margin-top: var(--pad);
+}
+
+.comic .merch.links {
+   margin-top: var(--bpad);
 }
 
 .merch.links a {
@@ -262,7 +265,7 @@ footer {
 #comics .chapters {
     display: flex;
     flex-flow: row wrap;
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
     gap: .5rem;
 }
 
@@ -504,9 +507,10 @@ main#about {
         justify-content: space-between;
     }
 
-    .merch.links {
-        /* margin-top: 0; */
+    .comic .merch.links {
+        margin-top: var(--pad);
     }
+
 
 }
 
