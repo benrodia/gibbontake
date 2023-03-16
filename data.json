@@ -4113,9 +4113,63 @@
                         "No you idiot not the BOX, the BUTTON!"
                     ]
                 },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Push the BUTTON.",
+                    "images": ["0001"],
+                    "text": [
+                        "Jesus chriust you filthy slut! You don't do that you PUSH it!"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: PUSH the button.",
+                    "images": ["0001"],
+                    "text": [
+                        "That's the AIR you fat bitch! haha!"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Smooch the button.",
+                    "images": ["0001"],
+                    "text": [
+                        "OMG! hehehe!",
+                        "Ok enough fucking around."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Push the button down into the box so that it activates or whatever the fuck it does.",
+                    "images": ["0001"],
+                    "text": [
+                        "Wait hang on before we do that let's abruptly swoosh over to some other guy.",
+                        "This is a good time to be doing that."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Other guy: Enter name.",
+                    "images": ["0001"],
+                    "text": [
+                        "Enter name? Why would you need to do that? You're WORLD RENOWN ANIME CONNOISSEUR Digibro! Everyone knows who you are already."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Digibro: Be introduced.",
+                    "images": ["0001"],
+                    "text": [
+                        "Your name is DIGIBRO. You as previously mentioned are an ANIME CONNOISSEUR and as a result own a lot of ASSORTED ANIME MERCHANDISE. You are also an ALCOHOLIC which is HILARIOUS to all. You spend most of your time making YOUTUBE VIDEOS about ANIME, which are the BEST VIDEOS anyone could ever make, everybody loves them. You enjoy LIST-MAKING, to an AUTISTIC degree, no you're not being offensive this is quite accurate a description.",
+                        "You like to COLLECT things such as ANIME DVDs, ANIME BOOKS, ANIME VIDEO GAMES, ANIME BODY PILLOWS, ANIME SUNGLASSES, ANIME SWORDS, ANIME FOOD and ANIME BEER (known colloquially as \"sake\")",
+                        "Today you are supposed to be playing a very special VIDEO GAME with your group of friends, but you aren't sure what you're supposed to do and are waiting on instructions.",
+                        "In the meantime you can do whatever you like.",
+                        "What will you do?"
+                    ]
+                }
 
             ]
-        },
+        }
 
     ],
     "art": {
