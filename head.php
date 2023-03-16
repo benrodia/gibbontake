@@ -1,9 +1,10 @@
 <?php
-    $root = '/gibbontake';
+    //$root = '/gibbontake';
     function get_data($dir = __DIR__) {
         $json = file_get_contents($dir.'/data.json');
-        return json_decode($json, true);    
+        return json_decode($json, true);
     }
+
     $data = get_data()
 ?>
 
@@ -22,13 +23,16 @@
 <body>
 <div id="root_dummy" style="display: none"><?php echo $root ?></div>
 
-
+<?php 
+    $has_slash = strpos($root,'/') !== false;
+    $header_link = $has_slash ? $root : '/';
+?>
 <!-- NAVIGATION -->
 <header id='header'>
     <section id="title">
-        <a href="<?php echo $root ?>">
+        <a href="<?php echo $header_link?>">
             <h1><?php echo $data['info']['title']?></h1>
-        </a>   
+        </a>
     </section>
     <ul class="nav">
         <?php 
