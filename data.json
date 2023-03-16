@@ -3778,7 +3778,344 @@
                     ]
                 }
             ]
-        }
+        },
+        {
+            "name": "Horsestuck",
+            "description": [
+                "What if you read \"Homestuck\" by Andrew Hussie and you thought \"that was neat\"?",
+                "And what if you wanted to make your own version of Homestuck, starring you and your internet friends?",
+                "And what if you hosted that adventure on MSPAFanventures?",
+                "And what if that websites days were numbered?",
+                "And what if you then moved it to your own website?",
+                "And what if you read it?"
+            ],
+            "cover": "/assets/clarissa-gunsmoke-cover.png",
+            "homepage": false,
+            "completed": false,
+            "format": "cyoa",
+            "page_dir": "/comics/horsestuck",
+            "image_dir": "/assets/comics/hs",
+            "pages": [
+                {
+                    "link": "/0001",
+                    "title": "Horsestuck",
+                    "images": ["0001"],
+                    "text": [
+                        "A young man stands in his bedroom.",
+                        "That's pretty much all he's doing, i wonder why he's doing that? Doesn't he have things to do? What sort of loser stands still doing nothing but looking around as if he doesn't recognise his own room?",
+                        "Well perhaps there's a perfectly reasonable explanation for this odd behaviour, maybe he's tracking a fly, who knows? it's really a completely pointless transgression from the original point, this fucker is standing still.",
+                        "What is his name?"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Enter name.",
+                    "images": ["0001"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Try again.",
+                    "images": ["0001"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Continue Parroting.",
+                    "images": ["0001"],
+                    "text": [
+                        "Your name is GIBBON.",
+                        "You don't own a parrot but even if you did you don't know how you would continue one, you know what ENDING a parrot would mean, but that's just SICK, why would you even think about that?",
+                        "You have a variety of INTERESTS. You have a LUSCIOUS mane of hair. You really like DADROCK but you're totally OPEN to other forms of music. You have a YOUTUBE CHANNEL  but it ISN'T VERY GOOD. You also like playing GUITAR.",
+                        "What will you do?"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Inspect that pony plushie.",
+                    "images": ["0001"],
+                    "text": [
+                        "You gracefully hop into inspection distance of the plushie.",
+                        "This plushie is so choice you find yourself unwilling to touch it for fear of making it icky, so it usually sits on the bed.",
+                        "In fact it always sits on the bed. Ever since you put it there you've taken to sleeping on a pile of clothes on the floor, somehow you believe this is ok and not in any way retarded."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Do a backflip.",
+                    "images": ["0001"],
+                    "text": [
+                        "You do a totally rad hyperfloop off the chest, causing it to spring open."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Look inside the chest.",
+                    "images": ["0001"],
+                    "text": [
+                        "You peer inside the chest, inside it are a variety of THINGS, THINGS that may or may not be coming out of the chest anytime soon, THINGS that are important and THINGS that aren't or maybe they are, WHO KNOWS? You certainly don't.",
+                        "Man there sure are a lot of THINGS in here, how would you even be able to sort all the important THINGS from the non-important THINGS even if you DID know which THINGS were important? You could be there for hours sifting through all these THINGS, it'll be like scraping through a sea of legos trying to find all the cool pieces to make your spaceship with. Not that there are any actual legos among the THINGS in this chest, though you couldn't be totally certain, they could be buried underneath yet more THINGS.",
+                        "Goddamn that's a lot of THINGS..."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Take some THINGS already.",
+                    "images": ["0001"],
+                    "text": [
+                        "You take FOUR THINGS out of the chest, your notepad of AMAZING IDEAS, a LAZER POINTER, your HIPPO PLUSHIE and a copy of Hunter Davies's THE BEATLES, THE AUTHORISED BIOGRAPHY. These THINGS are definitely more THING than the other THINGS and are therefore worthy to be mentioned."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Examine Notepad.",
+                    "images": ["0001"],
+                    "text": [
+                        "Before you can examine your NOTEPAD you need to CAPTCHALOGUE it in your SYLLADEX, unfortunately your FETCH MODUS is set to ABSOLUTE FUCKING MYSTERY so you'll never be able to tell what'll come out, in this case calling for your NOTEPAD resulted in the BEATLES BIOGRAPHY emerging."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Examine Biography instead.",
+                    "images": ["0001"],
+                    "text": [
+                        "Well this book is pretty good anyway, you recall reading about the rough and tumble teddy boy gang that John Lennon used to head and how John and Paul wrote a bunch of songs on an empty top deck of a double decker bus. Now THOSE were the days, it would have been so cool to be present during that magical bus journey, nay even to have seen the very bus they rode, or to gaze upon the toupee of the bus driver who no doubt could hear them up there making what he would probably have called an AWFUL RACKET, little did he know that one day-",
+                        "oh.",
+                        "Looks like someone's trying to message you."
+
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Check your computer.",
+                    "images": ["0001"],
+                    "text": [
+                        "This is your COMPUTER. It's brand new actually which is why the desktop looks so bare.",
+                        "Usually it'd be full of bright, complex and interesting documents and programs. Alas you have only the BARE ESSENTIALS set up, you'll probably get 'round to everything else later.",
+                        "On your desktop is SONY VEGAS PRO which you use to make your shitty videos for your shitty YOUTUBE CHANNEL. Even though the videos always turn out TREMENDOUSLY shitty you make a point to own the \"PRO\" version, as an indicator to yourself that eventually your skills will match your equipment and when that happens it will be the greatest day of your life!",
+                        "But you didn't come here to make videos, you came here to answer a Skaipe message."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Answer the dang Skaipe message.",
+                    "images": ["0001"],
+                    "text": [
+                        "Skaipe log 1"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Check download progress.",
+                    "images": ["0001"],
+                    "text": [
+                        "You open up μHorse to check on your Horseload progress, the progress bar appears to have moved a little, or has it?. You wonder why they didn't build a percentage gauge into this thing, it would make it a lot easier to tell."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "====>",
+                    "images": ["0001"],
+                    "text": [
+                        "Skaipe log 2"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Notice.",
+                    "images": ["0001"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "====>",
+                    "images": ["0001"],
+                    "text": [
+                        "Looks like the internet connection is out, what an annoyance.",
+                        "Though maybe it's a blessing in disguise, you were kind of making a fool of yourself there. Though not that it matters, if you get the internet working again, they'll see everything you said anyway. It's an annoyance in disguise as a blessing in disguise as an annoyance.",
+                        "SO ANNOYING."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Rage push against the desk.",
+                    "images": ["0001"],
+                    "text": [
+                        "You violently shove yourself backwards and injure yourself like an idiot.",
+                        "What was that supposed to achieve? You sure are stupid getting all worked up over the internet being down for little more than 10 seconds, maybe you should just kill yourself.",
+                        "Yes, that's a good sane reaction."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Pick up the gun.",
+                    "images": ["0001"],
+                    "text": [
+                        "Well here we go."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Do the thing.",
+                    "images": ["0001"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "====>",
+                    "images": ["0001"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Wait.",
+                    "images": ["0001"],
+                    "text": [
+                        "Let's not do that.",
+                        "The internet usually turns itself back on within a few minutes, you should probably occupy yourself with less deadly activities until that happens."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Take the gun anyway.",
+                    "images": ["0001"],
+                    "text": [
+                        "You captchalogue the PLECTRUM, it will probably be useful later."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Go look at your guitar.",
+                    "images": ["0001"],
+                    "text": [
+                        "You go over to your guitar. You consider yourself to be PRETTY GOOD at it but not enough to be a professional.",
+                        "That's ok though, you're not sure you're cut out for a musicians life, your DAD was a musician and he told you how hard it used to be trying to get by.",
+                        "He has another job now and does music as a hobby, which seems like a more sustainable lifestyle and you feel like you're probably heading in that direction too.",
+                        "You used to have dreams of being the next big guitarist but eventually you realised that you weren't passionate enough to really practice hard.",
+                        "You decided making it a career isn't that important as long as you have fun with it.",
+                        "And it is fun."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Pluck dose strings.",
+                    "images": ["0001"],
+                    "text": [
+                        "You start plinkin' and plonkin' strammin' and strummin' and twiddling your G-string and fingering A minor and it feels RATHER PLEASANT."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Strike an original pose.",
+                    "images": ["0001"],
+                    "text": [
+                        "BWEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Captchalogue that sweet axe.",
+                    "images": ["0001"],
+                    "text": [
+                        "You store the \"sweet axe\" in your sylladex.",
+                        "Funny... you've never called it an \"Axe\" before, such a term is totally alien to your vocabulary, you wonder how you could even have thunk such a thing?",
+                        "Could this be a subtle yet relevant plot point? Perhaps it could even be a VERY IMPORTANT DETAIL that will definitely come up again in the future.",
+                        "Yes, you're 100% convinced that is the case."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Hide in that pile of clothing.",
+                    "images": ["0001"],
+                    "text": [
+                        "You're way ahead of you. Hiding in the clothing is clearly the next logical course of action."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Sniff clothing.",
+                    "images": ["0001"],
+                    "text": [
+                        "You sniff the pile of clothes that currently cocoon you. They definitely smell of something..."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "====>",
+                    "images": ["0001"],
+                    "text": [
+                        "Oh god.",
+                        "They smell awful up close.",
+                        "It's not surprising really, you were supposed to wash these a long time ago but you just never had the time, you swear!"
+                    ]
+                },{
+                    "link": "/0001",
+                    "title": "Gibbon: Remove all your clothes.",
+                    "images": ["0001"],
+                    "text": [
+                        "You captchalogue the clothes, thereby removing them. Except the ones you're wearing of course, those can probably last a few more days before you start to feel mildly uncomfortable in them."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Leave room.",
+                    "images": ["0001"],
+                    "text": [
+                        "You decide to leave the room, you could put the clothes in the washing device while you wait for the internet to turn back on. There's no time like this particular second right fucking now, as they say."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Quit hallucinating.",
+                    "images": ["0001"],
+                    "text": [
+                        "Oh shit, you aren't even there, how HIGH do you even have to BE to have not noticed this??",
+                        "How are you going to wash your gross stinky clothing now?"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Camera man: Zoom out.",
+                    "images": ["0001"],
+                    "text": [
+                        "You zoom the camera out so the audience can see more of what's going on, which is absolutely nothing at all because Gibbon is on a raft in the middle of the ocean you guess."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Camera man: Observe.",
+                    "images": ["0001"],
+                    "text": [
+                        "Well this isn't very interesting."
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Be doing something.",
+                    "images": ["0001"],
+                    "text": [
+                        "The only \"something\" you could be doing is inspecting the box with the big red button on top so that's exactly what you do.",
+                        "There's nothing unusual about the box apart from the GLARINGLY obvious big red button but you're discounting that because it's too obvious...",
+                        "But you're going to press it, i mean good lord look at that thing.",
+                        "You've been on this raft for like THREE YEARS or some shit, god dammit press the big red piece of shit button before i LOSE MY MIND!"
+                    ]
+                },
+                {
+                    "link": "/0001",
+                    "title": "Gibbon: Push the button.",
+                    "images": ["0001"],
+                    "text": [
+                        "No you idiot not the BOX, the BUTTON!"
+                    ]
+                },
+
+            ]
+        },
 
     ],
     "art": {
