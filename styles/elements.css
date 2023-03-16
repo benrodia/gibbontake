@@ -173,3 +173,10 @@ iframe {
     /* border-radius: 50%; */
     font-size: 1.25rem;
 }
+
+
+.code {
+    background-color: #000;
+    border-radius: .25rem;
+    padding: var(--pad);
+}

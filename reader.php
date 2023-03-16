@@ -56,6 +56,7 @@ function reader_cyoa($dir,$comic,$page_index) {
                 $content .= "<span class='prompt'>".$media['prompt']."</span>";
                 $has_prompt = true;
             }
+ 
             
             if(isset($media['link'])||isset($media['url'])) $content .= "</a>";
         }
@@ -95,9 +96,21 @@ function reader_cyoa($dir,$comic,$page_index) {
         $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='".$fn."' />"; 
     }
     $text = '<div class="text">';
+    if(isset($page['text'])) {
+        foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
+    }
+    if(isset($page['code'])) {
+        $text .= '<div class="code"><code>';
+        foreach($page['code'] as $p) {
+            if(is_string($p)) $text .= "<b>".$p."</b><br>";
+            elseif(isset($p['text'])) {
+                $color = isset($p['color']) ? $p['color'] : "";
+                $text .= "<b style='color:".$color."'>".$p['text']."</b><br>";
+            }
+        } 
+        $text .= '</code></div>';
+    }
 
-    if(isset($page['text'])) foreach($page['text'] as $p) $text .= "<p>".$p."</p>"; 
-    
     $text .= $prompt."</div>";
     $content .= $imgs .$text;   
     

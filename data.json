@@ -843,6 +843,11 @@
                     "link": "/0001",
                     "title": "BEGIN BAIL JAPE",
                     "images": ["0001"],
+                    "code": [
+                        {"text":"test red words","color":"red"},
+                        "GB: wtf dude",
+                        "DB: ikr, this code shit is wild"
+                    ],
                     "text": [
                         "You are PUMK, a wily pumpkin lass who don’t take no guff from no BIG CHEESE. You’re the coolest, don’t even think about questioning that, any residual dust motes of doubt in your mind that this GOURDGEOUS GAL is anything other than a PERFECT CHARACTER will be plucked viciously from your cold dead brain.",
                         "With you is ALLEY OOP, you don’t know who she is and you don’t give a SHIT, that’s how cool you are.",
