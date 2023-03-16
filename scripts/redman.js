@@ -112,7 +112,7 @@ const squish = _=> {
     const corner = corners[arg.corner] || corners[0]
     const scale = [(corner.left===0?1:-1),(corner.top===0?-1:1)]
     redman.style.translate = `${0} ${(state.size/2)*scale[1]}px`
-    redman.style.scale = scale.map((s,i)=>i?s*.2:s).join(' ')
+    redman.style.scale = scale.map((s,i)=>i?s*.2:s*1.5).join(' ')
     state.squished = true
     state.idle = 0
 }

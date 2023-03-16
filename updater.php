@@ -1,10 +1,8 @@
 <?php
+include('utils.php');
 include('reader.php');
 
-function get_data($dir = __DIR__) {
-    $json = file_get_contents($dir.'/data.json');
-    return json_decode($json, true);    
-}
+$data = get_data();
 
 function create_page($path, $contents) {
     $dir =  __DIR__ . $path;
@@ -25,7 +23,6 @@ function create_page($path, $contents) {
 }
 
 
-$data = get_data();
 
 function ass_reader($comic,$page,$ind) {
     $contents = "<?php 
@@ -37,6 +34,8 @@ function ass_reader($comic,$page,$ind) {
     ?>";
     create_page($comic['page_dir'].$page['link'],$contents);
 }
+
+
 echo "<a href='index.php'><button>Back home</button></a>";
 
 foreach ($data['comics'] as $comic) {
