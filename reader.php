@@ -13,8 +13,10 @@ function getIframe($url) {
 }
 
 function themeChanger($themes) {
-    $theme = is_array($themes) ? implode(',',$themes) : $themes;
-    return "<script>changeTheme('".$theme."')</script>";
+    $theme = '';
+    if(is_array($themes)) foreach($themes as $t) $theme .= "'".$t."', ";
+    else $theme .= "'".$themes."'";
+    return "<script>changeTheme([".$theme."])</script>";
 }
 
 function reader_simple($dir,$comic,$page_index) {
