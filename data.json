@@ -3,7 +3,7 @@
         "title": "Gibbontake",
         "subtitle": "COMICS AND SUCH",
         "description": [
-            "Hello, my name is Gibbontake and i am an artist of some kind.",
+            "Hello, my name is Gibbontake and i am an artist",
             "This website houses my webcomics, i hope you enjoy reading them."
         ],
         "headshot": "/assets/headshot.png",
@@ -89,7 +89,7 @@
             ],
             "cover": "/assets/the-lord-of-ghosts-cover.png",
             "homepage": true,
-            "completed": true,
+            "completed": false,
             "format": "simple",
             "page_dir": "/comics/lord-of-ghosts",
             "image_dir": "/assets/comics/log",
@@ -97,49 +97,49 @@
                 {
                     "link": "/01",
                     "name": "Chapter 1: Endless War",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 1,
                     "length": 20
                 },
                 {
                     "link": "/02",
                     "name": "Chapter 2: From bad to also bad",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 21,
                     "length": 19
                 },
                 {
                     "link": "/03",
                     "name": "Chapter 3: Endless Mud",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 40,
                     "length": 15
                 },
                 {
                     "link": "/04",
                     "name": "Chapter 4: Flowerhead's Base",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 55,
                     "length": 9
                 },
                 {
                     "link": "/05",
                     "name": "Chapter 5: Flowerhead vs Hippo",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 64,
                     "length": 10
                 },
                 {
                     "link": "/06",
                     "name": "Chapter 6: !Haunt",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 74,
                     "length": 10
                 },
                 {
                     "link": "/07",
                     "name": "Chapter 7: Giga",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 84,
                     "length": 10    
                 }
@@ -153,7 +153,7 @@
             "cover": "/assets/redman-cover.png",
             "homepage": false,
             "completed": true,
-            "published": 2018,
+            "published": 2019,
             "format": "lazy",
             "page_dir": "/comics/redman",
             "image_dir": "/assets/comics/rm"
@@ -165,7 +165,7 @@
                 "What, you though you could control Pumk? Nobody can do that.",
                 "Except for that one page where it’s literally a video game where you control Pumk."
             ],
-            "cover": "/assets/cannon-story-cover.png",
+            "cover": "/assets/bailjape-cover.png",
             "homepage": true,
             "completed": true,
             "published": 2018,
@@ -249,10 +249,12 @@
                 {
                     "link": "/0009",
                     "title": "PUMK: BE A STRONG FEMALE CHARACTER AND BEND THOSE BARS",
-                    "images": ["0009","0010"],
-                    "text": [
-                        "You don’t need to BE a strong female character because you already are one. You grip the bars firmly and tuuAAHGH!",
-                        "The bars were SNAKES all along."
+                    "content":[
+                        {"image":"0009"},
+                        {"text": "You don’t need to BE a strong female character because you already are one. You grip the bars firmly and tuuAAHGH!"},
+                        {"image":"0010"},
+                        {"text":"The bars were SNAKES all along."}
+                        
                     ]
                 },
                 {
@@ -1544,14 +1546,14 @@
                         {"game":{"dir":"/assets/Build"}},
                         {"text":"CREDITS"},
                         {"text":"Thanks to Polystation 2 for creating the pumk model and Lateralyst for creating the music"},
-                        {"text":"and BIG thanks to Chuz for programming the game and also helping a lot with the web functionality (fuck wordpress.com)"},
+                        {"text":"and BIG thanks to Chuz for programming the game!"},
                         {"text":"This game can be PURCHASED over at his itch.io here: https://charlie-batten.itch.io/run-away-from-snakes"},
                         {"text":"https://charlie-batten.itch.io/run-away-from-snakes","url":"https://charlie-batten.itch.io/run-away-from-snakes"},
                         {"text":"Give him money, he deserves it."}
                     ]
                 },
                 {
-                    "link": "/0167",
+                    "link": "/0166",
                     "title": "==>",
                     "images": ["0213"],
                     "text": [
@@ -1580,7 +1582,7 @@
                 },
                 {
                     "link": "/0170",
-                    "title": "LITTLE GUY: MESMERISE",
+                    "title": "LITTLE GUY: MESMERISE (Seizure warning!)",
                     "images": ["0217"],
                     "text": [
                         "Ow! Geez. Does EVERYTHING in this comic have to induce epileptic fits? Calm down little guy."
@@ -1947,12 +1949,13 @@
                 {
                     "link": "/0213",
                     "title": "==>",
-                    "images": ["0269","0270"],
-                    "text": [
-                        "Psyche! You knew that he thought he could sneak up on you without you noticing, but you know better than that. What a silly purple boy.",
-                        "Grab an armful of “not-jewel” ya dingus!",
-                        "Oh darn, you sure hope that didn’t fuck up the computer any more than it already was."
-                    ]
+                    "content":[
+                        {"image":"0269"},
+                        {"text":"Psyche! You knew that he thought he could sneak up on you without you noticing, but you know better than that. What a silly purple boy."},
+                        {"text":"Grab an armful of “not-jewel” ya dingus!"},
+                        {"image":"0270"},
+                        {"text":"Oh darn, you sure hope that didn’t fuck up the computer any more than it already was."}
+                ]
                 },
                 {
                     "link": "/0214",
@@ -2284,7 +2287,7 @@
                     "title": "TIKI: USE RETARDING OIL",
                     "images": ["0318"],
                     "text": [
-                        "It’s FLAME retard oil, get it right.  You smash the bottle on your head, coating yourself in the oil making yourself immune to fire for a time. Now it makes sense how you were able to survive that massive explosion earlier."
+                        "It’s FLAME retarding oil, get it right.  You smash the bottle on your head, coating yourself in the oil making yourself immune to fire for a time. Now it makes sense how you were able to survive that massive explosion earlier."
                     ]
                 },
                 {
@@ -2891,11 +2894,12 @@
                 {
                     "link": "/0332",
                     "title": "SIBI: RUN RIGHT INTO A TORRENT OF LAVA AND DIE INSTANTLY",
-                    "images": ["0403","0404"],
-                    "text": [
-                        "HOLY SHIT!",
-                        "Thank goodness you saw that, you would have run right into that torrent of lava and died instantly if you hadn’t."
-                    ]
+                    "content":[
+                        {"image":"0403"},
+                        {"text":"HOLY SHIT!"},
+                        {"image":"0404"},
+                        {"text":"Thank goodness you saw that, you would have run right into that torrent of lava and died instantly if you hadn’t."}
+                ]
                 },
                 {
                     "link": "/0333",
@@ -3028,14 +3032,18 @@
                 {
                     "link": "/0349",
                     "title": "==>",
-                    "images": ["0429","0431","0432","0433","0434"],
-                    "text": [
-                        "NONONONONONONONONONONONONONONONONONONONO!",
-                        "NONONONONONONONONONONONONONONONONONONONONO!",
-                        "HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?",
-                        "WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?",
-                        "Oh it’s fine."
-                    ]
+                    "content":[
+                        {"image":"0429"},
+                        {"text":"NONONONONONONONONONONONONONONONONONONONO!"},
+                        {"image":"0431"},
+                        {"text":"NONONONONONONONONONONONONONONONONONONONONO!"},
+                        {"image":"0432"},
+                        {"text":"HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?"},
+                        {"image":"0433"},
+                        {"text":"WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?"},
+                        {"image":"0434"},
+                        {"text":"Oh it’s fine."}
+                ]
                 },
                 {
                     "link": "/0350",
@@ -3640,7 +3648,7 @@
                 {
                     "link": "/063",
                     "title": "BOY: EXAMINE WELL.",
-                    "images": ["101", "102", "103", "104"],
+                    "images": ["101", "103", "104"],
                     "text": [
                         "You look down the well and see your friend! it looks like he is trouble!"
                     ]
@@ -3734,7 +3742,7 @@
                 {
                     "link": "/074",
                     "title": "AB: TAKE MORE OF THIS CRAP.",
-                    "images": ["126", "127", "128", "129"],
+                    "images": ["126", "127", "129"],
                     "text": [
                         "You fail to take any more of this crap. Shoehorning in LORE? at this hour? Ridiculous, SHEESH in fact."
                     ]
@@ -3784,7 +3792,7 @@
                 "In slime city, noone can hear you bleed.",
                 "That doesn't explain the comic at all, but that's ok. I don't know how to."
             ],
-            "cover": "/assets/clarissa-gunsmoke-cover.png",
+            "cover": "/assets/red-noir-cover.png",
             "homepage": false,
             "completed": false,
             "published": 2019,
@@ -3795,7 +3803,7 @@
                 {   
                     "link": "/01",
                     "name": "Chapter 1",
-                    "year": 2020,
+                    "year": 2019,
                     "start": 1,
                     "length": 12
                 }
@@ -3808,7 +3816,7 @@
                 "A Pocket Boi Nuzlocke comic",
                 "I left in unfinished because i immediately got bored"
             ],
-            "cover": "/assets/clarissa-gunsmoke-cover.png",
+            "cover": "/assets/pocketbois-cover.png",
             "homepage": false,
             "completed": true,
             "published": 2018,
@@ -4033,7 +4041,7 @@
                 "And what if you then moved it to your own website in 2023?",
                 "And what if you read it?"
             ],
-            "cover": "/assets/clarissa-gunsmoke-cover.png",
+            "cover": "/assets/horsestuck-cover.png",
             "homepage": false,
             "completed": false,
             "format": "cyoa",
@@ -4124,13 +4132,13 @@
                 {
                     "link": "/0010",
                     "title": "Gibbon: Examine Biography instead.",
-                    "images": ["0011","0012"],
-                    "text": [
-                        "Well this book is pretty good anyway, you recall reading about the rough and tumble teddy boy gang that John Lennon used to head and how John and Paul wrote a bunch of songs on an empty top deck of a double decker bus. Now THOSE were the days, it would have been so cool to be present during that magical bus journey, nay even to have seen the very bus they rode, or to gaze upon the toupee of the bus driver who no doubt could hear them up there making what he would probably have called an AWFUL RACKET, little did he know that one day-",
-                        "oh.",
-                        "Looks like someone's trying to message you."
-
-                    ]
+                    "content":[
+                        {"image":"0011"},
+                        {"text":"Well this book is pretty good anyway, you recall reading about the rough and tumble teddy boy gang that John Lennon used to head and how John and Paul wrote a bunch of songs on an empty top deck of a double decker bus. Now THOSE were the days, it would have been so cool to be present during that magical bus journey, nay even to have seen the very bus they rode, or to gaze upon the toupee of the bus driver who no doubt could hear them up there making what he would probably have called an AWFUL RACKET, little did he know that one day-"},
+                        {"text":"oh."},
+                        {"image":"0012"},
+                        {"text":"Looks like someone's trying to message you."}
+                ]
                 },
                 {
                     "link": "/0011",
