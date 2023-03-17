@@ -126,7 +126,7 @@ const idle = [
                 "makes ya think, dunnit?",
                 "what am i EVEN talking about?",
         ]),4000)
-    },
+    }
 ]
 
 

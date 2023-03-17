@@ -20,6 +20,14 @@
     --bg-image: url("../assets/gib-abstract-bg.jpg");
 }
 
+:root .themed {
+    --bg-color-main: #345731;
+    --bg-color-darker: #ffa;
+    --text-color-main: #f32;
+    --text-color-light: #322;
+    --text-color-highlight: rgb(255, 210, 7);
+}
+
 
 @media only screen and (min-width: 600px) {
     :root {

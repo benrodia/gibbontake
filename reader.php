@@ -12,20 +12,26 @@ function getIframe($url) {
     return "<iframe src='".$url."' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>";
 }
 
+function themeChanger($themes) {
+    $theme = is_array($themes) ? implode(',',$themes) : $themes;
+    return "<script>changeTheme('".$theme."')</script>";
+}
+
 function reader_simple($dir,$comic,$page_index) {
     $chapter = $comic['chapters'][$page_index];
-
-    $imgs = "<div class='imgs'>";
+    $content = "<div class='imgs'>";
     for ($i=0; $i < $chapter['length']; $i++) { 
         $ind = $chapter['start'] + $i;
         $fn = find_image($dir.$comic['image_dir'],$ind);
-        $imgs .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='Page ".$ind."' />"; 
+        $content .= "<img src='".$dir.$comic['image_dir']."/".$fn."' alt='Page ".$ind."' />"; 
     }
-    $imgs .= "</div>";
+    $content .= "</div>";
+
+    if(isset($chapter['themes'])) $content .= themeChanger($chapter['themes']);
         
     return "<main id='reader' class='simple'>" . 
         chapterNav($comic,$page_index) .
-        $imgs .
+        $content .
         chapterNav($comic,$page_index) .
         merch_links($dir,$comic,$page_index).
         "</main>"
@@ -115,6 +121,7 @@ function reader_cyoa($dir,$comic,$page_index) {
     $content .= $imgs .$text;   
     
     if(isset($page['game'])) $content .= getGame($dir.$page['game']['dir']);
+    if(isset($page['themes'])) $content .= themeChanger($page['themes']);
 
     $content .= "<div class='links'>".pageNav($comic,$page_index).merch_links($dir,$comic,$page_index)."</div>";
     $content .= "</div></main>";

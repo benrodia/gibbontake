@@ -22,4 +22,5 @@
 
 <!-- Site Header (navigation.js) -->
 <?php echo siteNav($root,$data) ?>
+<script type="text/javascript" src="<?php echo $root."/scripts/main.js" ?>"></script>
 
