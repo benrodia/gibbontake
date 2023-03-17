@@ -3,7 +3,7 @@
         "title": "Gibbontake",
         "subtitle": "COMICS AND SUCH",
         "description": [
-            "Hello, my name is Gibbontake and i am an artist of some kind.",
+            "Hello, my name is Gibbontake and i am an artist",
             "This website houses my webcomics, i hope you enjoy reading them."
         ],
         "headshot": "/assets/headshot.png",
@@ -89,7 +89,7 @@
             ],
             "cover": "/assets/the-lord-of-ghosts-cover.png",
             "homepage": true,
-            "completed": true,
+            "completed": false,
             "format": "simple",
             "page_dir": "/comics/lord-of-ghosts",
             "image_dir": "/assets/comics/log",
@@ -97,49 +97,49 @@
                 {
                     "link": "/01",
                     "name": "Chapter 1: Endless War",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 1,
                     "length": 20
                 },
                 {
                     "link": "/02",
                     "name": "Chapter 2: From bad to also bad",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 21,
                     "length": 19
                 },
                 {
                     "link": "/03",
                     "name": "Chapter 3: Endless Mud",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 40,
                     "length": 15
                 },
                 {
                     "link": "/04",
                     "name": "Chapter 4: Flowerhead's Base",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 55,
                     "length": 9
                 },
                 {
                     "link": "/05",
                     "name": "Chapter 5: Flowerhead vs Hippo",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 64,
                     "length": 10
                 },
                 {
                     "link": "/06",
                     "name": "Chapter 6: !Haunt",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 74,
                     "length": 10
                 },
                 {
                     "link": "/07",
                     "name": "Chapter 7: Giga",
-                    "year": 2019,
+                    "year": 2020,
                     "start": 84,
                     "length": 10    
                 }
@@ -148,681 +148,15 @@
         {
             "name": "Redman",
             "description": [
-                "In slime city, noone can hear you bleed.",
-                "That doesn't explain the comic at all, but that's ok. I don't know how to."
+                "Redman will tell you what you need to hear and lots of things you don't"
             ],
             "cover": "/assets/redman-cover.png",
             "homepage": false,
             "completed": true,
-            "published": 2018,
+            "published": 2019,
             "format": "lazy",
             "page_dir": "/comics/redman",
             "image_dir": "/assets/comics/rm"
-        },
-        {
-            "name": "Cannon Story",
-            "description": [
-                "Cannon story is the story that involves a cannon at some point. Help Flowerhead, Boy and Dog figure out how to leave the premises of a church that has a flooded basement with a shark in it??"
-            ],
-            "cover": "/assets/cannon-story-cover.png",
-            "homepage": false,
-            "completed": true,
-            "published": 2018,
-            "format": "cyoa",
-            "page_dir": "/comics/cannon-story",
-            "image_dir": "/assets/comics/cs",
-            "pages": [
-                {
-                    "link": "/001",
-                    "title": "Begin Cannon Story.",
-                    "images": ["001"],
-                    "text": [
-                        "You are the flower head guy, a dog and a small boy stand next to you as you strike your menacing pose. Nothing could be as well planned as this.",
-                        "What will you do? (Character code is FH)"
-                    ]
-                },
-                {
-                    "link": "/002",
-                    "title": "FH: LOOK EVEN MORE MEANACING.",
-                    "images": ["002"],
-                    "text": [
-                        "You brandish your SAW as well as your razor sharp TEETH. You're clearly a force to be reckoned with, nobody fucks with “Flower Head” what a brilliant character design!"
-                    ]
-                },
-                {
-                    "link": "/003",
-                    "title": "FH: OBSERVE SURROUNDINGS.",
-                    "images": ["003"],
-                    "text": [
-                        "You are in a dusty church hall, stained glass windows, pews, an organ, yep, it's a church. You feel as though god is watching you or something.",
-                        "You don't give a shit about religion."
-                    ]
-                },
-                {
-                    "link": "/004",
-                    "title": "FH: LOOK OUT WINDOW.",
-                    "images": ["004", "005"],
-                    "text": [
-                        "You take a look outside. You see a hedgerow with a wrought iron gate and a shiny black cannon in the courtyard below.",
-                        "Nothing much you can do about all that up here."
-                    ]
-                },
-                {
-                    "link": "/005",
-                    "title": "FH: PUT BOY INTO INVENTORY.",
-                    "images": ["006"],
-                    "text": [
-                        "The boy fits snugly. While your inventory is open you holster your SAW."
-                    ]
-                },
-                {
-                    "link": "/006",
-                    "title": "FH: CHECK OUT THAT ORGAN.",
-                    "images": ["007"],
-                    "text": [
-                        "You examine the organ, it's an organ. There are two keyboards, many pipes, doohickeys and what looks like three sausages on the floor."
-                    ]
-                },
-                {
-                    "link": "/007",
-                    "title": "FH: PLAY HAUNTING ORGAN REFRAIN.",
-                    "images": ["008"],
-                    "text": [
-                        "You were never very good at the organ."
-                    ]
-                },
-                {
-                    "link": "/008",
-                    "title": "===>",
-                    "images": ["009","010","011","012"],
-                    "text": []
-                },
-                {
-                    "link": "/009",
-                    "title": "===>",
-                    "images": ["013", "014"],
-                    "text": [
-                        "Smashing the organ keys resulted in a small box being tooted out of one of the pipes. It was probably part of some convoluted puzzle bullshit. Not that it matters now that it's outside.",
-                        "Wait why is the dog down there?"
-                    ]
-                },
-                {
-                    "link": "/010",
-                    "title": "FH: ORDER DOG TO FETCH BOX.",
-                    "images": ["015"],
-                    "text": [
-                        "You yell down to the dog to fetch the box, but nothing happens, the dog is nowhere to be seen."
-                    ]
-                },
-                {
-                    "link": "/011",
-                    "title": "DOG: BE SOMEWHERE TO BE SEEN.",
-                    "images": ["016"],
-                    "text": [
-                        "\"Dog\" is not a valid character code!",
-                        "It doesn't matter though, the dog is now see-able. You see him."
-                    ]
-                },
-                {
-                    "link": "/012",
-                    "title": "FH: USE BOY ON DOG.",
-                    "images": ["017"],
-                    "text": [
-                        "You combine the boy with the dog."
-                    ]
-                },
-                {
-                    "link": "/013",
-                    "title": "===>",
-                    "images": ["018", "019"],
-                    "text": [
-                        "The combination was a success! Dog and Boy are now a TEAM!",
-                        "(Unlocked character code: DB)"
-                    ]
-                },
-                {
-                    "link": "/014",
-                    "title": "FH: BE DB.",
-                    "images": ["020"],
-                    "text": [
-                        "You don't know how to “BE DB”!",
-                        "Also DB is gone you guess?"
-                    ]
-                },
-                {
-                    "link": "/015",
-                    "title": "DB: BE.",
-                    "images": ["021"],
-                    "text": [
-                        "You are now DB. You are outside in the courtyard."
-                    ]
-                },
-                {
-                    "link": "/016",
-                    "title": "DB: UNTEAM.",
-                    "images": ["022"],
-                    "text": [
-                        "You successfully unteam. You are now BOY (character code: BOY)"
-                    ]
-                },
-                {
-                    "link": "/017",
-                    "title": "BOY: pick up box.",
-                    "images": ["023", "024"],
-                    "text": [
-                        "You HAVE the BOX."
-                    ]
-                },
-                {
-                    "link": "/018",
-                    "title": "BOY: EXAMINE BOX.",
-                    "images": ["025"],
-                    "text": [
-                        "The box appears to be a PUZZLE, you see some grooves and a switch."
-                    ]
-                },
-                {
-                    "link": "/019",
-                    "title": "BOY: SOLVE PUZZLE WITH EASE.",
-                    "images": ["026", "027"],
-                    "text": [
-                        "You flick the switch. The box slides open along the groove, revealing a small circular compartment with a marble inside.",
-                        "This has got to be the shittiest PUZZLE BOX you've ever solved."
-                    ]
-                },
-                {
-                    "link": "/020",
-                    "title": "BOY: RETRIEVE MARBLE.",
-                    "images": ["028","029","030"],
-                    "text": [
-                        "You retrieve the heck outta that marble."
-                    ]
-                },
-                {
-                    "link": "/021",
-                    "title": "FH: OBSERVE BOY LIKE A PROUD FATHER.",
-                    "images": ["031"],
-                    "text": [
-                        "You're not sure what a “father” is, but that boy has done nothing worthy of anybodies pride. That PUZZLE BOX was so easy to solve it's honestly embarrassing that he's not throwing a tantrum right now.",
-                        "You decide to provide a wary glare instead."
-                    ]
-                },
-                {
-                    "link": "/022",
-                    "title": "FH: CONTINUE GLARING.",
-                    "images": ["032"],
-                    "text": [
-                        "You cannot continue glaring as you have been INTERRUPTED by a loud banging on the door that has been there the whole time.",
-                        "You instinctively un-holster your SAW."
-                    ]
-                },
-                {
-                    "link": "/023",
-                    "title": "===>",
-                    "images": ["033", "034"],
-                    "text": [
-                        "You have been challenged by a CRUSADER! His stance is powerful and sturdy, his blade unwavering, he is an intimidating foe to be sure."
-                    ]
-                },
-                {
-                    "link": "/024",
-                    "title": "FH: LUNGE.",
-                    "images": ["035"],
-                    "text": [
-                        "You can't lunge with a saw, numbnuts!",
-                        "You opt instead to LEAP into battle like a badass with no regard for personal safety or technique, making it look more awesome you think. In reality the art is so terrible that nothing you do will look awesome, but that's neither here nor there."
-                    ]
-                },
-                {
-                    "link": "/025",
-                    "title": "EDITOR: CUT AWAY TO B-PLOT.",
-                    "images": ["036"],
-                    "text": [
-                        "You activate the CHEAT CODE and switch to the B-plot. You could have just as easily used a character code but nevermind.",
-                        "Here we see BOY wielding his BIGLEY RAYGUN and the dog also is there."
-                    ]
-                },
-                {
-                    "link": "/026",
-                    "title": "BOY: USE BIGLEY RAY ON MARBLE.",
-                    "images": ["037", "038"],
-                    "text": [
-                        "You aim the gun at the marble and it expands to the size of a CANNONBALL. You wonder where this could be used."
-                    ]
-                },
-                {
-                    "link": "/027",
-                    "title": "BOY: PUT HUGE MARBLE IN CANNON.",
-                    "images": ["039"],
-                    "text": [
-                        "You are too weak to lift the marble! Somehow the bigley ray increases mass along with size."
-                    ]
-                },
-                {
-                    "link": "/028",
-                    "title": "BOY: ORDER DOG TO CARRY HUGE MARBLE.",
-                    "images": ["040"],
-                    "text": [
-                        "You RE-TEAM with the dog and explain what you need him to do in a polite friendly manner."
-                    ]
-                },
-                {
-                    "link": "/029",
-                    "title": "DB: PUT HUGE MARBLE IN CANNON.",
-                    "images": ["041","042", "043"],
-                    "text": [
-                        "Using TEAMWORK you manage to get the huge marble into the cannon. The dog receives +1 mouth-strain damage. The cannon upgrades to [FULLY LOADED]."
-                    ]
-                },
-                {
-                    "link": "/030",
-                    "title": "FH: WIN BATTLE.",
-                    "images": ["044", "045"],
-                    "text": [
-                        "It's a little difficult to win a battle with a sword guy because your weapons keep locking together, which makes for a very awkward exchange where both parties can do little else but stare at each other.",
-                        "You're beginning to regret choosing a saw as your MUTILATOOL but there's not much you can do about it now."
-                    ]
-                },
-                {
-                    "link": "/031",
-                    "title": "FH: EAT OPPONENT USING SHARP TEETH.",
-                    "images": ["046", "047", "048"],
-                    "text": [
-                        "You fail to eat your opponent as he has been slain by a huge marble.",
-                        "The marble steals all of the EXP points. You are miffed."
-                    ]
-                },
-                {
-                    "link": "/032",
-                    "title": "FH: LOOT CORPSE.",
-                    "images": ["049"],
-                    "text": [
-                        "You loot the crusaders sword and shield. The huge marble is fused with the spinal column of the crusader and can no longer be acquired unless you saw the marble off, but honestly who cares? It's arc is over."
-                    ]
-                },
-                {
-                    "link": "/033",
-                    "title": "FH: LEAVE THROUGH THE DOOR.",
-                    "images": ["050"],
-                    "text": [
-                        "You leave through the door that was always there into the corridor that was always there. You see a flight of stairs."
-                    ]
-                },
-                {
-                    "link": "/034",
-                    "title": "FH: BE WARY OF STAIRS.",
-                    "images": ["051"],
-                    "text": [
-                        "You were right to be wary, the stairwell appears to be flooded, fish can be seen swimming in it."
-                    ]
-                },
-                {
-                    "link": "/035",
-                    "title": "FH: ATTEMPT TO STAB FISH WITH SWORD.",
-                    "images": ["052"],
-                    "text": [
-                        "You wield the SWORD and cautiously approach the closest fish. You know things underwater are not necessarily where they appear to be due to light refraction or some shit."
-                    ]
-                },
-                {
-                    "link": "/036",
-                    "title": "===>",
-                    "images": ["053", "054"],
-                    "text": [
-                        "The light refraction was way more potent than you anticipated, the SHARK drags you underwater before you can let go of the sword."
-                    ]
-                },
-                {
-                    "link": "/037",
-                    "title": "FH: CURL UP IN A BALL AND ADMIT DEFEAT.",
-                    "images": ["055"],
-                    "text": [
-                        "The sharks are momentarily taken aback by the sheer wimpitude on display."
-                    ]
-                },
-                {
-                    "link": "/038",
-                    "title": "FH: TAKE OPPORTUNITY TO EAT SHARK.",
-                    "images": ["056", "057"],
-                    "text": [
-                        "Of course! the wimp ruse was a distraction all along! You take a wide gape bite on the snout of one of the sharks. It is noticeably distressed."
-                    ]
-                },
-                {
-                    "link": "/039",
-                    "title": "FH: WRESTLE SHARK FOR DOMINANCE.",
-                    "images": ["058"],
-                    "text": [
-                        "The shark attempts to swim away down the stairs but you cling to it and chew on its face. The other shark is too surprised to follow."
-                    ]
-                },
-                {
-                    "link": "/040",
-                    "title": "DB: EXPLAIN HOW YOU SHOT THE CANNON.",
-                    "images": ["059"],
-                    "text": [
-                        "This is how. You are totally accepting of this explanation and can move on with your life."
-                    ]
-                },
-                {
-                    "link": "/041",
-                    "title": "===>",
-                    "images": ["060"],
-                    "text": [
-                        "The dogs back sturdiness stat has given way to the cannons weight attribute. DB is forced to UN-TEAM once again.",
-                        "You are now BOY."
-                    ]
-                },
-                {
-                    "link": "/042",
-                    "title": "BOY: CHECK ON DOG.",
-                    "images": ["061", "062"],
-                    "text": [
-                        "The dog is alive but in serious pain. You use your BOINTUITION to determine the dogs hopes and dreams.",
-                        "It appears he wants an apple."
-                    ]
-                },
-                {
-                    "link": "/043",
-                    "title": "BOY: LOOK AROUND FOR APPLETREE.",
-                    "images": ["063", "064"],
-                    "text": [
-                        "Luckily for you an apple tree is right there in plain sight. It's probably why the dog wanted an apple in the first place."
-                    ]
-                },
-                {
-                    "link": "/044",
-                    "title": "BOY: CLIMB TREE.",
-                    "images": ["065", "066"],
-                    "text": [
-                        "You scoot up the tree."
-                    ]
-                },
-                {
-                    "link": "/045",
-                    "title": "===>",
-                    "images": ["067", "068"],
-                    "text": [
-                        "You climb the tree and find a nice juicy apple. Well that was easy."
-                    ]
-                },
-                {
-                    "link": "/046",
-                    "title": "===>",
-                    "images": ["069", "070"],
-                    "text": [
-                        "You are prevented from nabbing the apple by the KING OF THE BIRDS. He tells you to “fuc of” You're so hurt by this that you begin to cry."
-                    ]
-                },
-                {
-                    "link": "/047",
-                    "title": "BOY: CRY SOME MORE.",
-                    "images": ["071", "072", "073"],
-                    "text": [
-                        "You sit on the branch and cry SADBOI tears. It's so overwhelmingly sad that the king of birds begins crying too. The dog is also crying but probably for pain reasons."
-                    ]
-                },
-                {
-                    "link": "/048",
-                    "title": "FH: ENOUGH OF THIS SAPPY CRAP.",
-                    "images": ["074"],
-                    "text": [
-                        "That isn't a command but you totally agree. You begin being unsappy by posing with your newly quelled shark slave. Quelled really isn't the right word for what's been transpiring here but you're too busy being short of breath to think of a better one."
-                    ]
-                },
-                {
-                    "link": "/049",
-                    "title": "FH: BE SHORT OF BREATH.",
-                    "images": ["075"],
-                    "text": [
-                        "Wrestling a shark underwater for any amount of time is sure to be a drain on the old airbags and you've been wrestling a shark for decidedly longer than that.",
-                        "You need air and fast."
-                    ]
-                },
-                {
-                    "link": "/050",
-                    "title": "FH: SUCK AIR OUT OF SHARK GILLS.",
-                    "images": ["076"],
-                    "text": [
-                        "You press your lips up against the gills of your shark, you're almost certain that this is where they dispense air they don't want."
-                    ]
-                },
-                {
-                    "link": "/051",
-                    "title": "===>",
-                    "images": ["077"],
-                    "text": [
-                        "That didn't help at all! You begin to panic, at this point you'll do ANYTHING for some air."
-                    ]
-                },
-                {
-                    "link": "/052",
-                    "title": "FH: EAT FISH FARTS FOR AIR.",
-                    "images": ["078", "079", "080"],
-                    "text": [
-                        "Oh god you actually did it. You can't believe you were that desperate. How fortuitous that nobody was looking, otherwise you'd be known as the “fish fart” guy forever and if that DID happen you'd wish you were dead anyway."
-                    ]
-                },
-                {
-                    "link": "/053",
-                    "title": "FH: EXAMINE SURROUNDINGS.",
-                    "images": ["081"],
-                    "text": [
-                        "Well you can see a crab, but you doubt he was paying attention to your fish fart sucking so you pay him no mind.",
-                        "Oh and you're in a grand foyer of some kind, empty suits of armour line the walls, you see a treasure chest on the floor and daylight shines down from a hole in the ceiling."
-                    ]
-                },
-                {
-                    "link": "/054",
-                    "title": "FH: ORDER SHARK TO OPEN TREASURE CHEST.",
-                    "images": ["082", "083"],
-                    "text": [
-                        "You cleverly predict that the chest will be difficult and time consuming to open yourself so you instruct your minion to bite it open.",
-                        "The shark misunderstands the command and begins swallowing the chest whole."
-                    ]
-                },
-                {
-                    "link": "/055",
-                    "title": "===>",
-                    "images": ["084", "085"],
-                    "text": [
-                        "The weight of the chest causes the shark to sink, it's now useless as a mount and looks frankly ridiculous."
-                    ]
-                },
-                {
-                    "link": "/056",
-                    "title": "FH: CUT SHARK AND CHEST OPEN TO RECEIVE TREASURE.",
-                    "images": ["086"],
-                    "text": [
-                        "With pleasure."
-                    ]
-                },
-                {
-                    "link": "/057",
-                    "title": "===>",
-                    "images": ["087", "088"],
-                    "text": [
-                        "Your sawmanship is exemplary and it only takes a couple of zips before you get through."
-                    ]
-                },
-                {
-                    "link": "/058",
-                    "title": "FH: RETRIEVE TREASURE.",
-                    "images": ["089", "090"],
-                    "text": [
-                        "What the hell is that? you think, it looks like it was barely worth the effort. You grab it anyway and begin swimming up to the hole in the ceiling. You have no more sources of air left and dilly dallying is not a good idea anymore."
-                    ]
-                },
-                {
-                    "link": "/059",
-                    "title": "===>",
-                    "images": ["091", "092", "093"],
-                    "text": [
-                        "You find a bucket on the end of a rope, cling to it for a moment to catch your breath."
-                    ]
-                },
-                {
-                    "link": "/060",
-                    "title": "FH: PULL YOURSELF UP.",
-                    "images": ["094", "095"],
-                    "text": [
-                        "You tug on the rope, but you only seem to pull the rope downwards, instead of yourself upwards."
-                    ]
-                },
-                {
-                    "link": "/061",
-                    "title": "===>",
-                    "images": ["096", "097", "098"],
-                    "text": []
-                },
-                {
-                    "link": "/062",
-                    "title": "===>",
-                    "images": ["099", "100"],
-                    "text": [
-                        "You are now BOY. You notice the well rope being tugged from below."
-                    ]
-                },
-                {
-                    "link": "/063",
-                    "title": "BOY: EXAMINE WELL.",
-                    "images": ["101", "102", "103", "104"],
-                    "text": [
-                        "You look down the well and see your friend! it looks like he is trouble!"
-                    ]
-                },
-                {
-                    "link": "/064",
-                    "title": "BOY: STOP THE WINCH.",
-                    "images": ["105", "106"],
-                    "text": [
-                        "You are not tall enough to reach the winch!"
-                    ]
-                },
-                {
-                    "link": "/065",
-                    "title": "BOY: CRY ABOUT IT.",
-                    "images": ["107", "108"],
-                    "text": [
-                        "You cry about the fact that your friend is drowning and you cannot save him. The King of the birds is once again affected by your adorable patheticness. The dog cannot see what is going on and thus is not pictured, but is likely still crying tears of agonising discomfort."
-                    ]
-                },
-                {
-                    "link": "/066",
-                    "title": "FH: JUST SWIM TO THE TOP YOU IDIOT.",
-                    "images": ["109"],
-                    "text": [
-                        "You are too stressed and lacking in air to think straight and cannot do the easiest thing that will solve the problem.",
-                        "How embarrassing."
-                    ]
-                },
-                {
-                    "link": "/067",
-                    "title": "===>",
-                    "images": ["110", "111", "112"],
-                    "text": [
-                        "You are now KING OF THE BIRDS (character code: KB)",
-                        "You have landed on the handle of the winch in an attempt to hold it in place, how very valiant."
-                    ]
-                },
-                {
-                    "link": "/068",
-                    "title": "KB: HAVE EFFORTS BE IN VAIN.",
-                    "images": ["113", "114"],
-                    "text": [
-                        "Your tiny body is hardly heavy enough to weigh down the handle and you are caught in it's unending whirl.",
-                        "Your crown falls off due to the spinning, thus demoting you to ASSHOLE BIRD (new character code: AB)"
-                    ]
-                },
-                {
-                    "link": "/069nice",
-                    "title": "BOY: RETRIEVE CROWN.",
-                    "images": ["115", "116"],
-                    "text": [
-                        "The crown lands in the ground in front of you, its sharp pointy bits penetrating the soil.",
-                        "You have an idea."
-                    ]
-                },
-                {
-                    "link": "/070",
-                    "title": "BOY: THROW CROWN AT ROPE.",
-                    "images": ["117", "118"],
-                    "text": [
-                        "You hurl the crown at the rope, it sinks into the wood and pins the rope against it, preventing any further turnery."
-                    ]
-                },
-                {
-                    "link": "/071",
-                    "title": "FH: PULL YOURSELF UP YOU COMPLETE DUMBASS.",
-                    "images": ["119", "120", "121"],
-                    "text": [
-                        "You haul yourself out of the god damned well and slump onto the floor.",
-                        "Your buddyboy gives you a classic thumbs up to mark the occasion."
-                    ]
-                },
-                {
-                    "link": "/072",
-                    "title": "BOY: DO A JOLLY JIG.",
-                    "images": ["128"],
-                    "text": [
-                        "You can't contain your exuberance at seeing your bestest friend not be drowning!",
-                        "You giggle daintily as you gayly jaunt tither and thither. It's ridiculous."
-                    ]
-                },
-                {
-                    "link": "/073",
-                    "title": "FH: PRESENT TREASURE.",
-                    "images": ["122", "123", "124"],
-                    "text": [
-                        "You present the treasure to the boy, what is it? he says, no freakin' idea you say, but it's definitely what you came here to get that's for sure, how do you know? he asks, i don't you say, i just wanna ske-freakin-daddle outta this joint and if this is the only thing in the only treasure chest in the whole place then fu- freak it, it's the treasure we came for. 'K he says. You hand him the treasure for safe keeping."
-                    ]
-                },
-                {
-                    "link": "/074",
-                    "title": "AB: TAKE MORE OF THIS CRAP.",
-                    "images": ["126", "127", "128", "129"],
-                    "text": [
-                        "You fail to take any more of this crap. Shoehorning in LORE? at this hour? Ridiculous, SHEESH in fact."
-                    ]
-                },
-                {
-                    "link": "/075",
-                    "title": "BOY: PUT ASSHOLE BIRD INTO INVENTORY.",
-                    "images": ["130"],
-                    "text": [
-                        "You scoop up the bird and safely inventorise him."
-                    ]
-                },
-                {
-                    "link": "/076",
-                    "title": "FH: CUT DOWN TREE.",
-                    "images": ["131", "132"],
-                    "text": []
-                },
-                {
-                    "link": "/077",
-                    "title": "===>",
-                    "images": ["133", "134", "135", "136", "137", "138"],
-                    "text": []
-                },
-                {
-                    "link": "/078",
-                    "title": "===>",
-                    "images": ["139", "140", "141"],
-                    "text": []
-                },
-                {
-                    "link": "/079",
-                    "title": "CANNON STORY: END.",
-                    "images": ["142"],
-                    "text": [
-                        "And so Flower Head, Boy and the dog escape from the church courtyard, was that gate even locked? nobody knows.",
-                        "They walk off into the sunset because it's cooler that way.",
-                        "LE FIN"
-                    ]
-                }
-                
-            ]
         },
         {"name": "Bail Jape",
             "description": [
@@ -831,7 +165,7 @@
                 "What, you though you could control Pumk? Nobody can do that.",
                 "Except for that one page where it’s literally a video game where you control Pumk."
             ],
-            "cover": "/assets/cannon-story-cover.png",
+            "cover": "/assets/bailjape-cover.png",
             "homepage": true,
             "completed": true,
             "published": 2018,
@@ -915,10 +249,12 @@
                 {
                     "link": "/0009",
                     "title": "PUMK: BE A STRONG FEMALE CHARACTER AND BEND THOSE BARS",
-                    "images": ["0009","0010"],
-                    "text": [
-                        "You don’t need to BE a strong female character because you already are one. You grip the bars firmly and tuuAAHGH!",
-                        "The bars were SNAKES all along."
+                    "content":[
+                        {"image":"0009"},
+                        {"text": "You don’t need to BE a strong female character because you already are one. You grip the bars firmly and tuuAAHGH!"},
+                        {"image":"0010"},
+                        {"text":"The bars were SNAKES all along."}
+                        
                     ]
                 },
                 {
@@ -2210,14 +1546,14 @@
                         {"game":{"dir":"/assets/Build"}},
                         {"text":"CREDITS"},
                         {"text":"Thanks to Polystation 2 for creating the pumk model and Lateralyst for creating the music"},
-                        {"text":"and BIG thanks to Chuz for programming the game and also helping a lot with the web functionality (fuck wordpress.com)"},
+                        {"text":"and BIG thanks to Chuz for programming the game!"},
                         {"text":"This game can be PURCHASED over at his itch.io here: https://charlie-batten.itch.io/run-away-from-snakes"},
                         {"text":"https://charlie-batten.itch.io/run-away-from-snakes","url":"https://charlie-batten.itch.io/run-away-from-snakes"},
                         {"text":"Give him money, he deserves it."}
                     ]
                 },
                 {
-                    "link": "/0167",
+                    "link": "/0166",
                     "title": "==>",
                     "images": ["0213"],
                     "text": [
@@ -2246,7 +1582,7 @@
                 },
                 {
                     "link": "/0170",
-                    "title": "LITTLE GUY: MESMERISE",
+                    "title": "LITTLE GUY: MESMERISE (Seizure warning!)",
                     "images": ["0217"],
                     "text": [
                         "Ow! Geez. Does EVERYTHING in this comic have to induce epileptic fits? Calm down little guy."
@@ -2613,12 +1949,13 @@
                 {
                     "link": "/0213",
                     "title": "==>",
-                    "images": ["0269","0270"],
-                    "text": [
-                        "Psyche! You knew that he thought he could sneak up on you without you noticing, but you know better than that. What a silly purple boy.",
-                        "Grab an armful of “not-jewel” ya dingus!",
-                        "Oh darn, you sure hope that didn’t fuck up the computer any more than it already was."
-                    ]
+                    "content":[
+                        {"image":"0269"},
+                        {"text":"Psyche! You knew that he thought he could sneak up on you without you noticing, but you know better than that. What a silly purple boy."},
+                        {"text":"Grab an armful of “not-jewel” ya dingus!"},
+                        {"image":"0270"},
+                        {"text":"Oh darn, you sure hope that didn’t fuck up the computer any more than it already was."}
+                ]
                 },
                 {
                     "link": "/0214",
@@ -2950,7 +2287,7 @@
                     "title": "TIKI: USE RETARDING OIL",
                     "images": ["0318"],
                     "text": [
-                        "It’s FLAME retard oil, get it right.  You smash the bottle on your head, coating yourself in the oil making yourself immune to fire for a time. Now it makes sense how you were able to survive that massive explosion earlier."
+                        "It’s FLAME retarding oil, get it right.  You smash the bottle on your head, coating yourself in the oil making yourself immune to fire for a time. Now it makes sense how you were able to survive that massive explosion earlier."
                     ]
                 },
                 {
@@ -3557,11 +2894,12 @@
                 {
                     "link": "/0332",
                     "title": "SIBI: RUN RIGHT INTO A TORRENT OF LAVA AND DIE INSTANTLY",
-                    "images": ["0403","0404"],
-                    "text": [
-                        "HOLY SHIT!",
-                        "Thank goodness you saw that, you would have run right into that torrent of lava and died instantly if you hadn’t."
-                    ]
+                    "content":[
+                        {"image":"0403"},
+                        {"text":"HOLY SHIT!"},
+                        {"image":"0404"},
+                        {"text":"Thank goodness you saw that, you would have run right into that torrent of lava and died instantly if you hadn’t."}
+                ]
                 },
                 {
                     "link": "/0333",
@@ -3694,14 +3032,18 @@
                 {
                     "link": "/0349",
                     "title": "==>",
-                    "images": ["0429","0431","0432","0433","0434"],
-                    "text": [
-                        "NONONONONONONONONONONONONONONONONONONONO!",
-                        "NONONONONONONONONONONONONONONONONONONONONO!",
-                        "HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?",
-                        "WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?",
-                        "Oh it’s fine."
-                    ]
+                    "content":[
+                        {"image":"0429"},
+                        {"text":"NONONONONONONONONONONONONONONONONONONONO!"},
+                        {"image":"0431"},
+                        {"text":"NONONONONONONONONONONONONONONONONONONONONO!"},
+                        {"image":"0432"},
+                        {"text":"HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?HUH?"},
+                        {"image":"0433"},
+                        {"text":"WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?WHAT?"},
+                        {"image":"0434"},
+                        {"text":"Oh it’s fine."}
+                ]
                 },
                 {
                     "link": "/0350",
@@ -3777,6 +3119,1308 @@
                         "THE END"
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Cannon Story",
+            "description": [
+                "Cannon story is the story that involves a cannon at some point. Help Flowerhead, Boy and Dog figure out how to leave the premises of a church that has a flooded basement with a shark in it??"
+            ],
+            "cover": "/assets/cannon-story-cover.png",
+            "homepage": false,
+            "completed": true,
+            "published": 2017,
+            "format": "cyoa",
+            "page_dir": "/comics/cannon-story",
+            "image_dir": "/assets/comics/cs",
+            "pages": [
+                {
+                    "link": "/001",
+                    "title": "Begin Cannon Story.",
+                    "images": ["001"],
+                    "text": [
+                        "You are the flower head guy, a dog and a small boy stand next to you as you strike your menacing pose. Nothing could be as well planned as this.",
+                        "What will you do? (Character code is FH)"
+                    ]
+                },
+                {
+                    "link": "/002",
+                    "title": "FH: LOOK EVEN MORE MEANACING.",
+                    "images": ["002"],
+                    "text": [
+                        "You brandish your SAW as well as your razor sharp TEETH. You're clearly a force to be reckoned with, nobody fucks with “Flower Head” what a brilliant character design!"
+                    ]
+                },
+                {
+                    "link": "/003",
+                    "title": "FH: OBSERVE SURROUNDINGS.",
+                    "images": ["003"],
+                    "text": [
+                        "You are in a dusty church hall, stained glass windows, pews, an organ, yep, it's a church. You feel as though god is watching you or something.",
+                        "You don't give a shit about religion."
+                    ]
+                },
+                {
+                    "link": "/004",
+                    "title": "FH: LOOK OUT WINDOW.",
+                    "images": ["004", "005"],
+                    "text": [
+                        "You take a look outside. You see a hedgerow with a wrought iron gate and a shiny black cannon in the courtyard below.",
+                        "Nothing much you can do about all that up here."
+                    ]
+                },
+                {
+                    "link": "/005",
+                    "title": "FH: PUT BOY INTO INVENTORY.",
+                    "images": ["006"],
+                    "text": [
+                        "The boy fits snugly. While your inventory is open you holster your SAW."
+                    ]
+                },
+                {
+                    "link": "/006",
+                    "title": "FH: CHECK OUT THAT ORGAN.",
+                    "images": ["007"],
+                    "text": [
+                        "You examine the organ, it's an organ. There are two keyboards, many pipes, doohickeys and what looks like three sausages on the floor."
+                    ]
+                },
+                {
+                    "link": "/007",
+                    "title": "FH: PLAY HAUNTING ORGAN REFRAIN.",
+                    "images": ["008"],
+                    "text": [
+                        "You were never very good at the organ."
+                    ]
+                },
+                {
+                    "link": "/008",
+                    "title": "===>",
+                    "images": ["009","010","011","012"],
+                    "text": []
+                },
+                {
+                    "link": "/009",
+                    "title": "===>",
+                    "images": ["013", "014"],
+                    "text": [
+                        "Smashing the organ keys resulted in a small box being tooted out of one of the pipes. It was probably part of some convoluted puzzle bullshit. Not that it matters now that it's outside.",
+                        "Wait why is the dog down there?"
+                    ]
+                },
+                {
+                    "link": "/010",
+                    "title": "FH: ORDER DOG TO FETCH BOX.",
+                    "images": ["015"],
+                    "text": [
+                        "You yell down to the dog to fetch the box, but nothing happens, the dog is nowhere to be seen."
+                    ]
+                },
+                {
+                    "link": "/011",
+                    "title": "DOG: BE SOMEWHERE TO BE SEEN.",
+                    "images": ["016"],
+                    "text": [
+                        "\"Dog\" is not a valid character code!",
+                        "It doesn't matter though, the dog is now see-able. You see him."
+                    ]
+                },
+                {
+                    "link": "/012",
+                    "title": "FH: USE BOY ON DOG.",
+                    "images": ["017"],
+                    "text": [
+                        "You combine the boy with the dog."
+                    ]
+                },
+                {
+                    "link": "/013",
+                    "title": "===>",
+                    "images": ["018", "019"],
+                    "text": [
+                        "The combination was a success! Dog and Boy are now a TEAM!",
+                        "(Unlocked character code: DB)"
+                    ]
+                },
+                {
+                    "link": "/014",
+                    "title": "FH: BE DB.",
+                    "images": ["020"],
+                    "text": [
+                        "You don't know how to “BE DB”!",
+                        "Also DB is gone you guess?"
+                    ]
+                },
+                {
+                    "link": "/015",
+                    "title": "DB: BE.",
+                    "images": ["021"],
+                    "text": [
+                        "You are now DB. You are outside in the courtyard."
+                    ]
+                },
+                {
+                    "link": "/016",
+                    "title": "DB: UNTEAM.",
+                    "images": ["022"],
+                    "text": [
+                        "You successfully unteam. You are now BOY (character code: BOY)"
+                    ]
+                },
+                {
+                    "link": "/017",
+                    "title": "BOY: pick up box.",
+                    "images": ["023", "024"],
+                    "text": [
+                        "You HAVE the BOX."
+                    ]
+                },
+                {
+                    "link": "/018",
+                    "title": "BOY: EXAMINE BOX.",
+                    "images": ["025"],
+                    "text": [
+                        "The box appears to be a PUZZLE, you see some grooves and a switch."
+                    ]
+                },
+                {
+                    "link": "/019",
+                    "title": "BOY: SOLVE PUZZLE WITH EASE.",
+                    "images": ["026", "027"],
+                    "text": [
+                        "You flick the switch. The box slides open along the groove, revealing a small circular compartment with a marble inside.",
+                        "This has got to be the shittiest PUZZLE BOX you've ever solved."
+                    ]
+                },
+                {
+                    "link": "/020",
+                    "title": "BOY: RETRIEVE MARBLE.",
+                    "images": ["028","029","030"],
+                    "text": [
+                        "You retrieve the heck outta that marble."
+                    ]
+                },
+                {
+                    "link": "/021",
+                    "title": "FH: OBSERVE BOY LIKE A PROUD FATHER.",
+                    "images": ["031"],
+                    "text": [
+                        "You're not sure what a “father” is, but that boy has done nothing worthy of anybodies pride. That PUZZLE BOX was so easy to solve it's honestly embarrassing that he's not throwing a tantrum right now.",
+                        "You decide to provide a wary glare instead."
+                    ]
+                },
+                {
+                    "link": "/022",
+                    "title": "FH: CONTINUE GLARING.",
+                    "images": ["032"],
+                    "text": [
+                        "You cannot continue glaring as you have been INTERRUPTED by a loud banging on the door that has been there the whole time.",
+                        "You instinctively un-holster your SAW."
+                    ]
+                },
+                {
+                    "link": "/023",
+                    "title": "===>",
+                    "images": ["033", "034"],
+                    "text": [
+                        "You have been challenged by a CRUSADER! His stance is powerful and sturdy, his blade unwavering, he is an intimidating foe to be sure."
+                    ]
+                },
+                {
+                    "link": "/024",
+                    "title": "FH: LUNGE.",
+                    "images": ["035"],
+                    "text": [
+                        "You can't lunge with a saw, numbnuts!",
+                        "You opt instead to LEAP into battle like a badass with no regard for personal safety or technique, making it look more awesome you think. In reality the art is so terrible that nothing you do will look awesome, but that's neither here nor there."
+                    ]
+                },
+                {
+                    "link": "/025",
+                    "title": "EDITOR: CUT AWAY TO B-PLOT.",
+                    "images": ["036"],
+                    "text": [
+                        "You activate the CHEAT CODE and switch to the B-plot. You could have just as easily used a character code but nevermind.",
+                        "Here we see BOY wielding his BIGLEY RAYGUN and the dog also is there."
+                    ]
+                },
+                {
+                    "link": "/026",
+                    "title": "BOY: USE BIGLEY RAY ON MARBLE.",
+                    "images": ["037", "038"],
+                    "text": [
+                        "You aim the gun at the marble and it expands to the size of a CANNONBALL. You wonder where this could be used."
+                    ]
+                },
+                {
+                    "link": "/027",
+                    "title": "BOY: PUT HUGE MARBLE IN CANNON.",
+                    "images": ["039"],
+                    "text": [
+                        "You are too weak to lift the marble! Somehow the bigley ray increases mass along with size."
+                    ]
+                },
+                {
+                    "link": "/028",
+                    "title": "BOY: ORDER DOG TO CARRY HUGE MARBLE.",
+                    "images": ["040"],
+                    "text": [
+                        "You RE-TEAM with the dog and explain what you need him to do in a polite friendly manner."
+                    ]
+                },
+                {
+                    "link": "/029",
+                    "title": "DB: PUT HUGE MARBLE IN CANNON.",
+                    "images": ["041","042", "043"],
+                    "text": [
+                        "Using TEAMWORK you manage to get the huge marble into the cannon. The dog receives +1 mouth-strain damage. The cannon upgrades to [FULLY LOADED]."
+                    ]
+                },
+                {
+                    "link": "/030",
+                    "title": "FH: WIN BATTLE.",
+                    "images": ["044", "045"],
+                    "text": [
+                        "It's a little difficult to win a battle with a sword guy because your weapons keep locking together, which makes for a very awkward exchange where both parties can do little else but stare at each other.",
+                        "You're beginning to regret choosing a saw as your MUTILATOOL but there's not much you can do about it now."
+                    ]
+                },
+                {
+                    "link": "/031",
+                    "title": "FH: EAT OPPONENT USING SHARP TEETH.",
+                    "images": ["046", "047", "048"],
+                    "text": [
+                        "You fail to eat your opponent as he has been slain by a huge marble.",
+                        "The marble steals all of the EXP points. You are miffed."
+                    ]
+                },
+                {
+                    "link": "/032",
+                    "title": "FH: LOOT CORPSE.",
+                    "images": ["049"],
+                    "text": [
+                        "You loot the crusaders sword and shield. The huge marble is fused with the spinal column of the crusader and can no longer be acquired unless you saw the marble off, but honestly who cares? It's arc is over."
+                    ]
+                },
+                {
+                    "link": "/033",
+                    "title": "FH: LEAVE THROUGH THE DOOR.",
+                    "images": ["050"],
+                    "text": [
+                        "You leave through the door that was always there into the corridor that was always there. You see a flight of stairs."
+                    ]
+                },
+                {
+                    "link": "/034",
+                    "title": "FH: BE WARY OF STAIRS.",
+                    "images": ["051"],
+                    "text": [
+                        "You were right to be wary, the stairwell appears to be flooded, fish can be seen swimming in it."
+                    ]
+                },
+                {
+                    "link": "/035",
+                    "title": "FH: ATTEMPT TO STAB FISH WITH SWORD.",
+                    "images": ["052"],
+                    "text": [
+                        "You wield the SWORD and cautiously approach the closest fish. You know things underwater are not necessarily where they appear to be due to light refraction or some shit."
+                    ]
+                },
+                {
+                    "link": "/036",
+                    "title": "===>",
+                    "images": ["053", "054"],
+                    "text": [
+                        "The light refraction was way more potent than you anticipated, the SHARK drags you underwater before you can let go of the sword."
+                    ]
+                },
+                {
+                    "link": "/037",
+                    "title": "FH: CURL UP IN A BALL AND ADMIT DEFEAT.",
+                    "images": ["055"],
+                    "text": [
+                        "The sharks are momentarily taken aback by the sheer wimpitude on display."
+                    ]
+                },
+                {
+                    "link": "/038",
+                    "title": "FH: TAKE OPPORTUNITY TO EAT SHARK.",
+                    "images": ["056", "057"],
+                    "text": [
+                        "Of course! the wimp ruse was a distraction all along! You take a wide gape bite on the snout of one of the sharks. It is noticeably distressed."
+                    ]
+                },
+                {
+                    "link": "/039",
+                    "title": "FH: WRESTLE SHARK FOR DOMINANCE.",
+                    "images": ["058"],
+                    "text": [
+                        "The shark attempts to swim away down the stairs but you cling to it and chew on its face. The other shark is too surprised to follow."
+                    ]
+                },
+                {
+                    "link": "/040",
+                    "title": "DB: EXPLAIN HOW YOU SHOT THE CANNON.",
+                    "images": ["059"],
+                    "text": [
+                        "This is how. You are totally accepting of this explanation and can move on with your life."
+                    ]
+                },
+                {
+                    "link": "/041",
+                    "title": "===>",
+                    "images": ["060"],
+                    "text": [
+                        "The dogs back sturdiness stat has given way to the cannons weight attribute. DB is forced to UN-TEAM once again.",
+                        "You are now BOY."
+                    ]
+                },
+                {
+                    "link": "/042",
+                    "title": "BOY: CHECK ON DOG.",
+                    "images": ["061", "062"],
+                    "text": [
+                        "The dog is alive but in serious pain. You use your BOINTUITION to determine the dogs hopes and dreams.",
+                        "It appears he wants an apple."
+                    ]
+                },
+                {
+                    "link": "/043",
+                    "title": "BOY: LOOK AROUND FOR APPLETREE.",
+                    "images": ["063", "064"],
+                    "text": [
+                        "Luckily for you an apple tree is right there in plain sight. It's probably why the dog wanted an apple in the first place."
+                    ]
+                },
+                {
+                    "link": "/044",
+                    "title": "BOY: CLIMB TREE.",
+                    "images": ["065", "066"],
+                    "text": [
+                        "You scoot up the tree."
+                    ]
+                },
+                {
+                    "link": "/045",
+                    "title": "===>",
+                    "images": ["067", "068"],
+                    "text": [
+                        "You climb the tree and find a nice juicy apple. Well that was easy."
+                    ]
+                },
+                {
+                    "link": "/046",
+                    "title": "===>",
+                    "images": ["069", "070"],
+                    "text": [
+                        "You are prevented from nabbing the apple by the KING OF THE BIRDS. He tells you to “fuc of” You're so hurt by this that you begin to cry."
+                    ]
+                },
+                {
+                    "link": "/047",
+                    "title": "BOY: CRY SOME MORE.",
+                    "images": ["071", "072", "073"],
+                    "text": [
+                        "You sit on the branch and cry SADBOI tears. It's so overwhelmingly sad that the king of birds begins crying too. The dog is also crying but probably for pain reasons."
+                    ]
+                },
+                {
+                    "link": "/048",
+                    "title": "FH: ENOUGH OF THIS SAPPY CRAP.",
+                    "images": ["074"],
+                    "text": [
+                        "That isn't a command but you totally agree. You begin being unsappy by posing with your newly quelled shark slave. Quelled really isn't the right word for what's been transpiring here but you're too busy being short of breath to think of a better one."
+                    ]
+                },
+                {
+                    "link": "/049",
+                    "title": "FH: BE SHORT OF BREATH.",
+                    "images": ["075"],
+                    "text": [
+                        "Wrestling a shark underwater for any amount of time is sure to be a drain on the old airbags and you've been wrestling a shark for decidedly longer than that.",
+                        "You need air and fast."
+                    ]
+                },
+                {
+                    "link": "/050",
+                    "title": "FH: SUCK AIR OUT OF SHARK GILLS.",
+                    "images": ["076"],
+                    "text": [
+                        "You press your lips up against the gills of your shark, you're almost certain that this is where they dispense air they don't want."
+                    ]
+                },
+                {
+                    "link": "/051",
+                    "title": "===>",
+                    "images": ["077"],
+                    "text": [
+                        "That didn't help at all! You begin to panic, at this point you'll do ANYTHING for some air."
+                    ]
+                },
+                {
+                    "link": "/052",
+                    "title": "FH: EAT FISH FARTS FOR AIR.",
+                    "images": ["078", "079", "080"],
+                    "text": [
+                        "Oh god you actually did it. You can't believe you were that desperate. How fortuitous that nobody was looking, otherwise you'd be known as the “fish fart” guy forever and if that DID happen you'd wish you were dead anyway."
+                    ]
+                },
+                {
+                    "link": "/053",
+                    "title": "FH: EXAMINE SURROUNDINGS.",
+                    "images": ["081"],
+                    "text": [
+                        "Well you can see a crab, but you doubt he was paying attention to your fish fart sucking so you pay him no mind.",
+                        "Oh and you're in a grand foyer of some kind, empty suits of armour line the walls, you see a treasure chest on the floor and daylight shines down from a hole in the ceiling."
+                    ]
+                },
+                {
+                    "link": "/054",
+                    "title": "FH: ORDER SHARK TO OPEN TREASURE CHEST.",
+                    "images": ["082", "083"],
+                    "text": [
+                        "You cleverly predict that the chest will be difficult and time consuming to open yourself so you instruct your minion to bite it open.",
+                        "The shark misunderstands the command and begins swallowing the chest whole."
+                    ]
+                },
+                {
+                    "link": "/055",
+                    "title": "===>",
+                    "images": ["084", "085"],
+                    "text": [
+                        "The weight of the chest causes the shark to sink, it's now useless as a mount and looks frankly ridiculous."
+                    ]
+                },
+                {
+                    "link": "/056",
+                    "title": "FH: CUT SHARK AND CHEST OPEN TO RECEIVE TREASURE.",
+                    "images": ["086"],
+                    "text": [
+                        "With pleasure."
+                    ]
+                },
+                {
+                    "link": "/057",
+                    "title": "===>",
+                    "images": ["087", "088"],
+                    "text": [
+                        "Your sawmanship is exemplary and it only takes a couple of zips before you get through."
+                    ]
+                },
+                {
+                    "link": "/058",
+                    "title": "FH: RETRIEVE TREASURE.",
+                    "images": ["089", "090"],
+                    "text": [
+                        "What the hell is that? you think, it looks like it was barely worth the effort. You grab it anyway and begin swimming up to the hole in the ceiling. You have no more sources of air left and dilly dallying is not a good idea anymore."
+                    ]
+                },
+                {
+                    "link": "/059",
+                    "title": "===>",
+                    "images": ["091", "092", "093"],
+                    "text": [
+                        "You find a bucket on the end of a rope, cling to it for a moment to catch your breath."
+                    ]
+                },
+                {
+                    "link": "/060",
+                    "title": "FH: PULL YOURSELF UP.",
+                    "images": ["094", "095"],
+                    "text": [
+                        "You tug on the rope, but you only seem to pull the rope downwards, instead of yourself upwards."
+                    ]
+                },
+                {
+                    "link": "/061",
+                    "title": "===>",
+                    "images": ["096", "097", "098"],
+                    "text": []
+                },
+                {
+                    "link": "/062",
+                    "title": "===>",
+                    "images": ["099", "100"],
+                    "text": [
+                        "You are now BOY. You notice the well rope being tugged from below."
+                    ]
+                },
+                {
+                    "link": "/063",
+                    "title": "BOY: EXAMINE WELL.",
+                    "images": ["101", "103", "104"],
+                    "text": [
+                        "You look down the well and see your friend! it looks like he is trouble!"
+                    ]
+                },
+                {
+                    "link": "/064",
+                    "title": "BOY: STOP THE WINCH.",
+                    "images": ["105", "106"],
+                    "text": [
+                        "You are not tall enough to reach the winch!"
+                    ]
+                },
+                {
+                    "link": "/065",
+                    "title": "BOY: CRY ABOUT IT.",
+                    "images": ["107", "108"],
+                    "text": [
+                        "You cry about the fact that your friend is drowning and you cannot save him. The King of the birds is once again affected by your adorable patheticness. The dog cannot see what is going on and thus is not pictured, but is likely still crying tears of agonising discomfort."
+                    ]
+                },
+                {
+                    "link": "/066",
+                    "title": "FH: JUST SWIM TO THE TOP YOU IDIOT.",
+                    "images": ["109"],
+                    "text": [
+                        "You are too stressed and lacking in air to think straight and cannot do the easiest thing that will solve the problem.",
+                        "How embarrassing."
+                    ]
+                },
+                {
+                    "link": "/067",
+                    "title": "===>",
+                    "images": ["110", "111", "112"],
+                    "text": [
+                        "You are now KING OF THE BIRDS (character code: KB)",
+                        "You have landed on the handle of the winch in an attempt to hold it in place, how very valiant."
+                    ]
+                },
+                {
+                    "link": "/068",
+                    "title": "KB: HAVE EFFORTS BE IN VAIN.",
+                    "images": ["113", "114"],
+                    "text": [
+                        "Your tiny body is hardly heavy enough to weigh down the handle and you are caught in it's unending whirl.",
+                        "Your crown falls off due to the spinning, thus demoting you to ASSHOLE BIRD (new character code: AB)"
+                    ]
+                },
+                {
+                    "link": "/069nice",
+                    "title": "BOY: RETRIEVE CROWN.",
+                    "images": ["115", "116"],
+                    "text": [
+                        "The crown lands in the ground in front of you, its sharp pointy bits penetrating the soil.",
+                        "You have an idea."
+                    ]
+                },
+                {
+                    "link": "/070",
+                    "title": "BOY: THROW CROWN AT ROPE.",
+                    "images": ["117", "118"],
+                    "text": [
+                        "You hurl the crown at the rope, it sinks into the wood and pins the rope against it, preventing any further turnery."
+                    ]
+                },
+                {
+                    "link": "/071",
+                    "title": "FH: PULL YOURSELF UP YOU COMPLETE DUMBASS.",
+                    "images": ["119", "120", "121"],
+                    "text": [
+                        "You haul yourself out of the god damned well and slump onto the floor.",
+                        "Your buddyboy gives you a classic thumbs up to mark the occasion."
+                    ]
+                },
+                {
+                    "link": "/072",
+                    "title": "BOY: DO A JOLLY JIG.",
+                    "images": ["128"],
+                    "text": [
+                        "You can't contain your exuberance at seeing your bestest friend not be drowning!",
+                        "You giggle daintily as you gayly jaunt tither and thither. It's ridiculous."
+                    ]
+                },
+                {
+                    "link": "/073",
+                    "title": "FH: PRESENT TREASURE.",
+                    "images": ["122", "123", "124"],
+                    "text": [
+                        "You present the treasure to the boy, what is it? he says, no freakin' idea you say, but it's definitely what you came here to get that's for sure, how do you know? he asks, i don't you say, i just wanna ske-freakin-daddle outta this joint and if this is the only thing in the only treasure chest in the whole place then fu- freak it, it's the treasure we came for. 'K he says. You hand him the treasure for safe keeping."
+                    ]
+                },
+                {
+                    "link": "/074",
+                    "title": "AB: TAKE MORE OF THIS CRAP.",
+                    "images": ["126", "127", "129"],
+                    "text": [
+                        "You fail to take any more of this crap. Shoehorning in LORE? at this hour? Ridiculous, SHEESH in fact."
+                    ]
+                },
+                {
+                    "link": "/075",
+                    "title": "BOY: PUT ASSHOLE BIRD INTO INVENTORY.",
+                    "images": ["130"],
+                    "text": [
+                        "You scoop up the bird and safely inventorise him."
+                    ]
+                },
+                {
+                    "link": "/076",
+                    "title": "FH: CUT DOWN TREE.",
+                    "images": ["131", "132"],
+                    "text": []
+                },
+                {
+                    "link": "/077",
+                    "title": "===>",
+                    "images": ["133", "134", "135", "136", "137", "138"],
+                    "text": []
+                },
+                {
+                    "link": "/078",
+                    "title": "===>",
+                    "images": ["139", "140", "141"],
+                    "text": []
+                },
+                {
+                    "link": "/079",
+                    "title": "CANNON STORY: END.",
+                    "images": ["142"],
+                    "text": [
+                        "And so Flower Head, Boy and the dog escape from the church courtyard, was that gate even locked? nobody knows.",
+                        "They walk off into the sunset because it's cooler that way.",
+                        "LE FIN"
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name": "Red Noir",
+            "description": [
+                "In slime city, noone can hear you bleed.",
+                "That doesn't explain the comic at all, but that's ok. I don't know how to."
+            ],
+            "cover": "/assets/red-noir-cover.png",
+            "homepage": false,
+            "completed": false,
+            "published": 2019,
+            "format": "simple",
+            "page_dir": "/comics/red-noir",
+            "image_dir": "/assets/comics/rn",
+            "chapters": [
+                {   
+                    "link": "/01",
+                    "name": "Chapter 1",
+                    "year": 2019,
+                    "start": 1,
+                    "length": 12
+                }
+                
+            ]
+        },
+        {
+            "name": "Pocket Bois",
+            "description": [
+                "A Pocket Boi Nuzlocke comic",
+                "I left in unfinished because i immediately got bored"
+            ],
+            "cover": "/assets/pocketbois-cover.png",
+            "homepage": false,
+            "completed": true,
+            "published": 2018,
+            "format": "cyoa",
+            "page_dir": "/comics/pocket-bois",
+            "image_dir": "/assets/comics/pb",
+            "pages": [
+                {
+                    "link": "/0001",
+                    "title": "Pocket Bois",
+                    "images": ["001"],
+                    "text": [
+                        "This is a comic depicting a nuzlocke that i will be doing right now.",
+                        "If it ends terribly then that's because i am terrible at nuzlockes.",
+                        "The game is Pocketboi Alpha Saphhire."
+                    ]
+                },
+                {
+                    "link": "/0002",
+                    "title": "Tha Rules",
+                    "images": ["002"],
+                    "text": [
+                        "This is pretty self explanatory, but for the BABIES in the audience i will elaborate.",
+                        "The point of a nuzlocke is to play pocketboi but with a number of self imposed restrictions to make the game more challenging.",
+                        "Mainly that if a pocketboi faints it is considered dead and must be released.",
+                        "If all pocketbois in your party are defeated the player is considered dead and the game is over.",
+                        "In order to prevent an abundance of throwaway pocketbois you can only catch ONE pocketboi per zone and you have to attempt to capture the first one you encounter, if you fail to catch it, you are not allowed to try for another.",
+                        "Zones are determined by whenever the game changes the title of the place you're in (except differently numbered floors of a cave or building) route 101 and route 102 are different zones for example.",
+                        "and that's it."
+                    ]
+                },
+                {
+                    "link": "/0003",
+                    "title": "Tha Guy",
+                    "images": ["003"],
+                    "text": [
+                        "Tha guy."
+                    ]
+                },
+                {
+                    "link": "/0004",
+                    "title": "Begin!",
+                    "images": ["004"],
+                    "text": [
+                        "And we're off with a bang right out the gate or should i say truck?",
+                        "This is it, we're doing it, no bullshit, no emotional through-line, no theming, just basic-ass bottom of the barrel, run of the mill, INTELLECTUAL JUGGERNAUTICAL POKEMON ADVENTURES with ya boi, me.",
+                        "Here i am strutting my stuff, i'm gonna be doing a lot of that so pay attention."
+                    ]
+                },
+                {
+                    "link": "/0005",
+                    "title": "->",
+                    "images": ["005"],
+                    "text": [
+                        "Here's my mum or some shit, never mind that T-pose hussy i got larger fish to fillet.",
+                        "We're gonna spend NO time delving into the actual story of this game, all dialogue WILL be gladly dodged as well as the many gamefreak dev-tears that are sure to be shed at my blatant disregard for their well-being."
+                    ]
+                },
+                {
+                    "link": "/0006",
+                    "title": "->",
+                    "images": ["006"],
+                    "text": [
+                        "What the fuck????",
+                        "I'm looking at some serious balls here. Pocketballs to be exact, each one contains a boi.",
+                        "But which boi am i to pick? (i already know)"
+                    ]
+                },
+                {
+                    "link": "/0007",
+                    "title": "First pocket boi!",
+                    "images": ["007"],
+                    "text": [
+                        "Yeah it's Mudkip, i mean of course, he's the best boi. I DO liek him, it's all true.",
+                        "Mudkip was chosen by a poll on my TWITTER",
+                        "I don't expect many things to be determined by polls but twitters poll feature is too useful to not utilise for stuff like this.",
+                        "But what will the NAME of this pocketboi be??"
+                    ]
+                },
+                {
+                    "link": "/0008",
+                    "title": "I shall call you...",
+                    "images": ["008"],
+                    "text": [
+                        "Dev-iated! Look how happy is about that! what a good boi.",
+                        "Dev-iated was chosen because it is the name of a PATRON in my DISCORD",
+                        "If you want to be picked as a name, be a patron and be in my discord and when i have a new boi to name, that's where i'll go to ask. Simple enough right?",
+                        "*The future editor would like to remind you that this Nuzlocke is FOREVER abandoned and there is NO chance your name will be picked EVER*"
+                    ]
+                },
+                {
+                    "link": "/0009",
+                    "title": "Bois 1",
+                    "images": ["009"],
+                    "text": [
+                        "I now have ONE (1) BOI, i will put this in my pocket and call him out to battle for me in times of need or needless sacrifice.",
+                        "I have a feeling this boi will serve me well."
+                    ]
+                },
+                {
+                    "link": "/0010",
+                    "title": "=>",
+                    "images": ["010"],
+                    "text": [
+                        "Woah! It's a fucking girl!",
+                        "She's cute, although those eyes are a bit weird, must be a condition.",
+                        "She says her name is May and that she's excited to make new friends or some shit, sounds like a filthy pacifist to me.",
+                        "Let's teach this GIRL who has the PENIS around here!"
+                    ]
+                },
+                {
+                    "link": "/0011",
+                    "title": "May battle!",
+                    "images": ["011"],
+                    "text": [
+                        "May gets pumped up! She sends out Torchic!",
+                        "Big mistake. Dev-iated, kill this chicken nugget!"
+                    ]
+                },
+                {
+                    "link": "/0012",
+                    "title": "Nugget slay!",
+                    "images": ["012"],
+                    "text": [
+                        "Dev-iated SLAYS Torchic. The red colour will represent death from here on, oho how morbid.",
+                        "What an easy victory, it's almost like this was a battle i was supposed to win.",
+                        "(The author would like to note that Dev-iated did not actually use the move \"BITE\" to win this battle, he is just a vicious bastard)"
+                    ]
+                },
+                {
+                    "link": "/0013",
+                    "title": "Leave may",
+                    "images": ["013"],
+                    "text": [
+                        "You'll get over it May. It's just a baby.",
+                        "And if we're being real? I did you a favour, when that thing evolves it becomes UUUUGLY! So really you should be thanking me, i'll be expecting a gift. ;)"
+                    ]
+                },
+                {
+                    "link": "/0014",
+                    "title": "A gift!",
+                    "images": ["014"],
+                    "text": [
+                        "WHUT THE FUCK!",
+                        "IT'S A POKE-DORKS. It keeps track of all the pocket bois i've seen and-",
+                        "Yeah this is completely unimportant and will never come up again. Thanks Professor BITCH! (haha)"
+                    ]
+                },
+                {
+                    "link": "/0015",
+                    "title": "Enough set-up",
+                    "images": ["015"],
+                    "text": [
+                        "Yes enough of this tedious tutorial busywork. I now have some empty POCKET BALLS and can ravage the land looking for more Bois to stuff into my pocket. Only one Boi per zone though.",
+                        "And what perfect place to start than at the beginning on Route 101! (what happened to the first 100?)",
+                        "Here's some tall grass, i can't wait to see what i find!"
+                    ]
+                },
+                {
+                    "link": "/0016",
+                    "title": "Who's that Pocket Boi?",
+                    "images": ["016"],
+                    "text": [
+                        "It's WURMPLE! a veritable squirmer. Since i haven't caught one of these the bottom right pocket-ball icon is not filled in.",
+                        "Obviously we need to catch this guy but we gotta weaken it a little first, i'm pretty sure nothing will kill it in one hit at this early stage in the game."
+                    ]
+                },
+                {
+                    "link": "/0017",
+                    "title": "Dev-iated use Water Gun!",
+                    "images": ["017"],
+                    "text": [
+                        "Fuck yeah we using honest to god MOVES now.",
+                        "Oh shit, that was a critical hit...",
+                        "ohshitohshitohshit"
+                    ]
+                },
+                {
+                    "link": "/0018",
+                    "title": "A Critical hit!",
+                    "images": ["018"],
+                    "text": [
+                        "Phew! Ok it's alive. That was close.",
+                        "I have to remember to plan for critical hits, but it's hard when it's the first attack, I have no understanding of how much damage i would do normally."
+                    ]
+                },
+                {
+                    "link": "/0019",
+                    "title": "Pocketball Go!",
+                    "images": ["019"],
+                    "text": [
+                        "Yep this is a guaranteed catch. There's no tension here. May as well consider the name for this new Boi by asking on my DISCORD"
+                    ]
+                },
+                {
+                    "link": "/0020",
+                    "title": "I shall name you...",
+                    "images": ["020"],
+                    "text": [
+                        "Fluffytits!",
+                        "The name doesn't make much sense now but just wait until we evolve you into a Dustox! I mean.. hopefully, you never know with a Wurmple."
+                    ]
+                },
+                {
+                    "link": "/0021",
+                    "title": "Bois 2",
+                    "images": ["021"],
+                    "text": [
+                        "2 Bois, 2 Balls.",
+                        "Though this Boi is a girl. \"Boi\" is a gender neutral term for those wondering."
+                    ]
+                }
+                
+            ]
+        },
+        {
+            "name": "Horsestuck",
+            "description": [
+                "What if you read \"Homestuck\" by Andrew Hussie and you thought \"that was neat\"?",
+                "And what if you wanted to make your own version of Homestuck, starring you and your internet friends?",
+                "And what if you hosted that adventure on MSPAFanventures in 2014?",
+                "And what if you then moved it to your own website in 2023?",
+                "And what if you read it?"
+            ],
+            "cover": "/assets/horsestuck-cover.png",
+            "homepage": false,
+            "completed": false,
+            "format": "cyoa",
+            "published": 2014,
+            "page_dir": "/comics/horsestuck",
+            "image_dir": "/assets/comics/hs",
+            "pages": [
+                {
+                    "link": "/0001",
+                    "title": "Horsestuck",
+                    "images": ["0001"],
+                    "text": [
+                        "A young man stands in his bedroom.",
+                        "That's pretty much all he's doing, i wonder why he's doing that? Doesn't he have things to do? What sort of loser stands still doing nothing but looking around as if he doesn't recognise his own room?",
+                        "Well perhaps there's a perfectly reasonable explanation for this odd behaviour, maybe he's tracking a fly, who knows? it's really a completely pointless transgression from the original point, this fucker is standing still.",
+                        "What is his name?"
+                    ]
+                },
+                {
+                    "link": "/0002",
+                    "title": "Enter name.",
+                    "images": ["0002"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0003",
+                    "title": "Try again.",
+                    "images": ["0003"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0004",
+                    "title": "Continue Parroting.",
+                    "images": ["0004"],
+                    "text": [
+                        "Your name is GIBBON.",
+                        "You don't own a parrot but even if you did you don't know how you would continue one, you know what ENDING a parrot would mean, but that's just SICK, why would you even think about that?",
+                        "You have a variety of INTERESTS. You have a LUSCIOUS mane of hair. You really like DADROCK but you're totally OPEN to other forms of music. You have a YOUTUBE CHANNEL  but it ISN'T VERY GOOD. You also like playing GUITAR.",
+                        "What will you do?"
+                    ]
+                },
+                {
+                    "link": "/0005",
+                    "title": "Gibbon: Inspect that pony plushie.",
+                    "images": ["0005"],
+                    "text": [
+                        "You gracefully hop into inspection distance of the plushie.",
+                        "This plushie is so choice you find yourself unwilling to touch it for fear of making it icky, so it usually sits on the bed.",
+                        "In fact it always sits on the bed. Ever since you put it there you've taken to sleeping on a pile of clothes on the floor, somehow you believe this is ok and not in any way retarded."
+                    ]
+                },
+                {
+                    "link": "/0006",
+                    "title": "Gibbon: Do a backflip.",
+                    "images": ["0006"],
+                    "text": [
+                        "You do a totally rad hyperfloop off the chest, causing it to spring open."
+                    ]
+                },
+                {
+                    "link": "/0007",
+                    "title": "Gibbon: Look inside the chest.",
+                    "images": ["0007"],
+                    "text": [
+                        "You peer inside the chest, inside it are a variety of THINGS, THINGS that may or may not be coming out of the chest anytime soon, THINGS that are important and THINGS that aren't or maybe they are, WHO KNOWS? You certainly don't.",
+                        "Man there sure are a lot of THINGS in here, how would you even be able to sort all the important THINGS from the non-important THINGS even if you DID know which THINGS were important? You could be there for hours sifting through all these THINGS, it'll be like scraping through a sea of legos trying to find all the cool pieces to make your spaceship with. Not that there are any actual legos among the THINGS in this chest, though you couldn't be totally certain, they could be buried underneath yet more THINGS.",
+                        "Goddamn that's a lot of THINGS..."
+                    ]
+                },
+                {
+                    "link": "/0008",
+                    "title": "Gibbon: Take some THINGS already.",
+                    "images": ["0008"],
+                    "text": [
+                        "You take FOUR THINGS out of the chest, your notepad of AMAZING IDEAS, a LAZER POINTER, your HIPPO PLUSHIE and a copy of Hunter Davies's THE BEATLES, THE AUTHORISED BIOGRAPHY. These THINGS are definitely more THING than the other THINGS and are therefore worthy to be mentioned."
+                    ]
+                },
+                {
+                    "link": "/0009",
+                    "title": "Gibbon: Examine Notepad.",
+                    "images": ["0009","0010"],
+                    "text": [
+                        "Before you can examine your NOTEPAD you need to CAPTCHALOGUE it in your SYLLADEX, unfortunately your FETCH MODUS is set to ABSOLUTE FUCKING MYSTERY so you'll never be able to tell what'll come out, in this case calling for your NOTEPAD resulted in the BEATLES BIOGRAPHY emerging."
+                    ]
+                },
+                {
+                    "link": "/0010",
+                    "title": "Gibbon: Examine Biography instead.",
+                    "content":[
+                        {"image":"0011"},
+                        {"text":"Well this book is pretty good anyway, you recall reading about the rough and tumble teddy boy gang that John Lennon used to head and how John and Paul wrote a bunch of songs on an empty top deck of a double decker bus. Now THOSE were the days, it would have been so cool to be present during that magical bus journey, nay even to have seen the very bus they rode, or to gaze upon the toupee of the bus driver who no doubt could hear them up there making what he would probably have called an AWFUL RACKET, little did he know that one day-"},
+                        {"text":"oh."},
+                        {"image":"0012"},
+                        {"text":"Looks like someone's trying to message you."}
+                ]
+                },
+                {
+                    "link": "/0011",
+                    "title": "Gibbon: Check your computer.",
+                    "images": ["0013","0014"],
+                    "text": [
+                        "This is your COMPUTER. It's brand new actually which is why the desktop looks so bare.",
+                        "Usually it'd be full of bright, complex and interesting documents and programs. Alas you have only the BARE ESSENTIALS set up, you'll probably get 'round to everything else later.",
+                        "On your desktop is SONY VEGAS PRO which you use to make your shitty videos for your shitty YOUTUBE CHANNEL. Even though the videos always turn out TREMENDOUSLY shitty you make a point to own the \"PRO\" version, as an indicator to yourself that eventually your skills will match your equipment and when that happens it will be the greatest day of your life!",
+                        "But you didn't come here to make videos, you came here to answer a Skaipe message."
+                    ]
+                },
+                {
+                    "link": "/0012",
+                    "title": "Gibbon: Answer the dang Skaipe message.",
+                    "images": ["0015"],
+                    "text": [
+                        "Skaipe log 1"
+                    ]
+                },
+                {
+                    "link": "/0013",
+                    "title": "Gibbon: Check download progress.",
+                    "images": ["0016"],
+                    "text": [
+                        "You open up μHorse to check on your Horseload progress, the progress bar appears to have moved a little, or has it?. You wonder why they didn't build a percentage gauge into this thing, it would make it a lot easier to tell."
+                    ]
+                },
+                {
+                    "link": "/0014",
+                    "title": "====>",
+                    "images": ["0017"],
+                    "text": [
+                        "Skaipe log 2"
+                    ]
+                },
+                {
+                    "link": "/0015",
+                    "title": "Gibbon: Notice.",
+                    "images": ["0018","0019","0020"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0016",
+                    "title": "====>",
+                    "images": ["0021"],
+                    "text": [
+                        "Looks like the internet connection is out, what an annoyance.",
+                        "Though maybe it's a blessing in disguise, you were kind of making a fool of yourself there. Though not that it matters, if you get the internet working again, they'll see everything you said anyway. It's an annoyance in disguise as a blessing in disguise as an annoyance.",
+                        "SO ANNOYING."
+                    ]
+                },
+                {
+                    "link": "/0017",
+                    "title": "Gibbon: Rage push against the desk.",
+                    "images": ["0023"],
+                    "text": [
+                        "You violently shove yourself backwards and injure yourself like an idiot.",
+                        "What was that supposed to achieve? You sure are stupid getting all worked up over the internet being down for little more than 10 seconds, maybe you should just kill yourself.",
+                        "Yes, that's a good sane reaction."
+                    ]
+                },
+                {
+                    "link": "/0018",
+                    "title": "Gibbon: Pick up the gun.",
+                    "images": ["0024","0025","0026"],
+                    "text": [
+                        "Well here we go."
+                    ]
+                },
+                {
+                    "link": "/0019",
+                    "title": "Gibbon: Do the thing.",
+                    "images": ["0027"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0020",
+                    "title": "====>",
+                    "images": ["0028"],
+                    "text": [
+                    ]
+                },
+                {
+                    "link": "/0021",
+                    "title": "Wait.",
+                    "images": ["0029"],
+                    "text": [
+                        "Let's not do that.",
+                        "The internet usually turns itself back on within a few minutes, you should probably occupy yourself with less deadly activities until that happens."
+                    ]
+                },
+                {
+                    "link": "/0022",
+                    "title": "Gibbon: Take the gun anyway.",
+                    "images": ["0030"],
+                    "text": [
+                        "You captchalogue the PLECTRUM, it will probably be useful later."
+                    ]
+                },
+                {
+                    "link": "/0023",
+                    "title": "Gibbon: Go look at your guitar.",
+                    "images": ["0031"],
+                    "text": [
+                        "You go over to your guitar. You consider yourself to be PRETTY GOOD at it but not enough to be a professional.",
+                        "That's ok though, you're not sure you're cut out for a musicians life, your DAD was a musician and he told you how hard it used to be trying to get by.",
+                        "He has another job now and does music as a hobby, which seems like a more sustainable lifestyle and you feel like you're probably heading in that direction too.",
+                        "You used to have dreams of being the next big guitarist but eventually you realised that you weren't passionate enough to really practice hard.",
+                        "You decided making it a career isn't that important as long as you have fun with it.",
+                        "And it is fun."
+                    ]
+                },
+                {
+                    "link": "/0024",
+                    "title": "Gibbon: Pluck dose strings.",
+                    "images": ["0032"],
+                    "text": [
+                        "You start plinkin' and plonkin' strammin' and strummin' and twiddling your G-string and fingering A minor and it feels RATHER PLEASANT."
+                    ]
+                },
+                {
+                    "link": "/0025",
+                    "title": "Gibbon: Strike an original pose.",
+                    "images": ["0033"],
+                    "text": [
+                        "BWEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!"
+                    ]
+                },
+                {
+                    "link": "/0026",
+                    "title": "Gibbon: Captchalogue that sweet axe.",
+                    "images": ["0034"],
+                    "text": [
+                        "You store the \"sweet axe\" in your sylladex.",
+                        "Funny... you've never called it an \"Axe\" before, such a term is totally alien to your vocabulary, you wonder how you could even have thunk such a thing?",
+                        "Could this be a subtle yet relevant plot point? Perhaps it could even be a VERY IMPORTANT DETAIL that will definitely come up again in the future.",
+                        "Yes, you're 100% convinced that is the case."
+                    ]
+                },
+                {
+                    "link": "/0027",
+                    "title": "Gibbon: Hide in that pile of clothing.",
+                    "images": ["0035"],
+                    "text": [
+                        "You're way ahead of you. Hiding in the clothing is clearly the next logical course of action."
+                    ]
+                },
+                {
+                    "link": "/0028",
+                    "title": "Gibbon: Sniff clothing.",
+                    "images": ["0036"],
+                    "text": [
+                        "You sniff the pile of clothes that currently cocoon you. They definitely smell of something..."
+                    ]
+                },
+                {
+                    "link": "/0029",
+                    "title": "====>",
+                    "images": ["0037"],
+                    "text": [
+                        "Oh god.",
+                        "They smell awful up close.",
+                        "It's not surprising really, you were supposed to wash these a long time ago but you just never had the time, you swear!"
+                    ]
+                },{
+                    "link": "/0030",
+                    "title": "Gibbon: Remove all your clothes.",
+                    "images": ["0038"],
+                    "text": [
+                        "You captchalogue the clothes, thereby removing them. Except the ones you're wearing of course, those can probably last a few more days before you start to feel mildly uncomfortable in them."
+                    ]
+                },
+                {
+                    "link": "/0031",
+                    "title": "Gibbon: Leave room.",
+                    "images": ["0039"],
+                    "text": [
+                        "You decide to leave the room, you could put the clothes in the washing device while you wait for the internet to turn back on. There's no time like this particular second right fucking now, as they say."
+                    ]
+                },
+                {
+                    "link": "/0032",
+                    "title": "Gibbon: Quit hallucinating.",
+                    "images": ["0040"],
+                    "text": [
+                        "Oh shit, you aren't even there, how HIGH do you even have to BE to have not noticed this??",
+                        "How are you going to wash your gross stinky clothing now?"
+                    ]
+                },
+                {
+                    "link": "/0033",
+                    "title": "Camera man: Zoom out.",
+                    "images": ["0041"],
+                    "text": [
+                        "You zoom the camera out so the audience can see more of what's going on, which is absolutely nothing at all because Gibbon is on a raft in the middle of the ocean you guess."
+                    ]
+                },
+                {
+                    "link": "/0034",
+                    "title": "Camera man: Observe.",
+                    "images": ["0042"],
+                    "text": [
+                        "Well this isn't very interesting."
+                    ]
+                },
+                {
+                    "link": "/0035",
+                    "title": "Gibbon: Be doing something.",
+                    "images": ["0043"],
+                    "text": [
+                        "The only \"something\" you could be doing is inspecting the box with the big red button on top so that's exactly what you do.",
+                        "There's nothing unusual about the box apart from the GLARINGLY obvious big red button but you're discounting that because it's too obvious...",
+                        "But you're going to press it, i mean good lord look at that thing.",
+                        "You've been on this raft for like THREE YEARS or some shit, god dammit press the big red piece of shit button before i LOSE MY MIND!"
+                    ]
+                },
+                {
+                    "link": "/0036",
+                    "title": "Gibbon: Push the button.",
+                    "images": ["0044"],
+                    "text": [
+                        "No you idiot not the BOX, the BUTTON!"
+                    ]
+                },
+                {
+                    "link": "/0037",
+                    "title": "Gibbon: Push the BUTTON.",
+                    "images": ["0045"],
+                    "text": [
+                        "Jesus chriust you filthy slut! You don't do that you PUSH it!"
+                    ]
+                },
+                {
+                    "link": "/0038",
+                    "title": "Gibbon: PUSH the button.",
+                    "images": ["0046"],
+                    "text": [
+                        "That's the AIR you fat bitch! haha!"
+                    ]
+                },
+                {
+                    "link": "/0039",
+                    "title": "Gibbon: Smooch the button.",
+                    "images": ["0047"],
+                    "text": [
+                        "OMG! hehehe!",
+                        "Ok enough fucking around."
+                    ]
+                },
+                {
+                    "link": "/0040",
+                    "title": "Gibbon: Push the button down into the box so that it activates or whatever the fuck it does.",
+                    "images": ["0048"],
+                    "text": [
+                        "Wait hang on before we do that let's abruptly swoosh over to some other guy.",
+                        "This is a good time to be doing that."
+                    ]
+                },
+                {
+                    "link": "/0041",
+                    "title": "Other guy: Enter name.",
+                    "images": ["0049"],
+                    "text": [
+                        "Enter name? Why would you need to do that? You're WORLD RENOWN ANIME CONNOISSEUR Digibro! Everyone knows who you are already."
+                    ]
+                },
+                {
+                    "link": "/0042",
+                    "title": "Digibro: Be introduced.",
+                    "images": ["0050"],
+                    "text": [
+                        "Your name is DIGIBRO. You as previously mentioned are an ANIME CONNOISSEUR and as a result own a lot of ASSORTED ANIME MERCHANDISE. You are also an ALCOHOLIC which is HILARIOUS to all. You spend most of your time making YOUTUBE VIDEOS about ANIME, which are the BEST VIDEOS anyone could ever make, everybody loves them. You enjoy LIST-MAKING, to an AUTISTIC degree, no you're not being offensive this is quite accurate a description.",
+                        "You like to COLLECT things such as ANIME DVDs, ANIME BOOKS, ANIME VIDEO GAMES, ANIME BODY PILLOWS, ANIME SUNGLASSES, ANIME SWORDS, ANIME FOOD and ANIME BEER (known colloquially as \"sake\")",
+                        "Today you are supposed to be playing a very special VIDEO GAME with your group of friends, but you aren't sure what you're supposed to do and are waiting on instructions.",
+                        "In the meantime you can do whatever you like.",
+                        "What will you do?"
+                    ]
+                }
+
             ]
         }
 
