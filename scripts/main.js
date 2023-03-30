@@ -26,7 +26,8 @@ window.onscroll = function(e) {
     }
     this.oldScroll = this.scrollY;
   }
-
+  
+// use this reading redman event and any other events for bespoke redman page themes, remember to add the consts to the list in redmanevents.js 
   const readingredman = [
     {
         condition: (arg,state) => state.url.includes('/comics/redman'),

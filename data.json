@@ -57,6 +57,7 @@
                 {"text":"Buy Print","url":"https://mybook.to/ClarissaGunsmokeVol1","icon":"/assets/icons/amazon.png"},
                 {"text":"Buy Digital","url":"https://ko-fi.com/s/fdc77b447d","icon":"/assets/icons/kofi.png"}
             ],
+            "themes": "clarissa",
             "chapters": [
                 {   
                     "link": "/01",
@@ -173,6 +174,7 @@
             "format": "cyoa",
             "page_dir": "/comics/bail-jape",
             "image_dir": "/assets/comics/bj",
+            "themes": "bailjape",
             "pages": [
                 {
                     "link": "/0001",
@@ -182,8 +184,8 @@
                         "You are PUMK, a wily pumpkin lass who don’t take no guff from no BIG CHEESE. You’re the coolest, don’t even think about questioning that, any residual dust motes of doubt in your mind that this GOURDGEOUS GAL is anything other than a PERFECT CHARACTER will be plucked viciously from your cold dead brain.",
                         "With you is ALLEY OOP, you don’t know who she is and you don’t give a SHIT, that’s how cool you are.",
                         "What will you do?"
-                    ],
-                    "themes": "bailjape"
+                    ]
+                    
                 },
                 {
                     "link": "/0002",
@@ -3271,7 +3273,7 @@
                 },
                 {
                     "link": "/017",
-                    "title": "BOY: pick up box.",
+                    "title": "BOY: PICK UP BOX.",
                     "images": ["023", "024"],
                     "text": [
                         "You HAVE the BOX."
@@ -4050,6 +4052,7 @@
             "published": 2014,
             "page_dir": "/comics/horsestuck",
             "image_dir": "/assets/comics/hs",
+            "themes": "horsestuck",
             "pages": [
                 {
                     "link": "/0001",

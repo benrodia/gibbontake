@@ -168,6 +168,8 @@ function reader($dir, $comic_name, $page_index) {
 
     $content = '';
 
+    if(isset($comic['themes'])) $content .= themeChanger($comic['themes']);
+
     if($comic['format'] == 'simple') $content .= reader_simple($dir,$comic,$page_index);
     if($comic['format'] == 'cyoa') $content .= reader_cyoa($dir,$comic,$page_index);
     if($comic['format'] == 'lazy') $content .= reader_lazy($dir,$comic,$page_index);

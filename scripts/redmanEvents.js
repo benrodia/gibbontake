@@ -130,12 +130,14 @@ const idle = [
 ]
 
 
+
 const checkEventsEvery = .1 // time in seconds
 
 const redmanEvents = [
     ...interact,
     ...dismiss,
-    ...idle
+    ...idle,
+    ...readingredman
 ]
 
 
@@ -181,3 +183,5 @@ const redmanQuests = [
         }
     },
 ]
+
+

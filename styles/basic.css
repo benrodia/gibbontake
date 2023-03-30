@@ -30,18 +30,37 @@
 }
 
 :root .redman {
-    --bg-color: #15ff00;
+    --bg-color: #0a7a00;
     --bg-color-main: #15ff00;
     --bg-color-darker: rgb(0, 97, 24);
-    --text-color-main: rgb(204, 17, 0);
-    --text-color-light: #322;
-    --text-color-highlight: rgb(255, 7, 81);
+    --text-color-main: rgb(0, 0, 0);
+    --text-color-light: rgb(0, 0, 0);
+    --text-color-highlight: rgb(73, 0, 0);
+    
 }
 
 :root .bailjape {
     --bg-color: #8b8b8b;
     --bg-color-main: #919191;
     --bg-color-darker: #b4b4b4;
+    --text-color-main: rgb(0, 0, 0);
+    --text-color-light: rgb(0, 0, 0);
+    --text-color-highlight: rgb(0, 4, 255);
+}
+
+:root .clarissa {
+    --bg-color: rgb(23, 116, 255);
+    --bg-color-main: #919191;
+    --bg-color-darker: #b4b4b4;
+    --text-color-main: rgb(0, 0, 0);
+    --text-color-light: rgb(0, 0, 0);
+    --text-color-highlight: rgb(255, 255, 255);
+}
+
+:root .horsestuck {
+    --bg-color: #535353;
+    --bg-color-main: #C6C6C6;
+    --bg-color-darker: #EFEFEF;
     --text-color-main: rgb(0, 0, 0);
     --text-color-light: rgb(0, 0, 0);
     --text-color-highlight: rgb(0, 4, 255);

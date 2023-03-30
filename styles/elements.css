@@ -147,7 +147,7 @@ iframe {
     pointer-events: none;
 }
 
-.redman {
+.redman-cont .redman {
     position: absolute;
     background-size: cover;
     transition: .2s ease;
