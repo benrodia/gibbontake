@@ -103,8 +103,8 @@ const lowfsidles = [
     "heh. i geddit.",
     "whooooa, i cannot BELIEVE i said THAT",
     "i need my own tv show. i tell you what.",
-    "uhhhhhh... next.",
-    "*COUGH*",
+    "ahh, remember this one?",
+    "Bogies",
 ]
 
 const idle = [

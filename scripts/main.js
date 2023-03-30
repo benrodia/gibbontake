@@ -26,3 +26,12 @@ window.onscroll = function(e) {
     }
     this.oldScroll = this.scrollY;
   }
+
+  const readingredman = [
+    {
+        condition: (arg,state) => state.url.includes('/comics/redman'),
+        once: true,
+        action: _=> changeTheme("redman")
+    }
+
+]

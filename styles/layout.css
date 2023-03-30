@@ -294,7 +294,7 @@ footer {
 /* COMIC READER PAGE */
 
 #reader {
-    background-color: #000;
+    background-color: var(--bg-color);
 }
 
 

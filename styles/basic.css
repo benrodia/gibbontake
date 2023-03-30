@@ -3,8 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap');
 
 :root {
+    --bg-color: #000000;
     --bg-color-main: #333;
-    --bg-color-darker: #111;
+    --bg-color-darker: #000000;
     --text-color-main: #fff;
     --text-color-light: #999;
     --text-color-highlight: rgb(255, 210, 7);
@@ -28,6 +29,23 @@
     --text-color-highlight: rgb(255, 210, 7);
 }
 
+:root .redman {
+    --bg-color: #15ff00;
+    --bg-color-main: #15ff00;
+    --bg-color-darker: rgb(0, 97, 24);
+    --text-color-main: rgb(204, 17, 0);
+    --text-color-light: #322;
+    --text-color-highlight: rgb(255, 7, 81);
+}
+
+:root .bailjape {
+    --bg-color: #8b8b8b;
+    --bg-color-main: #919191;
+    --bg-color-darker: #b4b4b4;
+    --text-color-main: rgb(0, 0, 0);
+    --text-color-light: rgb(0, 0, 0);
+    --text-color-highlight: rgb(0, 4, 255);
+}
 
 @media only screen and (min-width: 600px) {
     :root {
