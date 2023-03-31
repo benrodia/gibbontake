@@ -25,12 +25,7 @@
                 "url": "https://www.youtube.com/Gibbontake",
                 "handle": "/Gibbontake"
             },
-            {
-                "name": "Discord",
-                "icon": "/assets/icons/discord.png",
-                "url": "https://discord.gg/6ksZrne",
-                "handle": "/6ksZrne"
-            },
+
             {
                 "name": "Twitch",
                 "icon": "/assets/icons/twitch.png",
@@ -3137,6 +3132,7 @@
             "format": "cyoa",
             "page_dir": "/comics/cannon-story",
             "image_dir": "/assets/comics/cs",
+            "themes": "cannonstory",
             "pages": [
                 {
                     "link": "/001",
@@ -3803,6 +3799,7 @@
             "format": "simple",
             "page_dir": "/comics/red-noir",
             "image_dir": "/assets/comics/rn",
+            "themes": "rednoir",
             "chapters": [
                 {   
                     "link": "/01",

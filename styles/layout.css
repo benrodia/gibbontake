@@ -94,7 +94,7 @@ footer {
 }
 
 #home .choose {
-    text-shadow: 0 0 2rem rgba(0,0,0,.6);
+    text-shadow: 0 0 1rem rgba(0,0,0,.6);
     font-size: 2rem;
     padding: 1rem 0;
 }
@@ -199,7 +199,7 @@ footer {
 }
 
 #art .year {
-    background-color: var(--bg-color-darker);
+    background-color: var(--bg-color-main);
     padding: var(--pad);
     font-size: 2rem;
 }
@@ -251,7 +251,7 @@ footer {
 
 #comics section {
     max-width: var(--para-width);
-    background-color: var(--bg-color-darker);
+    background-color: var(--bg-color);
     padding: var(--pad);
     margin-bottom: var(--pad);
     border-radius: .25rem;
@@ -337,7 +337,7 @@ footer {
     align-items: center;
 }
 #reader.cyoa > .inner {
-    max-width: var(--para-width);
+    width: min(var(--para-width), 100%);
 }
 #reader.cyoa .nav {
     font-size: var(--fs-header);
@@ -349,8 +349,9 @@ footer {
 }
 #reader.cyoa .title {
     font-size: var(--fs-header);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 #reader.cyoa img {
     width: 100%;
@@ -396,8 +397,8 @@ footer {
     padding: var(--pad);
     gap: var(--pad);
     font-size: var(--fs-header);
+    
 }
-
 
 /* ABOUT PAGE */
 main#about {
@@ -409,6 +410,10 @@ main#about {
     gap: 2rem;
 }
 
+#about .headshot {
+
+    max-width: 15rem;
+}
 
 .socials {
     max-width: 100%;
